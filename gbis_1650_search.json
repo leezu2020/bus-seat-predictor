@@ -1,0 +1,64 @@
+{
+  "result": {
+    "poi": {
+      "count": 0,
+      "pageOfPOI": "1",
+      "list": []
+    },
+    "busRoute": {
+      "count": 1,
+      "busType": "",
+      "totalCount": "1",
+      "pageOfRoute": "1",
+      "list": [
+        {
+          "routeRegoin": "구리, 서울, 성남, 안양, 의왕",
+          "startLon": "14154983.173557",
+          "routeTp": "11",
+          "siFlag": "2",
+          "startLat": "4522180.398502",
+          "routeId": "234000050",
+          "endLon": "14128921.816852",
+          "routeNm": "1650",
+          "endLat": "4495216.881549",
+          "adminNm": "경기도 구리시"
+        }
+      ]
+    },
+    "busStation": {
+      "count": 2,
+      "totalCount": "2",
+      "list": [
+        {
+          "stationNoSi": "",
+          "lon": "14131530.26651",
+          "stationNo": "31650",
+          "centerYn": "N",
+          "stationNm": "셋째다리",
+          "districtGnm": "파주시",
+          "stationSeq": "1",
+          "stationId": "229001532",
+          "lat": "4569247.657908"
+        },
+        {
+          "stationNoSi": "",
+          "lon": "14162191.094389",
+          "stationNo": "41650",
+          "centerYn": "N",
+          "stationNm": "유네스코세계지질공원.비둘기낭",
+          "districtGnm": "포천시",
+          "stationSeq": "2",
+          "stationId": "236001240",
+          "lat": "4590179.253028"
+        }
+      ],
+      "pageOfBus": "1"
+    },
+    "subwayStation": {
+      "count": 0,
+      "pageOfSubway": "1",
+      "list": []
+    }
+  },
+  "success": true
+}

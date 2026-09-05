@@ -1,0 +1,19 @@
+services:
+  # 1650 Metropolitan Express Bus Backend (FastAPI + ML + Rolling Analytics)
+  - type: web
+    name: bus-1650-backend
+    runtime: python
+    rootDir: backend
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn app.main:app --host 0.0.0.0 --port $PORT
+    plan: free
+    region: singapore
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.10.1
+      - key: DEFAULT_PUBLIC_API_KEY
+        value: CKyLU7WpUcNBXIUKMzYPM53tsCXlp1ybg7YxKmp1MHaItmBxnfGSKxXFKgkgWxRFcrRcgZ1vlySJ2LNc3OAYrg%3D%3D
+      - key: TARGET_ROUTE_ID
+        value: "234000050"
+      - key: TARGET_ROUTE_NAME
+        value: "1650"

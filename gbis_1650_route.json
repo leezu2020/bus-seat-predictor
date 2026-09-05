@@ -1,0 +1,2428 @@
+{
+  "result": {
+    "realTime": {
+      "count": 13,
+      "busno": [
+        [
+          "경기74사1068"
+        ],
+        [
+          "경기74사1072"
+        ],
+        [
+          "경기74사1059"
+        ],
+        [
+          "경기74사1065"
+        ],
+        [
+          "경기74사1123"
+        ],
+        [
+          "경기74사1120"
+        ],
+        [
+          "경기74사1119"
+        ],
+        [
+          "경기74사1082"
+        ],
+        [
+          "경기74사1075"
+        ],
+        [
+          "경기74사1060"
+        ],
+        [
+          "경기74사1069"
+        ],
+        [
+          "경기74사1087"
+        ],
+        [
+          "경기74사1062"
+        ]
+      ],
+      "list": [
+        {
+          "busXList": [
+            14154335
+          ],
+          "density": "1",
+          "cdmaNo": "",
+          "busPosition": [
+            "1"
+          ],
+          "routeNm": "1650",
+          "fromStationId": "221000055",
+          "lowBusYn": [
+            "N"
+          ],
+          "busDirList": [
+            "U"
+          ],
+          "busYList": [
+            4522170
+          ],
+          "vehId": "221000031",
+          "seat": "44",
+          "toStationId": "221000085",
+          "reservation": "N",
+          "busNo": [
+            "경기74사1068"
+          ],
+          "lowPlate": "0",
+          "vehType": "3"
+        },
+        {
+          "busXList": [
+            14148071
+          ],
+          "density": "1",
+          "cdmaNo": "",
+          "busPosition": [
+            "2"
+          ],
+          "routeNm": "1650",
+          "fromStationId": "104000279",
+          "lowBusYn": [
+            "N"
+          ],
+          "busDirList": [
+            "U"
+          ],
+          "busYList": [
+            4513669
+          ],
+          "vehId": "221000035",
+          "seat": "41",
+          "toStationId": "277103308",
+          "reservation": "N",
+          "busNo": [
+            "경기74사1072"
+          ],
+          "lowPlate": "0",
+          "vehType": "3"
+        },
+        {
+          "busXList": [
+            14149301
+          ],
+          "density": "1",
+          "cdmaNo": "",
+          "busPosition": [
+            "1"
+          ],
+          "routeNm": "1650",
+          "fromStationId": "123000004",
+          "lowBusYn": [
+            "N"
+          ],
+          "busDirList": [
+            "U"
+          ],
+          "busYList": [
+            4510043
+          ],
+          "vehId": "221000024",
+          "seat": "40",
+          "toStationId": "123000006",
+          "reservation": "N",
+          "busNo": [
+            "경기74사1059"
+          ],
+          "lowPlate": "0",
+          "vehType": "3"
+        },
+        {
+          "busXList": [
+            14151718
+          ],
+          "density": "1",
+          "cdmaNo": "",
+          "busPosition": [
+            "2"
+          ],
+          "routeNm": "1650",
+          "fromStationId": "123000016",
+          "lowBusYn": [
+            "N"
+          ],
+          "busDirList": [
+            "U"
+          ],
+          "busYList": [
+            4505731
+          ],
+          "vehId": "221000028",
+          "seat": "27",
+          "toStationId": "277103266",
+          "reservation": "N",
+          "busNo": [
+            "경기74사1065"
+          ],
+          "lowPlate": "0",
+          "vehType": "3"
+        },
+        {
+          "busXList": [
+            14147557
+          ],
+          "density": "1",
+          "cdmaNo": "",
+          "busPosition": [
+            "2"
+          ],
+          "routeNm": "1650",
+          "fromStationId": "277102924",
+          "lowBusYn": [
+            "N"
+          ],
+          "busDirList": [
+            "U"
+          ],
+          "busYList": [
+            4495600
+          ],
+          "vehId": "221010258",
+          "seat": "27",
+          "toStationId": "277102599",
+          "reservation": "N",
+          "busNo": [
+            "경기74사1123"
+          ],
+          "lowPlate": "0",
+          "vehType": "3"
+        },
+        {
+          "busXList": [
+            14133270
+          ],
+          "density": "1",
+          "cdmaNo": "",
+          "busPosition": [
+            "2"
+          ],
+          "routeNm": "1650",
+          "fromStationId": "209000133",
+          "lowBusYn": [
+            "N"
+          ],
+          "busDirList": [
+            "U"
+          ],
+          "busYList": [
+            4492369
+          ],
+          "vehId": "221010255",
+          "seat": "32",
+          "toStationId": "209000021",
+          "reservation": "N",
+          "busNo": [
+            "경기74사1120"
+          ],
+          "lowPlate": "0",
+          "vehType": "3"
+        },
+        {
+          "busXList": [
+            14129363
+          ],
+          "density": "1",
+          "cdmaNo": "",
+          "busPosition": [
+            "1"
+          ],
+          "routeNm": "1650",
+          "fromStationId": "208000114",
+          "lowBusYn": [
+            "N"
+          ],
+          "busDirList": [
+            "U"
+          ],
+          "busYList": [
+            4494269
+          ],
+          "vehId": "221000036",
+          "seat": "39",
+          "toStationId": "208000066",
+          "reservation": "N",
+          "busNo": [
+            "경기74사1119"
+          ],
+          "lowPlate": "0",
+          "vehType": "3"
+        },
+        {
+          "busXList": [
+            14129062
+          ],
+          "density": "1",
+          "cdmaNo": "",
+          "busPosition": [
+            "2"
+          ],
+          "routeNm": "1650",
+          "fromStationId": "208000156",
+          "lowBusYn": [
+            "N"
+          ],
+          "busDirList": [
+            "D"
+          ],
+          "busYList": [
+            4494489
+          ],
+          "vehId": "221000045",
+          "seat": "32",
+          "toStationId": "208000095",
+          "reservation": "N",
+          "busNo": [
+            "경기74사1082"
+          ],
+          "lowPlate": "0",
+          "vehType": "3"
+        },
+        {
+          "busXList": [
+            14132572
+          ],
+          "density": "1",
+          "cdmaNo": "",
+          "busPosition": [
+            "2"
+          ],
+          "routeNm": "1650",
+          "fromStationId": "209000126",
+          "lowBusYn": [
+            "N"
+          ],
+          "busDirList": [
+            "D"
+          ],
+          "busYList": [
+            4491995
+          ],
+          "vehId": "221000038",
+          "seat": "32",
+          "toStationId": "209000243",
+          "reservation": "N",
+          "busNo": [
+            "경기74사1075"
+          ],
+          "lowPlate": "0",
+          "vehType": "3"
+        },
+        {
+          "busXList": [
+            14138228
+          ],
+          "density": "3",
+          "cdmaNo": "",
+          "busPosition": [
+            "2"
+          ],
+          "routeNm": "1650",
+          "fromStationId": "277103156",
+          "lowBusYn": [
+            "N"
+          ],
+          "busDirList": [
+            "D"
+          ],
+          "busYList": [
+            4493383
+          ],
+          "vehId": "221000025",
+          "seat": "0",
+          "toStationId": "226000191",
+          "reservation": "N",
+          "busNo": [
+            "경기74사1060"
+          ],
+          "lowPlate": "0",
+          "vehType": "3"
+        },
+        {
+          "busXList": [
+            14151229
+          ],
+          "density": "3",
+          "cdmaNo": "",
+          "busPosition": [
+            "2"
+          ],
+          "routeNm": "1650",
+          "fromStationId": "277103273",
+          "lowBusYn": [
+            "N"
+          ],
+          "busDirList": [
+            "D"
+          ],
+          "busYList": [
+            4500379
+          ],
+          "vehId": "221000032",
+          "seat": "0",
+          "toStationId": "204000091",
+          "reservation": "N",
+          "busNo": [
+            "경기74사1069"
+          ],
+          "lowPlate": "0",
+          "vehType": "3"
+        },
+        {
+          "busXList": [
+            14148856
+          ],
+          "density": "1",
+          "cdmaNo": "",
+          "busPosition": [
+            "2"
+          ],
+          "routeNm": "1650",
+          "fromStationId": "277102839",
+          "lowBusYn": [
+            "N"
+          ],
+          "busDirList": [
+            "D"
+          ],
+          "busYList": [
+            4510680
+          ],
+          "vehId": "221000050",
+          "seat": "29",
+          "toStationId": "123000001",
+          "reservation": "N",
+          "busNo": [
+            "경기74사1087"
+          ],
+          "lowPlate": "0",
+          "vehType": "3"
+        },
+        {
+          "busXList": [
+            14153845
+          ],
+          "density": "1",
+          "cdmaNo": "",
+          "busPosition": [
+            "2"
+          ],
+          "routeNm": "1650",
+          "fromStationId": "221000025",
+          "lowBusYn": [
+            "N"
+          ],
+          "busDirList": [
+            "D"
+          ],
+          "busYList": [
+            4520286
+          ],
+          "vehId": "221000027",
+          "seat": "40",
+          "toStationId": "221000029",
+          "reservation": "N",
+          "busNo": [
+            "경기74사1062"
+          ],
+          "lowPlate": "0",
+          "vehType": "3"
+        }
+      ],
+      "dirList": [
+        [
+          "U"
+        ],
+        [
+          "U"
+        ],
+        [
+          "U"
+        ],
+        [
+          "U"
+        ],
+        [
+          "U"
+        ],
+        [
+          "U"
+        ],
+        [
+          "U"
+        ],
+        [
+          "D"
+        ],
+        [
+          "D"
+        ],
+        [
+          "D"
+        ],
+        [
+          "D"
+        ],
+        [
+          "D"
+        ],
+        [
+          "D"
+        ]
+      ],
+      "vehicleList": [
+        [
+          "경기74사1076"
+        ],
+        [
+          "경기74사1081"
+        ],
+        [
+          "경기74사1086"
+        ]
+      ]
+    },
+    "estimateTime": [
+      {
+        "stationNm": "구리수택차고지",
+        "ptts": "34",
+        "length": "0",
+        "stationId": "221000046",
+        "routeId": "234000050",
+        "staOrder": "1"
+      },
+      {
+        "stationNm": "수택고교.SK신일.우남아파트",
+        "ptts": "163",
+        "length": "260",
+        "stationId": "221000050",
+        "routeId": "234000050",
+        "staOrder": "2"
+      },
+      {
+        "stationNm": "태영데시앙",
+        "ptts": "48",
+        "length": "340",
+        "stationId": "221000055",
+        "routeId": "234000050",
+        "staOrder": "3"
+      },
+      {
+        "stationNm": "구리여중고.청소년문화의집",
+        "ptts": "41",
+        "length": "230",
+        "stationId": "221000085",
+        "routeId": "234000050",
+        "staOrder": "4"
+      },
+      {
+        "stationNm": "동명빌라",
+        "ptts": "52",
+        "length": "330",
+        "stationId": "221000084",
+        "routeId": "234000050",
+        "staOrder": "5"
+      },
+      {
+        "stationNm": "구종점",
+        "ptts": "25",
+        "length": "380",
+        "stationId": "221000041",
+        "routeId": "234000050",
+        "staOrder": "6"
+      },
+      {
+        "stationNm": "벌말.돌섬",
+        "ptts": "37",
+        "length": "210",
+        "stationId": "221000030",
+        "routeId": "234000050",
+        "staOrder": "7"
+      },
+      {
+        "stationNm": "토평정수장",
+        "ptts": "53",
+        "length": "420",
+        "stationId": "221000026",
+        "routeId": "234000050",
+        "staOrder": "8"
+      },
+      {
+        "stationNm": "토평삼거리(미정차)",
+        "ptts": "89",
+        "length": "0",
+        "stationId": "277100104",
+        "routeId": "234000050",
+        "staOrder": "9"
+      },
+      {
+        "stationNm": "아천IC(미정차)",
+        "ptts": "266",
+        "length": "0",
+        "stationId": "277103306",
+        "routeId": "234000050",
+        "staOrder": "10"
+      },
+      {
+        "stationNm": "천호대교북단(미정차)",
+        "ptts": "61",
+        "length": "0",
+        "stationId": "277102674",
+        "routeId": "234000050",
+        "staOrder": "11"
+      },
+      {
+        "stationNm": "올림픽대교북단(미정차)",
+        "ptts": "67",
+        "length": "0",
+        "stationId": "277103309",
+        "routeId": "234000050",
+        "staOrder": "12"
+      },
+      {
+        "stationNm": "테크노마트앞.강변역(C)",
+        "ptts": "421",
+        "length": "7540",
+        "stationId": "104000279",
+        "routeId": "234000050",
+        "staOrder": "13"
+      },
+      {
+        "stationNm": "잠실대교북단(미정차)",
+        "ptts": "89",
+        "length": "0",
+        "stationId": "277103308",
+        "routeId": "234000050",
+        "staOrder": "14"
+      },
+      {
+        "stationNm": "잠실대교남단(미정차)",
+        "ptts": "111",
+        "length": "0",
+        "stationId": "277102302",
+        "routeId": "234000050",
+        "staOrder": "15"
+      },
+      {
+        "stationNm": "잠실역.잠실대교남단(중)",
+        "ptts": "60",
+        "length": "3500",
+        "stationId": "123000002",
+        "routeId": "234000050",
+        "staOrder": "16"
+      },
+      {
+        "stationNm": "석촌호수앞(미정차)",
+        "ptts": "62",
+        "length": "0",
+        "stationId": "277101950",
+        "routeId": "234000050",
+        "staOrder": "17"
+      },
+      {
+        "stationNm": "석촌호수.한솔병원(중)",
+        "ptts": "103",
+        "length": "890",
+        "stationId": "123000004",
+        "routeId": "234000050",
+        "staOrder": "18"
+      },
+      {
+        "stationNm": "석촌역(중)",
+        "ptts": "149",
+        "length": "460",
+        "stationId": "123000006",
+        "routeId": "234000050",
+        "staOrder": "19"
+      },
+      {
+        "stationNm": "송파역(중)",
+        "ptts": "71",
+        "length": "430",
+        "stationId": "123000008",
+        "routeId": "234000050",
+        "staOrder": "20"
+      },
+      {
+        "stationNm": "가락시장.가락시장역(중)",
+        "ptts": "170",
+        "length": "810",
+        "stationId": "123000010",
+        "routeId": "234000050",
+        "staOrder": "21"
+      },
+      {
+        "stationNm": "문정로데오거리입구(중)",
+        "ptts": "147",
+        "length": "720",
+        "stationId": "123000012",
+        "routeId": "234000050",
+        "staOrder": "22"
+      },
+      {
+        "stationNm": "문정법조단지.건영아파트(중)",
+        "ptts": "156",
+        "length": "740",
+        "stationId": "123000014",
+        "routeId": "234000050",
+        "staOrder": "23"
+      },
+      {
+        "stationNm": "장지역.가든파이브(중)",
+        "ptts": "154",
+        "length": "380",
+        "stationId": "123000016",
+        "routeId": "234000050",
+        "staOrder": "24"
+      },
+      {
+        "stationNm": "송파IC진입(미정차)",
+        "ptts": "120",
+        "length": "0",
+        "stationId": "277103266",
+        "routeId": "234000050",
+        "staOrder": "25"
+      },
+      {
+        "stationNm": "가천대",
+        "ptts": "123",
+        "length": "3290",
+        "stationId": "204000092",
+        "routeId": "234000050",
+        "staOrder": "26"
+      },
+      {
+        "stationNm": "성남TG(미정차)",
+        "ptts": "403",
+        "length": "0",
+        "stationId": "277103272",
+        "routeId": "234000050",
+        "staOrder": "27"
+      },
+      {
+        "stationNm": "판교JC(미정차)",
+        "ptts": "277",
+        "length": "0",
+        "stationId": "277102924",
+        "routeId": "234000050",
+        "staOrder": "28"
+      },
+      {
+        "stationNm": "청계터널진입(미정차)",
+        "ptts": "143",
+        "length": "0",
+        "stationId": "277102599",
+        "routeId": "234000050",
+        "staOrder": "29"
+      },
+      {
+        "stationNm": "의왕청계영업소",
+        "ptts": "140",
+        "length": "13560",
+        "stationId": "226000190",
+        "routeId": "234000050",
+        "staOrder": "30"
+      },
+      {
+        "stationNm": "학의JC(미정차)",
+        "ptts": "156",
+        "length": "0",
+        "stationId": "277103157",
+        "routeId": "234000050",
+        "staOrder": "31"
+      },
+      {
+        "stationNm": "농수산물시장",
+        "ptts": "419",
+        "length": "5290",
+        "stationId": "209000133",
+        "routeId": "234000050",
+        "staOrder": "32"
+      },
+      {
+        "stationNm": "무궁화코오롱.건영아파트",
+        "ptts": "72",
+        "length": "1360",
+        "stationId": "209000021",
+        "routeId": "234000050",
+        "staOrder": "33"
+      },
+      {
+        "stationNm": "무궁화한양아파트.방축사거리",
+        "ptts": "115",
+        "length": "320",
+        "stationId": "209000020",
+        "routeId": "234000050",
+        "staOrder": "34"
+      },
+      {
+        "stationNm": "목련마을",
+        "ptts": "39",
+        "length": "470",
+        "stationId": "209000221",
+        "routeId": "234000050",
+        "staOrder": "35"
+      },
+      {
+        "stationNm": "범계사거리",
+        "ptts": "119",
+        "length": "360",
+        "stationId": "209000018",
+        "routeId": "234000050",
+        "staOrder": "36"
+      },
+      {
+        "stationNm": "부흥고등학교",
+        "ptts": "93",
+        "length": "500",
+        "stationId": "209000134",
+        "routeId": "234000050",
+        "staOrder": "37"
+      },
+      {
+        "stationNm": "관악타운",
+        "ptts": "53",
+        "length": "460",
+        "stationId": "209000179",
+        "routeId": "234000050",
+        "staOrder": "38"
+      },
+      {
+        "stationNm": "이마트.비산사거리.평촌래미안푸르지오2문",
+        "ptts": "177",
+        "length": "320",
+        "stationId": "209000178",
+        "routeId": "234000050",
+        "staOrder": "39"
+      },
+      {
+        "stationNm": "안양역푸르지오더샵.비산대교",
+        "ptts": "64",
+        "length": "820",
+        "stationId": "208000115",
+        "routeId": "234000050",
+        "staOrder": "40"
+      },
+      {
+        "stationNm": "우체국사거리.안양초교.중화한방병원",
+        "ptts": "61",
+        "length": "480",
+        "stationId": "208000114",
+        "routeId": "234000050",
+        "staOrder": "41"
+      },
+      {
+        "stationNm": "남부시장",
+        "ptts": "117",
+        "length": "340",
+        "stationId": "208000066",
+        "routeId": "234000050",
+        "staOrder": "42"
+      },
+      {
+        "stationNm": "안양1번가.안양고용센터",
+        "ptts": "119",
+        "length": "390",
+        "stationId": "208000065",
+        "routeId": "234000050",
+        "staOrder": "43"
+      },
+      {
+        "stationNm": "안양역",
+        "ptts": "926",
+        "length": "430",
+        "stationId": "208000069",
+        "routeId": "234000050",
+        "staOrder": "44"
+      },
+      {
+        "stationNm": "원평노블레스5차(미정차)",
+        "ptts": "100",
+        "length": "0",
+        "stationId": "277101770",
+        "routeId": "234000050",
+        "staOrder": "45"
+      },
+      {
+        "stationNm": "안양시외버스정류소.교보생명.댕리단길",
+        "ptts": "288",
+        "length": "720",
+        "stationId": "208000158",
+        "routeId": "234000050",
+        "staOrder": "46"
+      },
+      {
+        "stationNm": "포스빌.안양고용센터",
+        "ptts": "159",
+        "length": "320",
+        "stationId": "208000254",
+        "routeId": "234000050",
+        "staOrder": "47"
+      },
+      {
+        "stationNm": "벽산상가.2001아울렛",
+        "ptts": "84",
+        "length": "350",
+        "stationId": "208000156",
+        "routeId": "234000050",
+        "staOrder": "48"
+      },
+      {
+        "stationNm": "우체국사거리.안양초교.중화한방병원",
+        "ptts": "66",
+        "length": "380",
+        "stationId": "208000095",
+        "routeId": "234000050",
+        "staOrder": "49"
+      },
+      {
+        "stationNm": "래미안메가트리아상가앞.비산대교",
+        "ptts": "44",
+        "length": "480",
+        "stationId": "208000252",
+        "routeId": "234000050",
+        "staOrder": "50"
+      },
+      {
+        "stationNm": "비산농협",
+        "ptts": "126",
+        "length": "200",
+        "stationId": "209000044",
+        "routeId": "234000050",
+        "staOrder": "51"
+      },
+      {
+        "stationNm": "비산한화꿈에그린아파트.비산사거리",
+        "ptts": "40",
+        "length": "460",
+        "stationId": "209000177",
+        "routeId": "234000050",
+        "staOrder": "52"
+      },
+      {
+        "stationNm": "비산힐스테이트",
+        "ptts": "104",
+        "length": "470",
+        "stationId": "209000176",
+        "routeId": "234000050",
+        "staOrder": "53"
+      },
+      {
+        "stationNm": "부흥고등학교.임광아파트",
+        "ptts": "264",
+        "length": "540",
+        "stationId": "209000147",
+        "routeId": "234000050",
+        "staOrder": "54"
+      },
+      {
+        "stationNm": "범계사거리",
+        "ptts": "48",
+        "length": "410",
+        "stationId": "209000016",
+        "routeId": "234000050",
+        "staOrder": "55"
+      },
+      {
+        "stationNm": "내촌마을",
+        "ptts": "164",
+        "length": "400",
+        "stationId": "209000015",
+        "routeId": "234000050",
+        "staOrder": "56"
+      },
+      {
+        "stationNm": "평촌트리지아2단지.방축사거리",
+        "ptts": "408",
+        "length": "400",
+        "stationId": "209000126",
+        "routeId": "234000050",
+        "staOrder": "57"
+      },
+      {
+        "stationNm": "태영아파트",
+        "ptts": "195",
+        "length": "820",
+        "stationId": "209000243",
+        "routeId": "234000050",
+        "staOrder": "58"
+      },
+      {
+        "stationNm": "농수산물시장",
+        "ptts": "209",
+        "length": "870",
+        "stationId": "209000129",
+        "routeId": "234000050",
+        "staOrder": "59"
+      },
+      {
+        "stationNm": "학의JC(미정차)",
+        "ptts": "297",
+        "length": "0",
+        "stationId": "277103156",
+        "routeId": "234000050",
+        "staOrder": "60"
+      },
+      {
+        "stationNm": "의왕청계영업소",
+        "ptts": "293",
+        "length": "5550",
+        "stationId": "226000191",
+        "routeId": "234000050",
+        "staOrder": "61"
+      },
+      {
+        "stationNm": "청계터널출입(미정차)",
+        "ptts": "153",
+        "length": "0",
+        "stationId": "277102796",
+        "routeId": "234000050",
+        "staOrder": "62"
+      },
+      {
+        "stationNm": "판교JC(미정차)",
+        "ptts": "237",
+        "length": "0",
+        "stationId": "277102925",
+        "routeId": "234000050",
+        "staOrder": "63"
+      },
+      {
+        "stationNm": "성남TG(미정차)",
+        "ptts": "178",
+        "length": "0",
+        "stationId": "277103273",
+        "routeId": "234000050",
+        "staOrder": "64"
+      },
+      {
+        "stationNm": "가천대",
+        "ptts": "191",
+        "length": "13280",
+        "stationId": "204000091",
+        "routeId": "234000050",
+        "staOrder": "65"
+      },
+      {
+        "stationNm": "송파IC출입(미정차)",
+        "ptts": "170",
+        "length": "0",
+        "stationId": "277103267",
+        "routeId": "234000050",
+        "staOrder": "66"
+      },
+      {
+        "stationNm": "복정역1번출구",
+        "ptts": "111",
+        "length": "3910",
+        "stationId": "123000215",
+        "routeId": "234000050",
+        "staOrder": "67"
+      },
+      {
+        "stationNm": "장지역.가든파이브(중)",
+        "ptts": "94",
+        "length": "740",
+        "stationId": "123000015",
+        "routeId": "234000050",
+        "staOrder": "68"
+      },
+      {
+        "stationNm": "문정법조단지.건영아파트(중)",
+        "ptts": "72",
+        "length": "370",
+        "stationId": "123000013",
+        "routeId": "234000050",
+        "staOrder": "69"
+      },
+      {
+        "stationNm": "문정로데오거리입구(중)",
+        "ptts": "182",
+        "length": "750",
+        "stationId": "123000011",
+        "routeId": "234000050",
+        "staOrder": "70"
+      },
+      {
+        "stationNm": "가락시장.가락시장역(중)",
+        "ptts": "86",
+        "length": "800",
+        "stationId": "123000009",
+        "routeId": "234000050",
+        "staOrder": "71"
+      },
+      {
+        "stationNm": "송파역(중)",
+        "ptts": "91",
+        "length": "810",
+        "stationId": "123000007",
+        "routeId": "234000050",
+        "staOrder": "72"
+      },
+      {
+        "stationNm": "석촌역(중)",
+        "ptts": "102",
+        "length": "400",
+        "stationId": "123000005",
+        "routeId": "234000050",
+        "staOrder": "73"
+      },
+      {
+        "stationNm": "석촌호수.한솔병원(중)",
+        "ptts": "86",
+        "length": "500",
+        "stationId": "123000003",
+        "routeId": "234000050",
+        "staOrder": "74"
+      },
+      {
+        "stationNm": "석촌역교차로(미정차)",
+        "ptts": "225",
+        "length": "0",
+        "stationId": "277102839",
+        "routeId": "234000050",
+        "staOrder": "75"
+      },
+      {
+        "stationNm": "잠실역.잠실대교남단(중)",
+        "ptts": "319",
+        "length": "1170",
+        "stationId": "123000001",
+        "routeId": "234000050",
+        "staOrder": "76"
+      },
+      {
+        "stationNm": "잠실대교북단(미정차)",
+        "ptts": "173",
+        "length": "0",
+        "stationId": "277102301",
+        "routeId": "234000050",
+        "staOrder": "77"
+      },
+      {
+        "stationNm": "테크노마트앞.강변역(D)",
+        "ptts": "161",
+        "length": "3250",
+        "stationId": "104000069",
+        "routeId": "234000050",
+        "staOrder": "78"
+      },
+      {
+        "stationNm": "양지삼거리(미정차)",
+        "ptts": "282",
+        "length": "0",
+        "stationId": "277101910",
+        "routeId": "234000050",
+        "staOrder": "79"
+      },
+      {
+        "stationNm": "천호대교북단(미정차)",
+        "ptts": "192",
+        "length": "0",
+        "stationId": "277102675",
+        "routeId": "234000050",
+        "staOrder": "80"
+      },
+      {
+        "stationNm": "아천IC(미정차)",
+        "ptts": "111",
+        "length": "0",
+        "stationId": "277103307",
+        "routeId": "234000050",
+        "staOrder": "81"
+      },
+      {
+        "stationNm": "토평삼거리(미정차)",
+        "ptts": "63",
+        "length": "0",
+        "stationId": "277103313",
+        "routeId": "234000050",
+        "staOrder": "82"
+      },
+      {
+        "stationNm": "토평정수장",
+        "ptts": "57",
+        "length": "8520",
+        "stationId": "221000025",
+        "routeId": "234000050",
+        "staOrder": "83"
+      },
+      {
+        "stationNm": "벌말.돌섬",
+        "ptts": "319",
+        "length": "480",
+        "stationId": "221000029",
+        "routeId": "234000050",
+        "staOrder": "84"
+      },
+      {
+        "stationNm": "벌말삼거리.상록아파트",
+        "ptts": "27",
+        "length": "300",
+        "stationId": "221000075",
+        "routeId": "234000050",
+        "staOrder": "85"
+      },
+      {
+        "stationNm": "동명빌라",
+        "ptts": "150",
+        "length": "240",
+        "stationId": "221000074",
+        "routeId": "234000050",
+        "staOrder": "86"
+      },
+      {
+        "stationNm": "구리여중고.청소년문화의집.성광교회",
+        "ptts": "128",
+        "length": "410",
+        "stationId": "221000073",
+        "routeId": "234000050",
+        "staOrder": "87"
+      },
+      {
+        "stationNm": "수택고교.SK신일.우남아파트",
+        "ptts": "111",
+        "length": "520",
+        "stationId": "221000049",
+        "routeId": "234000050",
+        "staOrder": "88"
+      },
+      {
+        "stationNm": "구리수택차고지",
+        "ptts": "0",
+        "length": "1070",
+        "stationId": "221000047",
+        "routeId": "234000050",
+        "staOrder": "89"
+      }
+    ],
+    "separation": [
+      {
+        "routeId": "234000050",
+        "sepYN": "Y"
+      }
+    ],
+    "gg": {
+      "routeTypeCd": "11",
+      "route": {
+        "region": "구리,서울,성남,안양,의왕",
+        "downFirstTime2": "05:25",
+        "downLastTime": "23:55",
+        "upFirstTime4": "04:10",
+        "upFirstTime3": "04:10",
+        "companyTel": "02-455-2114",
+        "upFirstTime2": "04:10",
+        "routeId": "234000050",
+        "companyNm": "경기여객",
+        "garageTel": "031-558-4255",
+        "downFirstTime4": "05:25",
+        "adminNm": "경기도 구리시",
+        "downFirstTime3": "05:25",
+        "downFirstTime": "05:25",
+        "garageNm": "구리영업소",
+        "npeekAlloc": "15",
+        "turnSeq": "44",
+        "upLastTime": "22:35",
+        "peekAlloc": "6",
+        "maxHead": "",
+        "upFirstTime": "04:10",
+        "downLastTime3": "23:55",
+        "downLastTime4": "23:55",
+        "stStaNm": "구리수택차고지",
+        "downLastTime2": "23:55",
+        "lastStaNm": "구리수택차고지",
+        "nightAlloc": "0",
+        "upLastTime4": "22:35",
+        "peekAlloc2": "15",
+        "peekAlloc3": "15",
+        "routeNm": "1650",
+        "peekAlloc4": "15",
+        "upLastTime2": "22:35",
+        "upLastTime3": "22:35",
+        "npeekAlloc3": "18",
+        "npeekAlloc2": "18",
+        "nightAlloc3": "0",
+        "nightAlloc4": "0",
+        "nightAlloc2": "0",
+        "minHead": "",
+        "edStaNm": "안양역",
+        "npeekAlloc4": "18"
+      },
+      "middlePnt": "22",
+      "down": {
+        "count": 45,
+        "list": [
+          {
+            "stationNo": "",
+            "lon": "14128699.232258",
+            "centerYn": "N",
+            "stationNm": "원평노블레스5차(경유)",
+            "stationSeq": "0",
+            "gnm": "안양시",
+            "stationId": "277101770",
+            "stationTp": "6",
+            "mobileNoSi": "",
+            "estiSeq": "45",
+            "lat": "4495538.041834"
+          },
+          {
+            "stationNo": "09138",
+            "lon": "14128570.825546",
+            "centerYn": "N",
+            "stationNm": "안양시외버스정류소.교보생명.댕리단길",
+            "stationSeq": "2",
+            "gnm": "안양시",
+            "stationId": "208000158",
+            "stationTp": "5",
+            "mobileNoSi": "",
+            "estiSeq": "46",
+            "lat": "4495192.794923"
+          },
+          {
+            "stationNo": "09237",
+            "lon": "14128834.893942",
+            "centerYn": "N",
+            "stationNm": "포스빌.안양고용센터",
+            "stationSeq": "4",
+            "gnm": "안양시",
+            "stationId": "208000254",
+            "stationTp": "1",
+            "mobileNoSi": "",
+            "estiSeq": "47",
+            "lat": "4494791.3593"
+          },
+          {
+            "stationNo": "09151",
+            "lon": "14129046.648716",
+            "centerYn": "N",
+            "stationNm": "벽산상가.2001아울렛",
+            "stationSeq": "6",
+            "gnm": "안양시",
+            "stationId": "208000156",
+            "stationTp": "0",
+            "mobileNoSi": "",
+            "estiSeq": "48",
+            "lat": "4494478.250167"
+          },
+          {
+            "stationNo": "09161",
+            "lon": "14129368.66689",
+            "centerYn": "N",
+            "stationNm": "우체국사거리.안양초교.중화한방병원",
+            "stationSeq": "8",
+            "gnm": "안양시",
+            "stationId": "208000095",
+            "stationTp": "5",
+            "mobileNoSi": "",
+            "estiSeq": "49",
+            "lat": "4494245.431478"
+          },
+          {
+            "stationNo": "09347",
+            "lon": "14129867.745936",
+            "centerYn": "N",
+            "stationNm": "래미안메가트리아상가앞.비산대교",
+            "stationSeq": "10",
+            "gnm": "안양시",
+            "stationId": "208000252",
+            "stationTp": "5",
+            "mobileNoSi": "",
+            "estiSeq": "50",
+            "lat": "4494582.618841"
+          },
+          {
+            "stationNo": "10003",
+            "lon": "14130081.234216",
+            "centerYn": "N",
+            "stationNm": "비산농협",
+            "stationSeq": "12",
+            "gnm": "안양시",
+            "stationId": "209000044",
+            "stationTp": "0",
+            "mobileNoSi": "",
+            "estiSeq": "51",
+            "lat": "4494727.131025"
+          },
+          {
+            "stationNo": "10006",
+            "lon": "14130586.344357",
+            "centerYn": "N",
+            "stationNm": "비산한화꿈에그린아파트.비산사거리",
+            "stationSeq": "14",
+            "gnm": "안양시",
+            "stationId": "209000177",
+            "stationTp": "2",
+            "mobileNoSi": "",
+            "estiSeq": "52",
+            "lat": "4494582.618841"
+          },
+          {
+            "stationNo": "10010",
+            "lon": "14131027.118496",
+            "centerYn": "N",
+            "stationNm": "비산힐스테이트",
+            "stationSeq": "16",
+            "gnm": "안양시",
+            "stationId": "209000176",
+            "stationTp": "2",
+            "mobileNoSi": "",
+            "estiSeq": "53",
+            "lat": "4494205.290846"
+          },
+          {
+            "stationNo": "10025",
+            "lon": "14131495.365083",
+            "centerYn": "N",
+            "stationNm": "부흥고등학교.임광아파트",
+            "stationSeq": "18",
+            "gnm": "안양시",
+            "stationId": "209000147",
+            "stationTp": "5",
+            "mobileNoSi": "",
+            "estiSeq": "54",
+            "lat": "4493731.642978"
+          },
+          {
+            "stationNo": "10039",
+            "lon": "14131859.534214",
+            "centerYn": "N",
+            "stationNm": "범계사거리",
+            "stationSeq": "20",
+            "gnm": "안양시",
+            "stationId": "209000016",
+            "stationTp": "5",
+            "mobileNoSi": "",
+            "estiSeq": "55",
+            "lat": "4493370.400488"
+          },
+          {
+            "stationNo": "10056",
+            "lon": "14132121.217965",
+            "centerYn": "N",
+            "stationNm": "내촌마을",
+            "stationSeq": "22",
+            "gnm": "안양시",
+            "stationId": "209000015",
+            "stationTp": "5",
+            "mobileNoSi": "",
+            "estiSeq": "56",
+            "lat": "4492952.980193"
+          },
+          {
+            "stationNo": "10064",
+            "lon": "14132318.80106",
+            "centerYn": "N",
+            "stationNm": "평촌트리지아2단지.방축사거리",
+            "stationSeq": "24",
+            "gnm": "안양시",
+            "stationId": "209000126",
+            "stationTp": "5",
+            "mobileNoSi": "",
+            "estiSeq": "57",
+            "lat": "4492495.442386"
+          },
+          {
+            "stationNo": "10209",
+            "lon": "14132970.27297",
+            "centerYn": "N",
+            "stationNm": "태영아파트",
+            "stationSeq": "26",
+            "gnm": "안양시",
+            "stationId": "209000243",
+            "stationTp": "2",
+            "mobileNoSi": "",
+            "estiSeq": "58",
+            "lat": "4492110.162846"
+          },
+          {
+            "stationNo": "10147",
+            "lon": "14133969.157073",
+            "centerYn": "N",
+            "stationNm": "농수산물시장",
+            "stationSeq": "28",
+            "gnm": "안양시",
+            "stationId": "209000129",
+            "stationTp": "0",
+            "mobileNoSi": "",
+            "estiSeq": "59",
+            "lat": "4492383.067728"
+          },
+          {
+            "stationNo": "",
+            "lon": "14137710.231129",
+            "centerYn": "N",
+            "stationNm": "학의JC(경유)",
+            "stationSeq": "30",
+            "gnm": "의왕시",
+            "stationId": "277103156",
+            "stationTp": "6",
+            "mobileNoSi": "",
+            "estiSeq": "60",
+            "lat": "4493185.770235"
+          },
+          {
+            "stationNo": "27185",
+            "lon": "14140492.140524",
+            "centerYn": "N",
+            "stationNm": "의왕청계영업소",
+            "stationSeq": "32",
+            "gnm": "의왕시",
+            "stationId": "226000191",
+            "stationTp": "5",
+            "mobileNoSi": "",
+            "estiSeq": "61",
+            "lat": "4493956.422354"
+          },
+          {
+            "stationNo": "",
+            "lon": "14143701.038126",
+            "centerYn": "N",
+            "stationNm": "청계터널출입(경유)",
+            "stationSeq": "34",
+            "gnm": "성남시",
+            "stationId": "277102796",
+            "stationTp": "6",
+            "mobileNoSi": "",
+            "estiSeq": "62",
+            "lat": "4494470.22185"
+          },
+          {
+            "stationNo": "",
+            "lon": "14147996.411741",
+            "centerYn": "N",
+            "stationNm": "판교JC(경유)",
+            "stationSeq": "36",
+            "gnm": "성남시",
+            "stationId": "277102925",
+            "stationTp": "6",
+            "mobileNoSi": "",
+            "estiSeq": "63",
+            "lat": "4495746.801287"
+          },
+          {
+            "stationNo": "",
+            "lon": "14151365.893478",
+            "centerYn": "N",
+            "stationNm": "성남TG(경유)",
+            "stationSeq": "38",
+            "gnm": "성남시",
+            "stationId": "277103273",
+            "stationTp": "6",
+            "mobileNoSi": "",
+            "estiSeq": "64",
+            "lat": "4499930.894878"
+          },
+          {
+            "stationNo": "05077",
+            "lon": "14151627.927374",
+            "centerYn": "N",
+            "stationNm": "가천대",
+            "stationSeq": "40",
+            "gnm": "성남시",
+            "stationId": "204000091",
+            "stationTp": "0",
+            "mobileNoSi": "",
+            "estiSeq": "65",
+            "lat": "4502115.95992"
+          },
+          {
+            "stationNo": "",
+            "lon": "14151894.128189",
+            "centerYn": "N",
+            "stationNm": "송파IC출입(경유)",
+            "stationSeq": "42",
+            "gnm": "송파구",
+            "stationId": "277103267",
+            "stationTp": "6",
+            "mobileNoSi": "",
+            "estiSeq": "66",
+            "lat": "4505370.301253"
+          },
+          {
+            "stationNo": "92186",
+            "lon": "14151726.667426",
+            "centerYn": "N",
+            "stationNm": "복정역1번출구",
+            "stationSeq": "44",
+            "gnm": "송파구",
+            "stationId": "123000215",
+            "stationTp": "5",
+            "mobileNoSi": "24305",
+            "estiSeq": "67",
+            "lat": "4505153.313738"
+          },
+          {
+            "stationNo": "",
+            "lon": "14151625.7028",
+            "centerYn": "Y",
+            "stationNm": "장지역.가든파이브(중)",
+            "stationSeq": "46",
+            "gnm": "송파구",
+            "stationId": "123000015",
+            "stationTp": "2",
+            "mobileNoSi": "24015",
+            "estiSeq": "68",
+            "lat": "4506069.513801"
+          },
+          {
+            "stationNo": "",
+            "lon": "14151446.216756",
+            "centerYn": "Y",
+            "stationNm": "문정법조단지.건영아파트(중)",
+            "stationSeq": "48",
+            "gnm": "송파구",
+            "stationId": "123000013",
+            "stationTp": "2",
+            "mobileNoSi": "24013",
+            "estiSeq": "69",
+            "lat": "4506503.531256"
+          },
+          {
+            "stationNo": "",
+            "lon": "14151099.077554",
+            "centerYn": "Y",
+            "stationNm": "문정로데오거리입구(중)",
+            "stationSeq": "50",
+            "gnm": "송파구",
+            "stationId": "123000011",
+            "stationTp": "2",
+            "mobileNoSi": "24011",
+            "estiSeq": "70",
+            "lat": "4507379.658281"
+          },
+          {
+            "stationNo": "",
+            "lon": "14150618.755667",
+            "centerYn": "Y",
+            "stationNm": "가락시장.가락시장역(중)",
+            "stationSeq": "52",
+            "gnm": "송파구",
+            "stationId": "123000009",
+            "stationTp": "2",
+            "mobileNoSi": "24009",
+            "estiSeq": "71",
+            "lat": "4508255.858556"
+          },
+          {
+            "stationNo": "",
+            "lon": "14150025.22787",
+            "centerYn": "Y",
+            "stationNm": "송파역(중)",
+            "stationSeq": "54",
+            "gnm": "송파구",
+            "stationId": "123000007",
+            "stationTp": "2",
+            "mobileNoSi": "24007",
+            "estiSeq": "72",
+            "lat": "4509067.815957"
+          },
+          {
+            "stationNo": "",
+            "lon": "14149726.690406",
+            "centerYn": "Y",
+            "stationNm": "석촌역(중)",
+            "stationSeq": "56",
+            "gnm": "송파구",
+            "stationId": "123000005",
+            "stationTp": "2",
+            "mobileNoSi": "24005",
+            "estiSeq": "73",
+            "lat": "4509485.877969"
+          },
+          {
+            "stationNo": "",
+            "lon": "14149355.595636",
+            "centerYn": "Y",
+            "stationNm": "석촌호수.한솔병원(중)",
+            "stationSeq": "58",
+            "gnm": "송파구",
+            "stationId": "123000003",
+            "stationTp": "2",
+            "mobileNoSi": "24003",
+            "estiSeq": "74",
+            "lat": "4509992.398528"
+          },
+          {
+            "stationNo": "",
+            "lon": "14149131.502257",
+            "centerYn": "N",
+            "stationNm": "석촌역교차로(경유)",
+            "stationSeq": "60",
+            "gnm": "송파구",
+            "stationId": "277102839",
+            "stationTp": "6",
+            "mobileNoSi": "",
+            "estiSeq": "75",
+            "lat": "4510338.132972"
+          },
+          {
+            "stationNo": "",
+            "lon": "14148543.544451",
+            "centerYn": "Y",
+            "stationNm": "잠실역.잠실대교남단(중)",
+            "stationSeq": "62",
+            "gnm": "송파구",
+            "stationId": "123000001",
+            "stationTp": "2",
+            "mobileNoSi": "24001",
+            "estiSeq": "76",
+            "lat": "4511214.580717"
+          },
+          {
+            "stationNo": "",
+            "lon": "14147647.771045",
+            "centerYn": "N",
+            "stationNm": "잠실대교북단(경유)",
+            "stationSeq": "64",
+            "gnm": "광진구",
+            "stationId": "277102301",
+            "stationTp": "6",
+            "mobileNoSi": "",
+            "estiSeq": "77",
+            "lat": "4513152.675129"
+          },
+          {
+            "stationNo": "",
+            "lon": "14148035.835427",
+            "centerYn": "N",
+            "stationNm": "테크노마트앞.강변역(D)",
+            "stationSeq": "66",
+            "gnm": "광진구",
+            "stationId": "104000069",
+            "stationTp": "2",
+            "mobileNoSi": "05267",
+            "estiSeq": "78",
+            "lat": "4514182.182358"
+          },
+          {
+            "stationNo": "",
+            "lon": "14148092.090165",
+            "centerYn": "N",
+            "stationNm": "양지삼거리(경유)",
+            "stationSeq": "68",
+            "gnm": "광진구",
+            "stationId": "277101910",
+            "stationTp": "6",
+            "mobileNoSi": "",
+            "estiSeq": "79",
+            "lat": "4514672.842519"
+          },
+          {
+            "stationNo": "",
+            "lon": "14149568.164119",
+            "centerYn": "N",
+            "stationNm": "천호대교북단(경유)",
+            "stationSeq": "70",
+            "gnm": "광진구",
+            "stationId": "277102675",
+            "stationTp": "6",
+            "mobileNoSi": "",
+            "estiSeq": "80",
+            "lat": "4515195.70243"
+          },
+          {
+            "stationNo": "",
+            "lon": "14151819.075194",
+            "centerYn": "N",
+            "stationNm": "아천IC(경유)",
+            "stationSeq": "72",
+            "gnm": "구리시",
+            "stationId": "277103307",
+            "stationTp": "6",
+            "mobileNoSi": "",
+            "estiSeq": "81",
+            "lat": "4519234.669954"
+          },
+          {
+            "stationNo": "",
+            "lon": "14153727.567618",
+            "centerYn": "N",
+            "stationNm": "토평삼거리(경유)",
+            "stationSeq": "74",
+            "gnm": "구리시",
+            "stationId": "277103313",
+            "stationTp": "6",
+            "mobileNoSi": "",
+            "estiSeq": "82",
+            "lat": "4519797.996493"
+          },
+          {
+            "stationNo": "22133",
+            "lon": "14153852.101636",
+            "centerYn": "N",
+            "stationNm": "토평정수장",
+            "stationSeq": "76",
+            "gnm": "구리시",
+            "stationId": "221000025",
+            "stationTp": "2",
+            "mobileNoSi": "",
+            "estiSeq": "83",
+            "lat": "4520280.871963"
+          },
+          {
+            "stationNo": "22137",
+            "lon": "14153951.948648",
+            "centerYn": "N",
+            "stationNm": "벌말.돌섬",
+            "stationSeq": "78",
+            "gnm": "구리시",
+            "stationId": "221000029",
+            "stationTp": "2",
+            "mobileNoSi": "",
+            "estiSeq": "84",
+            "lat": "4520876.449082"
+          },
+          {
+            "stationNo": "22143",
+            "lon": "14154084.95089",
+            "centerYn": "N",
+            "stationNm": "벌말삼거리.상록아파트",
+            "stationSeq": "80",
+            "gnm": "구리시",
+            "stationId": "221000075",
+            "stationTp": "0",
+            "mobileNoSi": "",
+            "estiSeq": "85",
+            "lat": "4521230.592099"
+          },
+          {
+            "stationNo": "22149",
+            "lon": "14154171.318045",
+            "centerYn": "N",
+            "stationNm": "동명빌라",
+            "stationSeq": "82",
+            "gnm": "구리시",
+            "stationId": "221000074",
+            "stationTp": "0",
+            "mobileNoSi": "",
+            "estiSeq": "86",
+            "lat": "4521528.403465"
+          },
+          {
+            "stationNo": "22156",
+            "lon": "14154313.70811",
+            "centerYn": "N",
+            "stationNm": "구리여중고.청소년문화의집.성광교회",
+            "stationSeq": "84",
+            "gnm": "구리시",
+            "stationId": "221000073",
+            "stationTp": "2",
+            "mobileNoSi": "",
+            "estiSeq": "87",
+            "lat": "4522027.457744"
+          },
+          {
+            "stationNo": "22163",
+            "lon": "14154740.798529",
+            "centerYn": "N",
+            "stationNm": "수택고교.SK신일.우남아파트",
+            "stationSeq": "86",
+            "gnm": "구리시",
+            "stationId": "221000049",
+            "stationTp": "2",
+            "mobileNoSi": "",
+            "estiSeq": "88",
+            "lat": "4522164.299369"
+          },
+          {
+            "stationNo": "22165",
+            "lon": "14155007.478948",
+            "centerYn": "N",
+            "stationNm": "구리수택차고지",
+            "stationSeq": "88",
+            "gnm": "구리시",
+            "stationId": "221000047",
+            "stationTp": "0",
+            "mobileNoSi": "",
+            "estiSeq": "89",
+            "lat": "4522172.348933"
+          }
+        ]
+      },
+      "up": {
+        "count": 44,
+        "list": [
+          {
+            "stationNo": "22164",
+            "lon": "14154983.173557",
+            "centerYn": "N",
+            "stationNm": "구리수택차고지",
+            "stationSeq": "0",
+            "gnm": "구리시",
+            "stationId": "221000046",
+            "stationTp": "0",
+            "mobileNoSi": "",
+            "estiSeq": "1",
+            "lat": "4522180.398502"
+          },
+          {
+            "stationNo": "22162",
+            "lon": "14154683.279748",
+            "centerYn": "N",
+            "stationNm": "수택고교.SK신일.우남아파트",
+            "stationSeq": "2",
+            "gnm": "구리시",
+            "stationId": "221000050",
+            "stationTp": "2",
+            "mobileNoSi": "",
+            "estiSeq": "2",
+            "lat": "4522212.596841"
+          },
+          {
+            "stationNo": "22154",
+            "lon": "14154317.784463",
+            "centerYn": "N",
+            "stationNm": "태영데시앙",
+            "stationSeq": "4",
+            "gnm": "구리시",
+            "stationId": "221000055",
+            "stationTp": "2",
+            "mobileNoSi": "",
+            "estiSeq": "3",
+            "lat": "4522172.348933"
+          },
+          {
+            "stationNo": "22150",
+            "lon": "14154248.644223",
+            "centerYn": "N",
+            "stationNm": "구리여중고.청소년문화의집",
+            "stationSeq": "6",
+            "gnm": "구리시",
+            "stationId": "221000085",
+            "stationTp": "2",
+            "mobileNoSi": "",
+            "estiSeq": "4",
+            "lat": "4521914.765986"
+          },
+          {
+            "stationNo": "22148",
+            "lon": "14154131.852166",
+            "centerYn": "N",
+            "stationNm": "동명빌라",
+            "stationSeq": "8",
+            "gnm": "구리시",
+            "stationId": "221000084",
+            "stationTp": "0",
+            "mobileNoSi": "",
+            "estiSeq": "5",
+            "lat": "4521512.305337"
+          },
+          {
+            "stationNo": "22141",
+            "lon": "14153996.826741",
+            "centerYn": "N",
+            "stationNm": "구종점",
+            "stationSeq": "10",
+            "gnm": "구리시",
+            "stationId": "221000041",
+            "stationTp": "2",
+            "mobileNoSi": "",
+            "estiSeq": "6",
+            "lat": "4521053.519091"
+          },
+          {
+            "stationNo": "22136",
+            "lon": "14153913.6202",
+            "centerYn": "N",
+            "stationNm": "벌말.돌섬",
+            "stationSeq": "12",
+            "gnm": "구리시",
+            "stationId": "221000030",
+            "stationTp": "2",
+            "mobileNoSi": "",
+            "estiSeq": "7",
+            "lat": "4520795.963705"
+          },
+          {
+            "stationNo": "22132",
+            "lon": "14153822.692392",
+            "centerYn": "N",
+            "stationNm": "토평정수장",
+            "stationSeq": "14",
+            "gnm": "구리시",
+            "stationId": "221000026",
+            "stationTp": "0",
+            "mobileNoSi": "",
+            "estiSeq": "8",
+            "lat": "4520272.823855"
+          },
+          {
+            "stationNo": "",
+            "lon": "14153725.317875",
+            "centerYn": "N",
+            "stationNm": "토평삼거리(경유)",
+            "stationSeq": "16",
+            "gnm": "구리시",
+            "stationId": "277100104",
+            "stationTp": "6",
+            "mobileNoSi": "",
+            "estiSeq": "9",
+            "lat": "4519838.235264"
+          },
+          {
+            "stationNo": "",
+            "lon": "14151888.628998",
+            "centerYn": "N",
+            "stationNm": "아천IC(경유)",
+            "stationSeq": "18",
+            "gnm": "구리시",
+            "stationId": "277103306",
+            "stationTp": "6",
+            "mobileNoSi": "",
+            "estiSeq": "10",
+            "lat": "4519323.190687"
+          },
+          {
+            "stationNo": "",
+            "lon": "14149512.577883",
+            "centerYn": "N",
+            "stationNm": "천호대교북단(경유)",
+            "stationSeq": "20",
+            "gnm": "광진구",
+            "stationId": "277102674",
+            "stationTp": "6",
+            "mobileNoSi": "",
+            "estiSeq": "11",
+            "lat": "4515227.879278"
+          },
+          {
+            "stationNo": "",
+            "lon": "14148651.669206",
+            "centerYn": "N",
+            "stationNm": "올림픽대교북단(경유)",
+            "stationSeq": "22",
+            "gnm": "광진구",
+            "stationId": "277103309",
+            "stationTp": "6",
+            "mobileNoSi": "",
+            "estiSeq": "12",
+            "lat": "4514335.008467"
+          },
+          {
+            "stationNo": "",
+            "lon": "14148026.498131",
+            "centerYn": "N",
+            "stationNm": "테크노마트앞.강변역(C)",
+            "stationSeq": "24",
+            "gnm": "광진구",
+            "stationId": "104000279",
+            "stationTp": "2",
+            "mobileNoSi": "05162",
+            "estiSeq": "13",
+            "lat": "4514174.13894"
+          },
+          {
+            "stationNo": "",
+            "lon": "14147355.502974",
+            "centerYn": "N",
+            "stationNm": "잠실대교북단(경유)",
+            "stationSeq": "26",
+            "gnm": "광진구",
+            "stationId": "277103308",
+            "stationTp": "6",
+            "mobileNoSi": "",
+            "estiSeq": "14",
+            "lat": "4513208.973689"
+          },
+          {
+            "stationNo": "",
+            "lon": "14147995.577158",
+            "centerYn": "N",
+            "stationNm": "잠실대교남단(경유)",
+            "stationSeq": "28",
+            "gnm": "송파구",
+            "stationId": "277102302",
+            "stationTp": "6",
+            "mobileNoSi": "",
+            "estiSeq": "15",
+            "lat": "4512050.892817"
+          },
+          {
+            "stationNo": "",
+            "lon": "14148662.953365",
+            "centerYn": "Y",
+            "stationNm": "잠실역.잠실대교남단(중)",
+            "stationSeq": "30",
+            "gnm": "송파구",
+            "stationId": "123000002",
+            "stationTp": "2",
+            "mobileNoSi": "24002",
+            "estiSeq": "16",
+            "lat": "4510957.267352"
+          },
+          {
+            "stationNo": "",
+            "lon": "14148868.374318",
+            "centerYn": "N",
+            "stationNm": "석촌호수앞(경유)",
+            "stationSeq": "32",
+            "gnm": "송파구",
+            "stationId": "277101950",
+            "stationTp": "6",
+            "mobileNoSi": "",
+            "estiSeq": "17",
+            "lat": "4510603.471797"
+          },
+          {
+            "stationNo": "",
+            "lon": "14149299.707262",
+            "centerYn": "Y",
+            "stationNm": "석촌호수.한솔병원(중)",
+            "stationSeq": "34",
+            "gnm": "송파구",
+            "stationId": "123000004",
+            "stationTp": "2",
+            "mobileNoSi": "24004",
+            "estiSeq": "18",
+            "lat": "4510040.639858"
+          },
+          {
+            "stationNo": "",
+            "lon": "14149639.748324",
+            "centerYn": "Y",
+            "stationNm": "석촌역(중)",
+            "stationSeq": "36",
+            "gnm": "송파구",
+            "stationId": "123000006",
+            "stationTp": "2",
+            "mobileNoSi": "24006",
+            "estiSeq": "19",
+            "lat": "4509574.316302"
+          },
+          {
+            "stationNo": "",
+            "lon": "14149958.710205",
+            "centerYn": "Y",
+            "stationNm": "송파역(중)",
+            "stationSeq": "38",
+            "gnm": "송파구",
+            "stationId": "123000008",
+            "stationTp": "2",
+            "mobileNoSi": "24008",
+            "estiSeq": "20",
+            "lat": "4509124.092564"
+          },
+          {
+            "stationNo": "",
+            "lon": "14150553.534099",
+            "centerYn": "Y",
+            "stationNm": "가락시장.가락시장역(중)",
+            "stationSeq": "40",
+            "gnm": "송파구",
+            "stationId": "123000010",
+            "stationTp": "2",
+            "mobileNoSi": "24010",
+            "estiSeq": "21",
+            "lat": "4508312.130802"
+          },
+          {
+            "stationNo": "",
+            "lon": "14151002.822085",
+            "centerYn": "Y",
+            "stationNm": "문정로데오거리입구(중)",
+            "stationSeq": "42",
+            "gnm": "송파구",
+            "stationId": "123000012",
+            "stationTp": "2",
+            "mobileNoSi": "24012",
+            "estiSeq": "22",
+            "lat": "4507532.385167"
+          },
+          {
+            "stationNo": "",
+            "lon": "14151361.304553",
+            "centerYn": "Y",
+            "stationNm": "문정법조단지.건영아파트(중)",
+            "stationSeq": "44",
+            "gnm": "송파구",
+            "stationId": "123000014",
+            "stationTp": "2",
+            "mobileNoSi": "24014",
+            "estiSeq": "23",
+            "lat": "4506672.320675"
+          },
+          {
+            "stationNo": "",
+            "lon": "14151539.873508",
+            "centerYn": "Y",
+            "stationNm": "장지역.가든파이브(중)",
+            "stationSeq": "46",
+            "gnm": "송파구",
+            "stationId": "123000016",
+            "stationTp": "2",
+            "mobileNoSi": "24016",
+            "estiSeq": "24",
+            "lat": "4506230.258911"
+          },
+          {
+            "stationNo": "",
+            "lon": "14151590.405873",
+            "centerYn": "N",
+            "stationNm": "송파IC진입(경유)",
+            "stationSeq": "48",
+            "gnm": "송파구",
+            "stationId": "277103266",
+            "stationTp": "6",
+            "mobileNoSi": "",
+            "estiSeq": "25",
+            "lat": "4505241.715517"
+          },
+          {
+            "stationNo": "05088",
+            "lon": "14151577.207726",
+            "centerYn": "N",
+            "stationNm": "가천대",
+            "stationSeq": "50",
+            "gnm": "성남시",
+            "stationId": "204000092",
+            "stationTp": "0",
+            "mobileNoSi": "",
+            "estiSeq": "26",
+            "lat": "4502156.130817"
+          },
+          {
+            "stationNo": "",
+            "lon": "14151180.097582",
+            "centerYn": "N",
+            "stationNm": "성남TG(경유)",
+            "stationSeq": "52",
+            "gnm": "성남시",
+            "stationId": "277103272",
+            "stationTp": "6",
+            "mobileNoSi": "",
+            "estiSeq": "27",
+            "lat": "4500131.709072"
+          },
+          {
+            "stationNo": "",
+            "lon": "14148160.536707",
+            "centerYn": "N",
+            "stationNm": "판교JC(경유)",
+            "stationSeq": "54",
+            "gnm": "성남시",
+            "stationId": "277102924",
+            "stationTp": "6",
+            "mobileNoSi": "",
+            "estiSeq": "28",
+            "lat": "4495859.211942"
+          },
+          {
+            "stationNo": "",
+            "lon": "14143621.137831",
+            "centerYn": "N",
+            "stationNm": "청계터널진입(경유)",
+            "stationSeq": "56",
+            "gnm": "성남시",
+            "stationId": "277102599",
+            "stationTp": "6",
+            "mobileNoSi": "",
+            "estiSeq": "29",
+            "lat": "4494526.420195"
+          },
+          {
+            "stationNo": "27186",
+            "lon": "14140166.80285",
+            "centerYn": "N",
+            "stationNm": "의왕청계영업소",
+            "stationSeq": "58",
+            "gnm": "의왕시",
+            "stationId": "226000190",
+            "stationTp": "5",
+            "mobileNoSi": "",
+            "estiSeq": "30",
+            "lat": "4494052.757845"
+          },
+          {
+            "stationNo": "",
+            "lon": "14137780.012128",
+            "centerYn": "N",
+            "stationNm": "학의JC(경유)",
+            "stationSeq": "60",
+            "gnm": "의왕시",
+            "stationId": "277103157",
+            "stationTp": "6",
+            "mobileNoSi": "",
+            "estiSeq": "31",
+            "lat": "4493274.071255"
+          },
+          {
+            "stationNo": "10148",
+            "lon": "14133985.488289",
+            "centerYn": "N",
+            "stationNm": "농수산물시장",
+            "stationSeq": "62",
+            "gnm": "안양시",
+            "stationId": "209000133",
+            "stationTp": "5",
+            "mobileNoSi": "",
+            "estiSeq": "32",
+            "lat": "4492471.362001"
+          },
+          {
+            "stationNo": "10074",
+            "lon": "14132554.623689",
+            "centerYn": "N",
+            "stationNm": "무궁화코오롱.건영아파트",
+            "stationSeq": "64",
+            "gnm": "안양시",
+            "stationId": "209000021",
+            "stationTp": "5",
+            "mobileNoSi": "",
+            "estiSeq": "33",
+            "lat": "4492118.189359"
+          },
+          {
+            "stationNo": "10065",
+            "lon": "14132397.351386",
+            "centerYn": "N",
+            "stationNm": "무궁화한양아파트.방축사거리",
+            "stationSeq": "66",
+            "gnm": "안양시",
+            "stationId": "209000020",
+            "stationTp": "0",
+            "mobileNoSi": "",
+            "estiSeq": "34",
+            "lat": "4492487.415585"
+          },
+          {
+            "stationNo": "10194",
+            "lon": "14132163.346688",
+            "centerYn": "N",
+            "stationNm": "목련마을",
+            "stationSeq": "68",
+            "gnm": "안양시",
+            "stationId": "209000221",
+            "stationTp": "2",
+            "mobileNoSi": "",
+            "estiSeq": "35",
+            "lat": "4493025.224826"
+          },
+          {
+            "stationNo": "10040",
+            "lon": "14131919.889968",
+            "centerYn": "N",
+            "stationNm": "범계사거리",
+            "stationSeq": "70",
+            "gnm": "안양시",
+            "stationId": "209000018",
+            "stationTp": "2",
+            "mobileNoSi": "",
+            "estiSeq": "36",
+            "lat": "4493402.510428"
+          },
+          {
+            "stationNo": "10020",
+            "lon": "14131478.565095",
+            "centerYn": "N",
+            "stationNm": "부흥고등학교",
+            "stationSeq": "72",
+            "gnm": "안양시",
+            "stationId": "209000134",
+            "stationTp": "2",
+            "mobileNoSi": "",
+            "estiSeq": "37",
+            "lat": "4493844.032065"
+          },
+          {
+            "stationNo": "10011",
+            "lon": "14131066.496858",
+            "centerYn": "N",
+            "stationNm": "관악타운",
+            "stationSeq": "74",
+            "gnm": "안양시",
+            "stationId": "209000179",
+            "stationTp": "5",
+            "mobileNoSi": "",
+            "estiSeq": "38",
+            "lat": "4494253.459622"
+          },
+          {
+            "stationNo": "10008",
+            "lon": "14130771.44041",
+            "centerYn": "N",
+            "stationNm": "이마트.비산사거리.평촌래미안푸르지오2문",
+            "stationSeq": "76",
+            "gnm": "안양시",
+            "stationId": "209000178",
+            "stationTp": "5",
+            "mobileNoSi": "",
+            "estiSeq": "39",
+            "lat": "4494526.420195"
+          },
+          {
+            "stationNo": "09177",
+            "lon": "14129853.650456",
+            "centerYn": "N",
+            "stationNm": "안양역푸르지오더샵.비산대교",
+            "stationSeq": "78",
+            "gnm": "안양시",
+            "stationId": "208000115",
+            "stationTp": "5",
+            "mobileNoSi": "",
+            "estiSeq": "40",
+            "lat": "4494606.704066"
+          },
+          {
+            "stationNo": "09162",
+            "lon": "14129354.817369",
+            "centerYn": "N",
+            "stationNm": "우체국사거리.안양초교.중화한방병원",
+            "stationSeq": "80",
+            "gnm": "안양시",
+            "stationId": "208000114",
+            "stationTp": "5",
+            "mobileNoSi": "",
+            "estiSeq": "41",
+            "lat": "4494277.544093"
+          },
+          {
+            "stationNo": "09153",
+            "lon": "14129109.686043",
+            "centerYn": "N",
+            "stationNm": "남부시장",
+            "stationSeq": "82",
+            "gnm": "안양시",
+            "stationId": "208000066",
+            "stationTp": "2",
+            "mobileNoSi": "",
+            "estiSeq": "42",
+            "lat": "4494462.19354"
+          },
+          {
+            "stationNo": "09146",
+            "lon": "14128836.927086",
+            "centerYn": "N",
+            "stationNm": "안양1번가.안양고용센터",
+            "stationSeq": "84",
+            "gnm": "안양시",
+            "stationId": "208000065",
+            "stationTp": "2",
+            "mobileNoSi": "",
+            "estiSeq": "43",
+            "lat": "4494871.645197"
+          },
+          {
+            "stationNo": "09213",
+            "lon": "14128921.816852",
+            "centerYn": "N",
+            "stationNm": "안양역",
+            "stationSeq": "86",
+            "gnm": "안양시",
+            "stationId": "208000069",
+            "stationTp": "2",
+            "mobileNoSi": "",
+            "estiSeq": "44",
+            "lat": "4495216.881549"
+          }
+        ]
+      }
+    }
+  },
+  "success": true
+}

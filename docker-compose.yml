@@ -1,0 +1,22 @@
+services:
+  timescaledb:
+    image: timescale/timescaledb-ha:pg16
+    container_name: bus_timescaledb
+    environment:
+      POSTGRES_USER: bus_user
+      POSTGRES_PASSWORD: bus_password
+      POSTGRES_DB: bus_telemetry_db
+    ports:
+      - "5432:5432"
+    volumes:
+      - timescaledb_data:/home/postgres/pgdata/data
+      - ./backend/init.sql:/docker-entrypoint-initdb.d/init.sql:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U bus_user -d bus_telemetry_db"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+    restart: unless-stopped
+
+volumes:
+  timescaledb_data:

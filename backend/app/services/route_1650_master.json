@@ -1,0 +1,7315 @@
+{
+  "route_id": "234000050",
+  "routeId": "234000050",
+  "route_name": "1650",
+  "routeName": "1650",
+  "route_type": "직행좌석버스",
+  "routeType": "직행좌석버스",
+  "company_name": "경기여객",
+  "companyName": "경기여객",
+  "start_station_name": "구리수택차고지",
+  "startStationName": "구리수택차고지",
+  "end_station_name": "안양역",
+  "endStationName": "안양역",
+  "turning_seq": 44,
+  "first_time_up": "04:10",
+  "last_time_up": "22:35",
+  "first_time_down": "05:25",
+  "last_time_down": "23:55",
+  "interval_weekday": "6~15분",
+  "interval_weekend": "15~18분",
+  "stations": [
+    {
+      "station_seq": 1,
+      "stationSeq": 1,
+      "station_id": "112678",
+      "stationId": "112678",
+      "station_name": "구리수택차고지",
+      "stationName": "구리수택차고지",
+      "name": "구리수택차고지",
+      "mobile_no": "22164",
+      "mobileNo": "22164",
+      "latitude": 37.5936318,
+      "longitude": 127.1564506,
+      "distance_meter": 0,
+      "distanceMeter": 0,
+      "cumulative_distance_meter": 0,
+      "cumulativeDistanceMeter": 0,
+      "is_turn_point": false,
+      "isTurnPoint": false,
+      "direction": "UP",
+      "is_non_stop": false,
+      "isNonStop": false
+    },
+    {
+      "station_seq": 2,
+      "stationSeq": 2,
+      "station_id": "109850",
+      "stationId": "109850",
+      "station_name": "수택고교.SK신일.우남아파트",
+      "stationName": "수택고교.SK신일.우남아파트",
+      "name": "수택고교.SK신일.우남아파트",
+      "mobile_no": "22162",
+      "mobileNo": "22162",
+      "latitude": 37.5939265,
+      "longitude": 127.1536996,
+      "distance_meter": 245,
+      "distanceMeter": 245,
+      "cumulative_distance_meter": 245,
+      "cumulativeDistanceMeter": 245,
+      "is_turn_point": false,
+      "isTurnPoint": false,
+      "direction": "UP",
+      "is_non_stop": false,
+      "isNonStop": false
+    },
+    {
+      "station_seq": 3,
+      "stationSeq": 3,
+      "station_id": "109815",
+      "stationId": "109815",
+      "station_name": "태영데시앙",
+      "stationName": "태영데시앙",
+      "name": "태영데시앙",
+      "mobile_no": "22154",
+      "mobileNo": "22154",
+      "latitude": 37.5935767,
+      "longitude": 127.1504095,
+      "distance_meter": 292,
+      "distanceMeter": 292,
+      "cumulative_distance_meter": 537,
+      "cumulativeDistanceMeter": 537,
+      "is_turn_point": false,
+      "isTurnPoint": false,
+      "direction": "UP",
+      "is_non_stop": false,
+      "isNonStop": false
+    },
+    {
+      "station_seq": 4,
+      "stationSeq": 4,
+      "station_id": "109810",
+      "stationId": "109810",
+      "station_name": "구리여중고.청소년문화의집",
+      "stationName": "구리여중고.청소년문화의집",
+      "name": "구리여중고.청소년문화의집",
+      "mobile_no": "22150",
+      "mobileNo": "22150",
+      "latitude": 37.5917608,
+      "longitude": 127.1497285,
+      "distance_meter": 211,
+      "distanceMeter": 211,
+      "cumulative_distance_meter": 748,
+      "cumulativeDistanceMeter": 748,
+      "is_turn_point": false,
+      "isTurnPoint": false,
+      "direction": "UP",
+      "is_non_stop": false,
+      "isNonStop": false
+    },
+    {
+      "station_seq": 5,
+      "stationSeq": 5,
+      "station_id": "183472",
+      "stationId": "183472",
+      "station_name": "동명빌라",
+      "stationName": "동명빌라",
+      "name": "동명빌라",
+      "mobile_no": "22148",
+      "mobileNo": "22148",
+      "latitude": 37.5888299,
+      "longitude": 127.1486489,
+      "distance_meter": 339,
+      "distanceMeter": 339,
+      "cumulative_distance_meter": 1087,
+      "cumulativeDistanceMeter": 1087,
+      "is_turn_point": false,
+      "isTurnPoint": false,
+      "direction": "UP",
+      "is_non_stop": false,
+      "isNonStop": false
+    },
+    {
+      "station_seq": 6,
+      "stationSeq": 6,
+      "station_id": "183473",
+      "stationId": "183473",
+      "station_name": "구종점",
+      "stationName": "구종점",
+      "name": "구종점",
+      "mobile_no": "22141",
+      "mobileNo": "22141",
+      "latitude": 37.585591,
+      "longitude": 127.147463,
+      "distance_meter": 375,
+      "distanceMeter": 375,
+      "cumulative_distance_meter": 1462,
+      "cumulativeDistanceMeter": 1462,
+      "is_turn_point": false,
+      "isTurnPoint": false,
+      "direction": "UP",
+      "is_non_stop": false,
+      "isNonStop": false
+    },
+    {
+      "station_seq": 7,
+      "stationSeq": 7,
+      "station_id": "118048",
+      "stationId": "118048",
+      "station_name": "벌말.돌섬",
+      "stationName": "벌말.돌섬",
+      "name": "벌말.돌섬",
+      "mobile_no": "22136",
+      "mobileNo": "22136",
+      "latitude": 37.583811,
+      "longitude": 127.146713,
+      "distance_meter": 209,
+      "distanceMeter": 209,
+      "cumulative_distance_meter": 1671,
+      "cumulativeDistanceMeter": 1671,
+      "is_turn_point": false,
+      "isTurnPoint": false,
+      "direction": "UP",
+      "is_non_stop": false,
+      "isNonStop": false
+    },
+    {
+      "station_seq": 8,
+      "stationSeq": 8,
+      "station_id": "154828",
+      "stationId": "154828",
+      "station_name": "토평정수장",
+      "stationName": "토평정수장",
+      "name": "토평정수장",
+      "mobile_no": "22132",
+      "mobileNo": "22132",
+      "latitude": 37.580177,
+      "longitude": 127.1459628,
+      "distance_meter": 409,
+      "distanceMeter": 409,
+      "cumulative_distance_meter": 2080,
+      "cumulativeDistanceMeter": 2080,
+      "is_turn_point": false,
+      "isTurnPoint": false,
+      "direction": "UP",
+      "is_non_stop": false,
+      "isNonStop": false
+    },
+    {
+      "station_seq": 9,
+      "stationSeq": 9,
+      "station_id": "91933",
+      "stationId": "91933",
+      "station_name": "토평삼거리(미정차)",
+      "stationName": "토평삼거리(미정차)",
+      "name": "토평삼거리(미정차)",
+      "mobile_no": "-",
+      "mobileNo": "-",
+      "latitude": 37.5769196,
+      "longitude": 127.1447528,
+      "distance_meter": 378,
+      "distanceMeter": 378,
+      "cumulative_distance_meter": 2458,
+      "cumulativeDistanceMeter": 2458,
+      "is_turn_point": false,
+      "isTurnPoint": false,
+      "direction": "UP",
+      "is_non_stop": true,
+      "isNonStop": true
+    },
+    {
+      "station_seq": 10,
+      "stationSeq": 10,
+      "station_id": "91934",
+      "stationId": "91934",
+      "station_name": "아천IC(미정차)",
+      "stationName": "아천IC(미정차)",
+      "name": "아천IC(미정차)",
+      "mobile_no": "-",
+      "mobileNo": "-",
+      "latitude": 37.5732377,
+      "longitude": 127.1285746,
+      "distance_meter": 1483,
+      "distanceMeter": 1483,
+      "cumulative_distance_meter": 3941,
+      "cumulativeDistanceMeter": 3941,
+      "is_turn_point": false,
+      "isTurnPoint": false,
+      "direction": "UP",
+      "is_non_stop": true,
+      "isNonStop": true
+    },
+    {
+      "station_seq": 11,
+      "stationSeq": 11,
+      "station_id": "91935",
+      "stationId": "91935",
+      "station_name": "천호대교북단(미정차)",
+      "stationName": "천호대교북단(미정차)",
+      "name": "천호대교북단(미정차)",
+      "mobile_no": "-",
+      "mobileNo": "-",
+      "latitude": 37.5440962,
+      "longitude": 127.1071878,
+      "distance_meter": 3749,
+      "distanceMeter": 3749,
+      "cumulative_distance_meter": 7690,
+      "cumulativeDistanceMeter": 7690,
+      "is_turn_point": false,
+      "isTurnPoint": false,
+      "direction": "UP",
+      "is_non_stop": true,
+      "isNonStop": true
+    },
+    {
+      "station_seq": 12,
+      "stationSeq": 12,
+      "station_id": "91936",
+      "stationId": "91936",
+      "station_name": "올림픽대교북단(미정차)",
+      "stationName": "올림픽대교북단(미정차)",
+      "name": "올림픽대교북단(미정차)",
+      "mobile_no": "-",
+      "mobileNo": "-",
+      "latitude": 37.5377506,
+      "longitude": 127.0994335,
+      "distance_meter": 982,
+      "distanceMeter": 982,
+      "cumulative_distance_meter": 8672,
+      "cumulativeDistanceMeter": 8672,
+      "is_turn_point": false,
+      "isTurnPoint": false,
+      "direction": "UP",
+      "is_non_stop": true,
+      "isNonStop": true
+    },
+    {
+      "station_seq": 13,
+      "stationSeq": 13,
+      "station_id": "108829",
+      "stationId": "108829",
+      "station_name": "테크노마트앞.강변역(C)",
+      "stationName": "테크노마트앞.강변역(C)",
+      "name": "테크노마트앞.강변역(C)",
+      "mobile_no": "05162",
+      "mobileNo": "05162",
+      "latitude": 37.5366579,
+      "longitude": 127.093983,
+      "distance_meter": 496,
+      "distanceMeter": 496,
+      "cumulative_distance_meter": 9168,
+      "cumulativeDistanceMeter": 9168,
+      "is_turn_point": false,
+      "isTurnPoint": false,
+      "direction": "UP",
+      "is_non_stop": false,
+      "isNonStop": false
+    },
+    {
+      "station_seq": 14,
+      "stationSeq": 14,
+      "station_id": "91883",
+      "stationId": "91883",
+      "station_name": "잠실대교북단(미정차)",
+      "stationName": "잠실대교북단(미정차)",
+      "name": "잠실대교북단(미정차)",
+      "mobile_no": "-",
+      "mobileNo": "-",
+      "latitude": 37.5297515,
+      "longitude": 127.087809,
+      "distance_meter": 941,
+      "distanceMeter": 941,
+      "cumulative_distance_meter": 10109,
+      "cumulativeDistanceMeter": 10109,
+      "is_turn_point": false,
+      "isTurnPoint": false,
+      "direction": "UP",
+      "is_non_stop": true,
+      "isNonStop": true
+    },
+    {
+      "station_seq": 15,
+      "stationSeq": 15,
+      "station_id": "87421",
+      "stationId": "87421",
+      "station_name": "잠실대교남단(미정차)",
+      "stationName": "잠실대교남단(미정차)",
+      "name": "잠실대교남단(미정차)",
+      "mobile_no": "-",
+      "mobileNo": "-",
+      "latitude": 37.5214799,
+      "longitude": 127.0935689,
+      "distance_meter": 1051,
+      "distanceMeter": 1051,
+      "cumulative_distance_meter": 11160,
+      "cumulativeDistanceMeter": 11160,
+      "is_turn_point": false,
+      "isTurnPoint": false,
+      "direction": "UP",
+      "is_non_stop": true,
+      "isNonStop": true
+    },
+    {
+      "station_seq": 16,
+      "stationSeq": 16,
+      "station_id": "127314",
+      "stationId": "127314",
+      "station_name": "잠실역.잠실대교남단(중)",
+      "stationName": "잠실역.잠실대교남단(중)",
+      "name": "잠실역.잠실대교남단(중)",
+      "mobile_no": "24002",
+      "mobileNo": "24002",
+      "latitude": 37.5137447,
+      "longitude": 127.0997067,
+      "distance_meter": 1016,
+      "distanceMeter": 1016,
+      "cumulative_distance_meter": 12176,
+      "cumulativeDistanceMeter": 12176,
+      "is_turn_point": false,
+      "isTurnPoint": false,
+      "direction": "UP",
+      "is_non_stop": false,
+      "isNonStop": false
+    },
+    {
+      "station_seq": 17,
+      "stationSeq": 17,
+      "station_id": "88062",
+      "stationId": "88062",
+      "station_name": "석촌호수앞(미정차)",
+      "stationName": "석촌호수앞(미정차)",
+      "name": "석촌호수앞(미정차)",
+      "mobile_no": "-",
+      "mobileNo": "-",
+      "latitude": 37.5112593,
+      "longitude": 127.1013285,
+      "distance_meter": 311,
+      "distanceMeter": 311,
+      "cumulative_distance_meter": 12487,
+      "cumulativeDistanceMeter": 12487,
+      "is_turn_point": false,
+      "isTurnPoint": false,
+      "direction": "UP",
+      "is_non_stop": true,
+      "isNonStop": true
+    },
+    {
+      "station_seq": 18,
+      "stationSeq": 18,
+      "station_id": "127318",
+      "stationId": "127318",
+      "station_name": "석촌호수.한솔병원",
+      "stationName": "석촌호수.한솔병원",
+      "name": "석촌호수.한솔병원",
+      "mobile_no": "24004",
+      "mobileNo": "24004",
+      "latitude": 37.5072173,
+      "longitude": 127.1053385,
+      "distance_meter": 572,
+      "distanceMeter": 572,
+      "cumulative_distance_meter": 13059,
+      "cumulativeDistanceMeter": 13059,
+      "is_turn_point": false,
+      "isTurnPoint": false,
+      "direction": "UP",
+      "is_non_stop": false,
+      "isNonStop": false
+    },
+    {
+      "station_seq": 19,
+      "stationSeq": 19,
+      "station_id": "127322",
+      "stationId": "127322",
+      "station_name": "석촌역",
+      "stationName": "석촌역",
+      "name": "석촌역",
+      "mobile_no": "24006",
+      "mobileNo": "24006",
+      "latitude": 37.503756,
+      "longitude": 127.1084357,
+      "distance_meter": 472,
+      "distanceMeter": 472,
+      "cumulative_distance_meter": 13531,
+      "cumulativeDistanceMeter": 13531,
+      "is_turn_point": false,
+      "isTurnPoint": false,
+      "direction": "UP",
+      "is_non_stop": false,
+      "isNonStop": false
+    },
+    {
+      "station_seq": 20,
+      "stationSeq": 20,
+      "station_id": "127326",
+      "stationId": "127326",
+      "station_name": "송파역",
+      "stationName": "송파역",
+      "name": "송파역",
+      "mobile_no": "24008",
+      "mobileNo": "24008",
+      "latitude": 37.5007196,
+      "longitude": 127.1111958,
+      "distance_meter": 416,
+      "distanceMeter": 416,
+      "cumulative_distance_meter": 13947,
+      "cumulativeDistanceMeter": 13947,
+      "is_turn_point": false,
+      "isTurnPoint": false,
+      "direction": "UP",
+      "is_non_stop": false,
+      "isNonStop": false
+    },
+    {
+      "station_seq": 21,
+      "stationSeq": 21,
+      "station_id": "127330",
+      "stationId": "127330",
+      "station_name": "가락시장.가락시장역(중)",
+      "stationName": "가락시장.가락시장역(중)",
+      "name": "가락시장.가락시장역(중)",
+      "mobile_no": "24010",
+      "mobileNo": "24010",
+      "latitude": 37.4948748,
+      "longitude": 127.1165432,
+      "distance_meter": 803,
+      "distanceMeter": 803,
+      "cumulative_distance_meter": 14750,
+      "cumulativeDistanceMeter": 14750,
+      "is_turn_point": false,
+      "isTurnPoint": false,
+      "direction": "UP",
+      "is_non_stop": false,
+      "isNonStop": false
+    },
+    {
+      "station_seq": 22,
+      "stationSeq": 22,
+      "station_id": "127334",
+      "stationId": "127334",
+      "station_name": "문정로데오거리입구",
+      "stationName": "문정로데오거리입구",
+      "name": "문정로데오거리입구",
+      "mobile_no": "24012",
+      "mobileNo": "24012",
+      "latitude": 37.4891359,
+      "longitude": 127.1208329,
+      "distance_meter": 742,
+      "distanceMeter": 742,
+      "cumulative_distance_meter": 15492,
+      "cumulativeDistanceMeter": 15492,
+      "is_turn_point": false,
+      "isTurnPoint": false,
+      "direction": "UP",
+      "is_non_stop": false,
+      "isNonStop": false
+    },
+    {
+      "station_seq": 23,
+      "stationSeq": 23,
+      "station_id": "127338",
+      "stationId": "127338",
+      "station_name": "문정법조단지.건영아파트",
+      "stationName": "문정법조단지.건영아파트",
+      "name": "문정법조단지.건영아파트",
+      "mobile_no": "24014",
+      "mobileNo": "24014",
+      "latitude": 37.4831039,
+      "longitude": 127.1239051,
+      "distance_meter": 723,
+      "distanceMeter": 723,
+      "cumulative_distance_meter": 16215,
+      "cumulativeDistanceMeter": 16215,
+      "is_turn_point": false,
+      "isTurnPoint": false,
+      "direction": "UP",
+      "is_non_stop": false,
+      "isNonStop": false
+    },
+    {
+      "station_seq": 24,
+      "stationSeq": 24,
+      "station_id": "127341",
+      "stationId": "127341",
+      "station_name": "장지역.가든파이브",
+      "stationName": "장지역.가든파이브",
+      "name": "장지역.가든파이브",
+      "mobile_no": "24016",
+      "mobileNo": "24016",
+      "latitude": 37.4798768,
+      "longitude": 127.1255472,
+      "distance_meter": 387,
+      "distanceMeter": 387,
+      "cumulative_distance_meter": 16602,
+      "cumulativeDistanceMeter": 16602,
+      "is_turn_point": false,
+      "isTurnPoint": false,
+      "direction": "UP",
+      "is_non_stop": false,
+      "isNonStop": false
+    },
+    {
+      "station_seq": 25,
+      "stationSeq": 25,
+      "station_id": "91862",
+      "stationId": "91862",
+      "station_name": "송파IC진입(미정차)",
+      "stationName": "송파IC진입(미정차)",
+      "name": "송파IC진입(미정차)",
+      "mobile_no": "-",
+      "mobileNo": "-",
+      "latitude": 37.4729006,
+      "longitude": 127.1256844,
+      "distance_meter": 776,
+      "distanceMeter": 776,
+      "cumulative_distance_meter": 17378,
+      "cumulativeDistanceMeter": 17378,
+      "is_turn_point": false,
+      "isTurnPoint": false,
+      "direction": "UP",
+      "is_non_stop": true,
+      "isNonStop": true
+    },
+    {
+      "station_seq": 26,
+      "stationSeq": 26,
+      "station_id": "88927",
+      "stationId": "88927",
+      "station_name": "가천대",
+      "stationName": "가천대",
+      "name": "가천대",
+      "mobile_no": "05088",
+      "mobileNo": "05088",
+      "latitude": 37.450968,
+      "longitude": 127.125753,
+      "distance_meter": 2439,
+      "distanceMeter": 2439,
+      "cumulative_distance_meter": 19817,
+      "cumulativeDistanceMeter": 19817,
+      "is_turn_point": false,
+      "isTurnPoint": false,
+      "direction": "UP",
+      "is_non_stop": false,
+      "isNonStop": false
+    },
+    {
+      "station_seq": 27,
+      "stationSeq": 27,
+      "station_id": "91863",
+      "stationId": "91863",
+      "station_name": "성남TG(미정차)",
+      "stationName": "성남TG(미정차)",
+      "name": "성남TG(미정차)",
+      "mobile_no": "-",
+      "mobileNo": "-",
+      "latitude": 37.436542,
+      "longitude": 127.12218,
+      "distance_meter": 1635,
+      "distanceMeter": 1635,
+      "cumulative_distance_meter": 21452,
+      "cumulativeDistanceMeter": 21452,
+      "is_turn_point": false,
+      "isTurnPoint": false,
+      "direction": "UP",
+      "is_non_stop": true,
+      "isNonStop": true
+    },
+    {
+      "station_seq": 28,
+      "stationSeq": 28,
+      "station_id": "91087",
+      "stationId": "91087",
+      "station_name": "판교JC(미정차)",
+      "stationName": "판교JC(미정차)",
+      "name": "판교JC(미정차)",
+      "mobile_no": "-",
+      "mobileNo": "-",
+      "latitude": 37.40608,
+      "longitude": 127.095053,
+      "distance_meter": 4149,
+      "distanceMeter": 4149,
+      "cumulative_distance_meter": 25601,
+      "cumulativeDistanceMeter": 25601,
+      "is_turn_point": false,
+      "isTurnPoint": false,
+      "direction": "UP",
+      "is_non_stop": true,
+      "isNonStop": true
+    },
+    {
+      "station_seq": 29,
+      "stationSeq": 29,
+      "station_id": "91938",
+      "stationId": "91938",
+      "station_name": "청계터널진입(미정차)",
+      "stationName": "청계터널진입(미정차)",
+      "name": "청계터널진입(미정차)",
+      "mobile_no": "-",
+      "mobileNo": "-",
+      "latitude": 37.396543,
+      "longitude": 127.054283,
+      "distance_meter": 3754,
+      "distanceMeter": 3754,
+      "cumulative_distance_meter": 29355,
+      "cumulativeDistanceMeter": 29355,
+      "is_turn_point": false,
+      "isTurnPoint": false,
+      "direction": "UP",
+      "is_non_stop": true,
+      "isNonStop": true
+    },
+    {
+      "station_seq": 30,
+      "stationSeq": 30,
+      "station_id": "194799",
+      "stationId": "194799",
+      "station_name": "의왕청계영업소",
+      "stationName": "의왕청계영업소",
+      "name": "의왕청계영업소",
+      "mobile_no": "27186",
+      "mobileNo": "27186",
+      "latitude": 37.393338,
+      "longitude": 127.023549,
+      "distance_meter": 2738,
+      "distanceMeter": 2738,
+      "cumulative_distance_meter": 32093,
+      "cumulativeDistanceMeter": 32093,
+      "is_turn_point": false,
+      "isTurnPoint": false,
+      "direction": "UP",
+      "is_non_stop": false,
+      "isNonStop": false
+    },
+    {
+      "station_seq": 31,
+      "stationSeq": 31,
+      "station_id": "91864",
+      "stationId": "91864",
+      "station_name": "학의JC(미정차)",
+      "stationName": "학의JC(미정차)",
+      "name": "학의JC(미정차)",
+      "mobile_no": "-",
+      "mobileNo": "-",
+      "latitude": 37.3875787,
+      "longitude": 127.0018114,
+      "distance_meter": 2024,
+      "distanceMeter": 2024,
+      "cumulative_distance_meter": 34117,
+      "cumulativeDistanceMeter": 34117,
+      "is_turn_point": false,
+      "isTurnPoint": false,
+      "direction": "UP",
+      "is_non_stop": true,
+      "isNonStop": true
+    },
+    {
+      "station_seq": 32,
+      "stationSeq": 32,
+      "station_id": "185997",
+      "stationId": "185997",
+      "station_name": "농수산물시장",
+      "stationName": "농수산물시장",
+      "name": "농수산물시장",
+      "mobile_no": "10148",
+      "mobileNo": "10148",
+      "latitude": 37.3819,
+      "longitude": 126.967893,
+      "distance_meter": 3063,
+      "distanceMeter": 3063,
+      "cumulative_distance_meter": 37180,
+      "cumulativeDistanceMeter": 37180,
+      "is_turn_point": false,
+      "isTurnPoint": false,
+      "direction": "UP",
+      "is_non_stop": false,
+      "isNonStop": false
+    },
+    {
+      "station_seq": 33,
+      "stationSeq": 33,
+      "station_id": "184849",
+      "stationId": "184849",
+      "station_name": "무궁화코오롱.건영아파트",
+      "stationName": "무궁화코오롱.건영아파트",
+      "name": "무궁화코오롱.건영아파트",
+      "mobile_no": "10074",
+      "mobileNo": "10074",
+      "latitude": 37.379372,
+      "longitude": 126.954908,
+      "distance_meter": 1181,
+      "distanceMeter": 1181,
+      "cumulative_distance_meter": 38361,
+      "cumulativeDistanceMeter": 38361,
+      "is_turn_point": false,
+      "isTurnPoint": false,
+      "direction": "UP",
+      "is_non_stop": false,
+      "isNonStop": false
+    },
+    {
+      "station_seq": 34,
+      "stationSeq": 34,
+      "station_id": "184851",
+      "stationId": "184851",
+      "station_name": "무궁화한양아파트.방축사거리",
+      "stationName": "무궁화한양아파트.방축사거리",
+      "name": "무궁화한양아파트.방축사거리",
+      "mobile_no": "10065",
+      "mobileNo": "10065",
+      "latitude": 37.381849,
+      "longitude": 126.9535478,
+      "distance_meter": 301,
+      "distanceMeter": 301,
+      "cumulative_distance_meter": 38662,
+      "cumulativeDistanceMeter": 38662,
+      "is_turn_point": false,
+      "isTurnPoint": false,
+      "direction": "UP",
+      "is_non_stop": false,
+      "isNonStop": false
+    },
+    {
+      "station_seq": 35,
+      "stationSeq": 35,
+      "station_id": "55071313",
+      "stationId": "55071313",
+      "station_name": "목련마을",
+      "stationName": "목련마을",
+      "name": "목련마을",
+      "mobile_no": "10194",
+      "mobileNo": "10194",
+      "latitude": 37.385832,
+      "longitude": 126.951408,
+      "distance_meter": 482,
+      "distanceMeter": 482,
+      "cumulative_distance_meter": 39144,
+      "cumulativeDistanceMeter": 39144,
+      "is_turn_point": false,
+      "isTurnPoint": false,
+      "direction": "UP",
+      "is_non_stop": false,
+      "isNonStop": false
+    },
+    {
+      "station_seq": 36,
+      "stationSeq": 36,
+      "station_id": "55071300",
+      "stationId": "55071300",
+      "station_name": "범계사거리",
+      "stationName": "범계사거리",
+      "name": "범계사거리",
+      "mobile_no": "10040",
+      "mobileNo": "10040",
+      "latitude": 37.388556,
+      "longitude": 126.949222,
+      "distance_meter": 359,
+      "distanceMeter": 359,
+      "cumulative_distance_meter": 39503,
+      "cumulativeDistanceMeter": 39503,
+      "is_turn_point": false,
+      "isTurnPoint": false,
+      "direction": "UP",
+      "is_non_stop": false,
+      "isNonStop": false
+    },
+    {
+      "station_seq": 37,
+      "stationSeq": 37,
+      "station_id": "184873",
+      "stationId": "184873",
+      "station_name": "부흥고등학교",
+      "stationName": "부흥고등학교",
+      "name": "부흥고등학교",
+      "mobile_no": "10020",
+      "mobileNo": "10020",
+      "latitude": 37.391622,
+      "longitude": 126.945297,
+      "distance_meter": 486,
+      "distanceMeter": 486,
+      "cumulative_distance_meter": 39989,
+      "cumulativeDistanceMeter": 39989,
+      "is_turn_point": false,
+      "isTurnPoint": false,
+      "direction": "UP",
+      "is_non_stop": false,
+      "isNonStop": false
+    },
+    {
+      "station_seq": 38,
+      "stationSeq": 38,
+      "station_id": "184877",
+      "stationId": "184877",
+      "station_name": "관악타운",
+      "stationName": "관악타운",
+      "name": "관악타운",
+      "mobile_no": "10011",
+      "mobileNo": "10011",
+      "latitude": 37.394589,
+      "longitude": 126.941506,
+      "distance_meter": 470,
+      "distanceMeter": 470,
+      "cumulative_distance_meter": 40459,
+      "cumulativeDistanceMeter": 40459,
+      "is_turn_point": false,
+      "isTurnPoint": false,
+      "direction": "UP",
+      "is_non_stop": false,
+      "isNonStop": false
+    },
+    {
+      "station_seq": 39,
+      "stationSeq": 39,
+      "station_id": "116071",
+      "stationId": "116071",
+      "station_name": "이마트.비산사거리.평촌래미안푸르지오2문",
+      "stationName": "이마트.비산사거리.평촌래미안푸르지오2문",
+      "name": "이마트.비산사거리.평촌래미안푸르지오2문",
+      "mobile_no": "10008",
+      "mobileNo": "10008",
+      "latitude": 37.3964717,
+      "longitude": 126.9390415,
+      "distance_meter": 302,
+      "distanceMeter": 302,
+      "cumulative_distance_meter": 40761,
+      "cumulativeDistanceMeter": 40761,
+      "is_turn_point": false,
+      "isTurnPoint": false,
+      "direction": "UP",
+      "is_non_stop": false,
+      "isNonStop": false
+    },
+    {
+      "station_seq": 40,
+      "stationSeq": 40,
+      "station_id": "103444",
+      "stationId": "103444",
+      "station_name": "안양역푸르지오더샵.비산대교",
+      "stationName": "안양역푸르지오더샵.비산대교",
+      "name": "안양역푸르지오더샵.비산대교",
+      "mobile_no": "09177",
+      "mobileNo": "09177",
+      "latitude": 37.3971013,
+      "longitude": 126.9305341,
+      "distance_meter": 755,
+      "distanceMeter": 755,
+      "cumulative_distance_meter": 41516,
+      "cumulativeDistanceMeter": 41516,
+      "is_turn_point": false,
+      "isTurnPoint": false,
+      "direction": "UP",
+      "is_non_stop": false,
+      "isNonStop": false
+    },
+    {
+      "station_seq": 41,
+      "stationSeq": 41,
+      "station_id": "103267",
+      "stationId": "103267",
+      "station_name": "우체국사거리.안양초교.중화한방병원",
+      "stationName": "우체국사거리.안양초교.중화한방병원",
+      "name": "우체국사거리.안양초교.중화한방병원",
+      "mobile_no": "09162",
+      "mobileNo": "09162",
+      "latitude": 37.394805,
+      "longitude": 126.9261227,
+      "distance_meter": 466,
+      "distanceMeter": 466,
+      "cumulative_distance_meter": 41982,
+      "cumulativeDistanceMeter": 41982,
+      "is_turn_point": false,
+      "isTurnPoint": false,
+      "direction": "UP",
+      "is_non_stop": false,
+      "isNonStop": false
+    },
+    {
+      "station_seq": 42,
+      "stationSeq": 42,
+      "station_id": "103163",
+      "stationId": "103163",
+      "station_name": "남부시장",
+      "stationName": "남부시장",
+      "name": "남부시장",
+      "mobile_no": "09153",
+      "mobileNo": "09153",
+      "latitude": 37.396169,
+      "longitude": 126.923866,
+      "distance_meter": 250,
+      "distanceMeter": 250,
+      "cumulative_distance_meter": 42232,
+      "cumulativeDistanceMeter": 42232,
+      "is_turn_point": false,
+      "isTurnPoint": false,
+      "direction": "UP",
+      "is_non_stop": false,
+      "isNonStop": false
+    },
+    {
+      "station_seq": 43,
+      "stationSeq": 43,
+      "station_id": "103070",
+      "stationId": "103070",
+      "station_name": "안양1번가.안양고용센터",
+      "stationName": "안양1번가.안양고용센터",
+      "name": "안양1번가.안양고용센터",
+      "mobile_no": "09146",
+      "mobileNo": "09146",
+      "latitude": 37.399138,
+      "longitude": 126.921384,
+      "distance_meter": 396,
+      "distanceMeter": 396,
+      "cumulative_distance_meter": 42628,
+      "cumulativeDistanceMeter": 42628,
+      "is_turn_point": false,
+      "isTurnPoint": false,
+      "direction": "UP",
+      "is_non_stop": false,
+      "isNonStop": false
+    },
+    {
+      "station_seq": 44,
+      "stationSeq": 44,
+      "station_id": "185986",
+      "stationId": "185986",
+      "station_name": "안양역",
+      "stationName": "안양역",
+      "name": "안양역",
+      "mobile_no": "09213",
+      "mobileNo": "09213",
+      "latitude": 37.4015178,
+      "longitude": 126.922192,
+      "distance_meter": 274,
+      "distanceMeter": 274,
+      "cumulative_distance_meter": 42902,
+      "cumulativeDistanceMeter": 42902,
+      "is_turn_point": true,
+      "isTurnPoint": true,
+      "direction": "UP",
+      "is_non_stop": false,
+      "isNonStop": false
+    },
+    {
+      "station_seq": 45,
+      "stationSeq": 45,
+      "station_id": "87200",
+      "stationId": "87200",
+      "station_name": "원평노블레스5차(미정차)",
+      "stationName": "원평노블레스5차(미정차)",
+      "name": "원평노블레스5차(미정차)",
+      "mobile_no": "-",
+      "mobileNo": "-",
+      "latitude": 37.403714,
+      "longitude": 126.920256,
+      "distance_meter": 298,
+      "distanceMeter": 298,
+      "cumulative_distance_meter": 43200,
+      "cumulativeDistanceMeter": 43200,
+      "is_turn_point": false,
+      "isTurnPoint": false,
+      "direction": "DOWN",
+      "is_non_stop": true,
+      "isNonStop": true
+    },
+    {
+      "station_seq": 46,
+      "stationSeq": 46,
+      "station_id": "102968",
+      "stationId": "102968",
+      "station_name": "안양시외버스정류소.교보생명.댕리단길",
+      "stationName": "안양시외버스정류소.교보생명.댕리단길",
+      "name": "안양시외버스정류소.교보생명.댕리단길",
+      "mobile_no": "09138",
+      "mobileNo": "09138",
+      "latitude": 37.4014205,
+      "longitude": 126.9190034,
+      "distance_meter": 278,
+      "distanceMeter": 278,
+      "cumulative_distance_meter": 43478,
+      "cumulativeDistanceMeter": 43478,
+      "is_turn_point": false,
+      "isTurnPoint": false,
+      "direction": "DOWN",
+      "is_non_stop": false,
+      "isNonStop": false
+    },
+    {
+      "station_seq": 47,
+      "stationSeq": 47,
+      "station_id": "197230",
+      "stationId": "197230",
+      "station_name": "포스빌.안양고용센터",
+      "stationName": "포스빌.안양고용센터",
+      "name": "포스빌.안양고용센터",
+      "mobile_no": "09237",
+      "mobileNo": "09237",
+      "latitude": 37.3984838,
+      "longitude": 126.9214703,
+      "distance_meter": 393,
+      "distanceMeter": 393,
+      "cumulative_distance_meter": 43871,
+      "cumulativeDistanceMeter": 43871,
+      "is_turn_point": false,
+      "isTurnPoint": false,
+      "direction": "DOWN",
+      "is_non_stop": false,
+      "isNonStop": false
+    },
+    {
+      "station_seq": 48,
+      "stationSeq": 48,
+      "station_id": "103146",
+      "stationId": "103146",
+      "station_name": "벽산상가.2001아울렛",
+      "stationName": "벽산상가.2001아울렛",
+      "name": "벽산상가.2001아울렛",
+      "mobile_no": "09151",
+      "mobileNo": "09151",
+      "latitude": 37.396361,
+      "longitude": 126.923208,
+      "distance_meter": 282,
+      "distanceMeter": 282,
+      "cumulative_distance_meter": 44153,
+      "cumulativeDistanceMeter": 44153,
+      "is_turn_point": false,
+      "isTurnPoint": false,
+      "direction": "DOWN",
+      "is_non_stop": false,
+      "isNonStop": false
+    },
+    {
+      "station_seq": 49,
+      "stationSeq": 49,
+      "station_id": "103259",
+      "stationId": "103259",
+      "station_name": "우체국사거리.안양초교.중화한방병원",
+      "stationName": "우체국사거리.안양초교.중화한방병원",
+      "name": "우체국사거리.안양초교.중화한방병원",
+      "mobile_no": "09161",
+      "mobileNo": "09161",
+      "latitude": 37.39446,
+      "longitude": 126.926205,
+      "distance_meter": 339,
+      "distanceMeter": 339,
+      "cumulative_distance_meter": 44492,
+      "cumulativeDistanceMeter": 44492,
+      "is_turn_point": false,
+      "isTurnPoint": false,
+      "direction": "DOWN",
+      "is_non_stop": false,
+      "isNonStop": false
+    },
+    {
+      "station_seq": 50,
+      "stationSeq": 50,
+      "station_id": "103448",
+      "stationId": "103448",
+      "station_name": "래미안메가트리아상가앞.비산대교",
+      "stationName": "래미안메가트리아상가앞.비산대교",
+      "name": "래미안메가트리아상가앞.비산대교",
+      "mobile_no": "09347",
+      "mobileNo": "09347",
+      "latitude": 37.3968863,
+      "longitude": 126.9306316,
+      "distance_meter": 475,
+      "distanceMeter": 475,
+      "cumulative_distance_meter": 44967,
+      "cumulativeDistanceMeter": 44967,
+      "is_turn_point": false,
+      "isTurnPoint": false,
+      "direction": "DOWN",
+      "is_non_stop": false,
+      "isNonStop": false
+    },
+    {
+      "station_seq": 51,
+      "stationSeq": 51,
+      "station_id": "103526",
+      "stationId": "103526",
+      "station_name": "비산농협",
+      "stationName": "비산농협",
+      "name": "비산농협",
+      "mobile_no": "10003",
+      "mobileNo": "10003",
+      "latitude": 37.3979033,
+      "longitude": 126.9326254,
+      "distance_meter": 209,
+      "distanceMeter": 209,
+      "cumulative_distance_meter": 45176,
+      "cumulativeDistanceMeter": 45176,
+      "is_turn_point": false,
+      "isTurnPoint": false,
+      "direction": "DOWN",
+      "is_non_stop": false,
+      "isNonStop": false
+    },
+    {
+      "station_seq": 52,
+      "stationSeq": 52,
+      "station_id": "116107",
+      "stationId": "116107",
+      "station_name": "비산한화꿈에그린아파트.비산사거리",
+      "stationName": "비산한화꿈에그린아파트.비산사거리",
+      "name": "비산한화꿈에그린아파트.비산사거리",
+      "mobile_no": "10006",
+      "mobileNo": "10006",
+      "latitude": 37.39692,
+      "longitude": 126.937182,
+      "distance_meter": 417,
+      "distanceMeter": 417,
+      "cumulative_distance_meter": 45593,
+      "cumulativeDistanceMeter": 45593,
+      "is_turn_point": false,
+      "isTurnPoint": false,
+      "direction": "DOWN",
+      "is_non_stop": false,
+      "isNonStop": false
+    },
+    {
+      "station_seq": 53,
+      "stationSeq": 53,
+      "station_id": "116816",
+      "stationId": "116816",
+      "station_name": "비산힐스테이트",
+      "stationName": "비산힐스테이트",
+      "name": "비산힐스테이트",
+      "mobile_no": "10010",
+      "mobileNo": "10010",
+      "latitude": 37.394252,
+      "longitude": 126.941138,
+      "distance_meter": 458,
+      "distanceMeter": 458,
+      "cumulative_distance_meter": 46051,
+      "cumulativeDistanceMeter": 46051,
+      "is_turn_point": false,
+      "isTurnPoint": false,
+      "direction": "DOWN",
+      "is_non_stop": false,
+      "isNonStop": false
+    },
+    {
+      "station_seq": 54,
+      "stationSeq": 54,
+      "station_id": "116637",
+      "stationId": "116637",
+      "station_name": "부흥고등학교.임광아파트",
+      "stationName": "부흥고등학교.임광아파트",
+      "name": "부흥고등학교.임광아파트",
+      "mobile_no": "10025",
+      "mobileNo": "10025",
+      "latitude": 37.390902,
+      "longitude": 126.945409,
+      "distance_meter": 530,
+      "distanceMeter": 530,
+      "cumulative_distance_meter": 46581,
+      "cumulativeDistanceMeter": 46581,
+      "is_turn_point": false,
+      "isTurnPoint": false,
+      "direction": "DOWN",
+      "is_non_stop": false,
+      "isNonStop": false
+    },
+    {
+      "station_seq": 55,
+      "stationSeq": 55,
+      "station_id": "184872",
+      "stationId": "184872",
+      "station_name": "범계사거리",
+      "stationName": "범계사거리",
+      "name": "범계사거리",
+      "mobile_no": "10039",
+      "mobileNo": "10039",
+      "latitude": 37.3882463,
+      "longitude": 126.948749,
+      "distance_meter": 417,
+      "distanceMeter": 417,
+      "cumulative_distance_meter": 46998,
+      "cumulativeDistanceMeter": 46998,
+      "is_turn_point": false,
+      "isTurnPoint": false,
+      "direction": "DOWN",
+      "is_non_stop": false,
+      "isNonStop": false
+    },
+    {
+      "station_seq": 56,
+      "stationSeq": 56,
+      "station_id": "184868",
+      "stationId": "184868",
+      "station_name": "내촌마을",
+      "stationName": "내촌마을",
+      "name": "내촌마을",
+      "mobile_no": "10056",
+      "mobileNo": "10056",
+      "latitude": 37.3853835,
+      "longitude": 126.9509626,
+      "distance_meter": 374,
+      "distanceMeter": 374,
+      "cumulative_distance_meter": 47372,
+      "cumulativeDistanceMeter": 47372,
+      "is_turn_point": false,
+      "isTurnPoint": false,
+      "direction": "DOWN",
+      "is_non_stop": false,
+      "isNonStop": false
+    },
+    {
+      "station_seq": 57,
+      "stationSeq": 57,
+      "station_id": "184852",
+      "stationId": "184852",
+      "station_name": "평촌트리지아2단지.방축사거리",
+      "stationName": "평촌트리지아2단지.방축사거리",
+      "name": "평촌트리지아2단지.방축사거리",
+      "mobile_no": "10064",
+      "mobileNo": "10064",
+      "latitude": 37.3820915,
+      "longitude": 126.952753,
+      "distance_meter": 399,
+      "distanceMeter": 399,
+      "cumulative_distance_meter": 47771,
+      "cumulativeDistanceMeter": 47771,
+      "is_turn_point": false,
+      "isTurnPoint": false,
+      "direction": "DOWN",
+      "is_non_stop": false,
+      "isNonStop": false
+    },
+    {
+      "station_seq": 58,
+      "stationSeq": 58,
+      "station_id": "176822",
+      "stationId": "176822",
+      "station_name": "태영아파트",
+      "stationName": "태영아파트",
+      "name": "태영아파트",
+      "mobile_no": "10209",
+      "mobileNo": "10209",
+      "latitude": 37.3792771,
+      "longitude": 126.9586238,
+      "distance_meter": 606,
+      "distanceMeter": 606,
+      "cumulative_distance_meter": 48377,
+      "cumulativeDistanceMeter": 48377,
+      "is_turn_point": false,
+      "isTurnPoint": false,
+      "direction": "DOWN",
+      "is_non_stop": false,
+      "isNonStop": false
+    },
+    {
+      "station_seq": 59,
+      "stationSeq": 59,
+      "station_id": "185998",
+      "stationId": "185998",
+      "station_name": "농수산물시장",
+      "stationName": "농수산물시장",
+      "name": "농수산물시장",
+      "mobile_no": "10147",
+      "mobileNo": "10147",
+      "latitude": 37.3811624,
+      "longitude": 126.9676713,
+      "distance_meter": 826,
+      "distanceMeter": 826,
+      "cumulative_distance_meter": 49203,
+      "cumulativeDistanceMeter": 49203,
+      "is_turn_point": false,
+      "isTurnPoint": false,
+      "direction": "DOWN",
+      "is_non_stop": false,
+      "isNonStop": false
+    },
+    {
+      "station_seq": 60,
+      "stationSeq": 60,
+      "station_id": "91880",
+      "stationId": "91880",
+      "station_name": "학의JC(미정차)",
+      "stationName": "학의JC(미정차)",
+      "name": "학의JC(미정차)",
+      "mobile_no": "-",
+      "mobileNo": "-",
+      "latitude": 37.386998,
+      "longitude": 127.001192,
+      "distance_meter": 3032,
+      "distanceMeter": 3032,
+      "cumulative_distance_meter": 52235,
+      "cumulativeDistanceMeter": 52235,
+      "is_turn_point": false,
+      "isTurnPoint": false,
+      "direction": "DOWN",
+      "is_non_stop": true,
+      "isNonStop": true
+    },
+    {
+      "station_seq": 61,
+      "stationSeq": 61,
+      "station_id": "194800",
+      "stationId": "194800",
+      "station_name": "의왕청계영업소",
+      "stationName": "의왕청계영업소",
+      "name": "의왕청계영업소",
+      "mobile_no": "27185",
+      "mobileNo": "27185",
+      "latitude": 37.392287,
+      "longitude": 127.026058,
+      "distance_meter": 2274,
+      "distanceMeter": 2274,
+      "cumulative_distance_meter": 54509,
+      "cumulativeDistanceMeter": 54509,
+      "is_turn_point": false,
+      "isTurnPoint": false,
+      "direction": "DOWN",
+      "is_non_stop": false,
+      "isNonStop": false
+    },
+    {
+      "station_seq": 62,
+      "stationSeq": 62,
+      "station_id": "91939",
+      "stationId": "91939",
+      "station_name": "청계터널출입(미정차)",
+      "stationName": "청계터널출입(미정차)",
+      "name": "청계터널출입(미정차)",
+      "mobile_no": "-",
+      "mobileNo": "-",
+      "latitude": 37.3961197,
+      "longitude": 127.0550138,
+      "distance_meter": 2593,
+      "distanceMeter": 2593,
+      "cumulative_distance_meter": 57102,
+      "cumulativeDistanceMeter": 57102,
+      "is_turn_point": false,
+      "isTurnPoint": false,
+      "direction": "DOWN",
+      "is_non_stop": true,
+      "isNonStop": true
+    },
+    {
+      "station_seq": 63,
+      "stationSeq": 63,
+      "station_id": "91160",
+      "stationId": "91160",
+      "station_name": "판교JC(미정차)",
+      "stationName": "판교JC(미정차)",
+      "name": "판교JC(미정차)",
+      "mobile_no": "-",
+      "mobileNo": "-",
+      "latitude": 37.405217,
+      "longitude": 127.0935671,
+      "distance_meter": 3553,
+      "distanceMeter": 3553,
+      "cumulative_distance_meter": 60655,
+      "cumulativeDistanceMeter": 60655,
+      "is_turn_point": false,
+      "isTurnPoint": false,
+      "direction": "DOWN",
+      "is_non_stop": true,
+      "isNonStop": true
+    },
+    {
+      "station_seq": 64,
+      "stationSeq": 64,
+      "station_id": "91881",
+      "stationId": "91881",
+      "station_name": "성남TG(미정차)",
+      "stationName": "성남TG(미정차)",
+      "name": "성남TG(미정차)",
+      "mobile_no": "-",
+      "mobileNo": "-",
+      "latitude": 37.4350702,
+      "longitude": 127.1238808,
+      "distance_meter": 4264,
+      "distanceMeter": 4264,
+      "cumulative_distance_meter": 64919,
+      "cumulativeDistanceMeter": 64919,
+      "is_turn_point": false,
+      "isTurnPoint": false,
+      "direction": "DOWN",
+      "is_non_stop": true,
+      "isNonStop": true
+    },
+    {
+      "station_seq": 65,
+      "stationSeq": 65,
+      "station_id": "88928",
+      "stationId": "88928",
+      "station_name": "가천대",
+      "stationName": "가천대",
+      "name": "가천대",
+      "mobile_no": "05077",
+      "mobileNo": "05077",
+      "latitude": 37.450647,
+      "longitude": 127.126231,
+      "distance_meter": 1744,
+      "distanceMeter": 1744,
+      "cumulative_distance_meter": 66663,
+      "cumulativeDistanceMeter": 66663,
+      "is_turn_point": false,
+      "isTurnPoint": false,
+      "direction": "DOWN",
+      "is_non_stop": false,
+      "isNonStop": false
+    },
+    {
+      "station_seq": 66,
+      "stationSeq": 66,
+      "station_id": "91882",
+      "stationId": "91882",
+      "station_name": "송파IC출입(미정차)",
+      "stationName": "송파IC출입(미정차)",
+      "name": "송파IC출입(미정차)",
+      "mobile_no": "-",
+      "mobileNo": "-",
+      "latitude": 37.4739053,
+      "longitude": 127.1285784,
+      "distance_meter": 2594,
+      "distanceMeter": 2594,
+      "cumulative_distance_meter": 69257,
+      "cumulativeDistanceMeter": 69257,
+      "is_turn_point": false,
+      "isTurnPoint": false,
+      "direction": "DOWN",
+      "is_non_stop": true,
+      "isNonStop": true
+    },
+    {
+      "station_seq": 67,
+      "stationSeq": 67,
+      "station_id": "151791",
+      "stationId": "151791",
+      "station_name": "복정역1번출구",
+      "stationName": "복정역1번출구",
+      "name": "복정역1번출구",
+      "mobile_no": "24305",
+      "mobileNo": "24305",
+      "latitude": 37.472288,
+      "longitude": 127.12711,
+      "distance_meter": 222,
+      "distanceMeter": 222,
+      "cumulative_distance_meter": 69479,
+      "cumulativeDistanceMeter": 69479,
+      "is_turn_point": false,
+      "isTurnPoint": false,
+      "direction": "DOWN",
+      "is_non_stop": false,
+      "isNonStop": false
+    },
+    {
+      "station_seq": 68,
+      "stationSeq": 68,
+      "station_id": "127342",
+      "stationId": "127342",
+      "station_name": "장지역.가든파이브(중)",
+      "stationName": "장지역.가든파이브(중)",
+      "name": "장지역.가든파이브(중)",
+      "mobile_no": "24015",
+      "mobileNo": "24015",
+      "latitude": 37.478959,
+      "longitude": 127.1260685,
+      "distance_meter": 747,
+      "distanceMeter": 747,
+      "cumulative_distance_meter": 70226,
+      "cumulativeDistanceMeter": 70226,
+      "is_turn_point": false,
+      "isTurnPoint": false,
+      "direction": "DOWN",
+      "is_non_stop": false,
+      "isNonStop": false
+    },
+    {
+      "station_seq": 69,
+      "stationSeq": 69,
+      "station_id": "127337",
+      "stationId": "127337",
+      "station_name": "문정법조단지.건영아파트",
+      "stationName": "문정법조단지.건영아파트",
+      "name": "문정법조단지.건영아파트",
+      "mobile_no": "24013",
+      "mobileNo": "24013",
+      "latitude": 37.4821906,
+      "longitude": 127.1244325,
+      "distance_meter": 387,
+      "distanceMeter": 387,
+      "cumulative_distance_meter": 70613,
+      "cumulativeDistanceMeter": 70613,
+      "is_turn_point": false,
+      "isTurnPoint": false,
+      "direction": "DOWN",
+      "is_non_stop": false,
+      "isNonStop": false
+    },
+    {
+      "station_seq": 70,
+      "stationSeq": 70,
+      "station_id": "127333",
+      "stationId": "127333",
+      "station_name": "문정로데오거리입구",
+      "stationName": "문정로데오거리입구",
+      "name": "문정로데오거리입구",
+      "mobile_no": "24011",
+      "mobileNo": "24011",
+      "latitude": 37.488364,
+      "longitude": 127.1213324,
+      "distance_meter": 739,
+      "distanceMeter": 739,
+      "cumulative_distance_meter": 71352,
+      "cumulativeDistanceMeter": 71352,
+      "is_turn_point": false,
+      "isTurnPoint": false,
+      "direction": "DOWN",
+      "is_non_stop": false,
+      "isNonStop": false
+    },
+    {
+      "station_seq": 71,
+      "stationSeq": 71,
+      "station_id": "127329",
+      "stationId": "127329",
+      "station_name": "가락시장.가락시장역(중)",
+      "stationName": "가락시장.가락시장역(중)",
+      "name": "가락시장.가락시장역(중)",
+      "mobile_no": "24009",
+      "mobileNo": "24009",
+      "latitude": 37.4944281,
+      "longitude": 127.1170902,
+      "distance_meter": 771,
+      "distanceMeter": 771,
+      "cumulative_distance_meter": 72123,
+      "cumulativeDistanceMeter": 72123,
+      "is_turn_point": false,
+      "isTurnPoint": false,
+      "direction": "DOWN",
+      "is_non_stop": false,
+      "isNonStop": false
+    },
+    {
+      "station_seq": 72,
+      "stationSeq": 72,
+      "station_id": "127325",
+      "stationId": "127325",
+      "station_name": "송파역",
+      "stationName": "송파역",
+      "name": "송파역",
+      "mobile_no": "24007",
+      "mobileNo": "24007",
+      "latitude": 37.5002143,
+      "longitude": 127.1118056,
+      "distance_meter": 795,
+      "distanceMeter": 795,
+      "cumulative_distance_meter": 72918,
+      "cumulativeDistanceMeter": 72918,
+      "is_turn_point": false,
+      "isTurnPoint": false,
+      "direction": "DOWN",
+      "is_non_stop": false,
+      "isNonStop": false
+    },
+    {
+      "station_seq": 73,
+      "stationSeq": 73,
+      "station_id": "127321",
+      "stationId": "127321",
+      "station_name": "석촌역",
+      "stationName": "석촌역",
+      "name": "석촌역",
+      "mobile_no": "24005",
+      "mobileNo": "24005",
+      "latitude": 37.5033393,
+      "longitude": 127.1089521,
+      "distance_meter": 429,
+      "distanceMeter": 429,
+      "cumulative_distance_meter": 73347,
+      "cumulativeDistanceMeter": 73347,
+      "is_turn_point": false,
+      "isTurnPoint": false,
+      "direction": "DOWN",
+      "is_non_stop": false,
+      "isNonStop": false
+    },
+    {
+      "station_seq": 74,
+      "stationSeq": 74,
+      "station_id": "127316",
+      "stationId": "127316",
+      "station_name": "석촌호수.한솔병원",
+      "stationName": "석촌호수.한솔병원",
+      "name": "석촌호수.한솔병원",
+      "mobile_no": "24003",
+      "mobileNo": "24003",
+      "latitude": 37.50684,
+      "longitude": 127.1058102,
+      "distance_meter": 478,
+      "distanceMeter": 478,
+      "cumulative_distance_meter": 73825,
+      "cumulativeDistanceMeter": 73825,
+      "is_turn_point": false,
+      "isTurnPoint": false,
+      "direction": "DOWN",
+      "is_non_stop": false,
+      "isNonStop": false
+    },
+    {
+      "station_seq": 75,
+      "stationSeq": 75,
+      "station_id": "90832",
+      "stationId": "90832",
+      "station_name": "석촌역교차로(미정차)",
+      "stationName": "석촌역교차로(미정차)",
+      "name": "석촌역교차로(미정차)",
+      "mobile_no": "-",
+      "mobileNo": "-",
+      "latitude": 37.5086979,
+      "longitude": 127.1044096,
+      "distance_meter": 241,
+      "distanceMeter": 241,
+      "cumulative_distance_meter": 74066,
+      "cumulativeDistanceMeter": 74066,
+      "is_turn_point": false,
+      "isTurnPoint": false,
+      "direction": "DOWN",
+      "is_non_stop": true,
+      "isNonStop": true
+    },
+    {
+      "station_seq": 76,
+      "stationSeq": 76,
+      "station_id": "127313",
+      "stationId": "127313",
+      "station_name": "잠실역.잠실대교남단",
+      "stationName": "잠실역.잠실대교남단",
+      "name": "잠실역.잠실대교남단",
+      "mobile_no": "24001",
+      "mobileNo": "24001",
+      "latitude": 37.5156375,
+      "longitude": 127.0984091,
+      "distance_meter": 936,
+      "distanceMeter": 936,
+      "cumulative_distance_meter": 75002,
+      "cumulativeDistanceMeter": 75002,
+      "is_turn_point": false,
+      "isTurnPoint": false,
+      "direction": "DOWN",
+      "is_non_stop": false,
+      "isNonStop": false
+    },
+    {
+      "station_seq": 77,
+      "stationSeq": 77,
+      "station_id": "87420",
+      "stationId": "87420",
+      "station_name": "잠실대교북단(미정차)",
+      "stationName": "잠실대교북단(미정차)",
+      "name": "잠실대교북단(미정차)",
+      "mobile_no": "-",
+      "mobileNo": "-",
+      "latitude": 37.5293357,
+      "longitude": 127.0904172,
+      "distance_meter": 1678,
+      "distanceMeter": 1678,
+      "cumulative_distance_meter": 76680,
+      "cumulativeDistanceMeter": 76680,
+      "is_turn_point": false,
+      "isTurnPoint": false,
+      "direction": "DOWN",
+      "is_non_stop": true,
+      "isNonStop": true
+    },
+    {
+      "station_seq": 78,
+      "stationSeq": 78,
+      "station_id": "195083",
+      "stationId": "195083",
+      "station_name": "테크노마트앞.강변역(D)",
+      "stationName": "테크노마트앞.강변역(D)",
+      "name": "테크노마트앞.강변역(D)",
+      "mobile_no": "05267",
+      "mobileNo": "05267",
+      "latitude": 37.5369135,
+      "longitude": 127.094022,
+      "distance_meter": 901,
+      "distanceMeter": 901,
+      "cumulative_distance_meter": 77581,
+      "cumulativeDistanceMeter": 77581,
+      "is_turn_point": false,
+      "isTurnPoint": false,
+      "direction": "DOWN",
+      "is_non_stop": false,
+      "isNonStop": false
+    },
+    {
+      "station_seq": 79,
+      "stationSeq": 79,
+      "station_id": "88047",
+      "stationId": "88047",
+      "station_name": "양지삼거리(미정차)",
+      "stationName": "양지삼거리(미정차)",
+      "name": "양지삼거리(미정차)",
+      "mobile_no": "-",
+      "mobileNo": "-",
+      "latitude": 37.5401179,
+      "longitude": 127.094472,
+      "distance_meter": 359,
+      "distanceMeter": 359,
+      "cumulative_distance_meter": 77940,
+      "cumulativeDistanceMeter": 77940,
+      "is_turn_point": false,
+      "isTurnPoint": false,
+      "direction": "DOWN",
+      "is_non_stop": true,
+      "isNonStop": true
+    },
+    {
+      "station_seq": 80,
+      "stationSeq": 80,
+      "station_id": "91966",
+      "stationId": "91966",
+      "station_name": "천호대교북단(미정차)",
+      "stationName": "천호대교북단(미정차)",
+      "name": "천호대교북단(미정차)",
+      "mobile_no": "-",
+      "mobileNo": "-",
+      "latitude": 37.5439516,
+      "longitude": 127.1076444,
+      "distance_meter": 1237,
+      "distanceMeter": 1237,
+      "cumulative_distance_meter": 79177,
+      "cumulativeDistanceMeter": 79177,
+      "is_turn_point": false,
+      "isTurnPoint": false,
+      "direction": "DOWN",
+      "is_non_stop": true,
+      "isNonStop": true
+    },
+    {
+      "station_seq": 81,
+      "stationSeq": 81,
+      "station_id": "91967",
+      "stationId": "91967",
+      "station_name": "아천IC(미정차)",
+      "stationName": "아천IC(미정차)",
+      "name": "아천IC(미정차)",
+      "mobile_no": "-",
+      "mobileNo": "-",
+      "latitude": 37.572619,
+      "longitude": 127.1279441,
+      "distance_meter": 3656,
+      "distanceMeter": 3656,
+      "cumulative_distance_meter": 82833,
+      "cumulativeDistanceMeter": 82833,
+      "is_turn_point": false,
+      "isTurnPoint": false,
+      "direction": "DOWN",
+      "is_non_stop": true,
+      "isNonStop": true
+    },
+    {
+      "station_seq": 82,
+      "stationSeq": 82,
+      "station_id": "91968",
+      "stationId": "91968",
+      "station_name": "토평삼거리(미정차)",
+      "stationName": "토평삼거리(미정차)",
+      "name": "토평삼거리(미정차)",
+      "mobile_no": "-",
+      "mobileNo": "-",
+      "latitude": 37.5766956,
+      "longitude": 127.145184,
+      "distance_meter": 1586,
+      "distanceMeter": 1586,
+      "cumulative_distance_meter": 84419,
+      "cumulativeDistanceMeter": 84419,
+      "is_turn_point": false,
+      "isTurnPoint": false,
+      "direction": "DOWN",
+      "is_non_stop": true,
+      "isNonStop": true
+    },
+    {
+      "station_seq": 83,
+      "stationSeq": 83,
+      "station_id": "154829",
+      "stationId": "154829",
+      "station_name": "토평정수장",
+      "stationName": "토평정수장",
+      "name": "토평정수장",
+      "mobile_no": "22133",
+      "mobileNo": "22133",
+      "latitude": 37.5801307,
+      "longitude": 127.1462435,
+      "distance_meter": 393,
+      "distanceMeter": 393,
+      "cumulative_distance_meter": 84812,
+      "cumulativeDistanceMeter": 84812,
+      "is_turn_point": false,
+      "isTurnPoint": false,
+      "direction": "DOWN",
+      "is_non_stop": false,
+      "isNonStop": false
+    },
+    {
+      "station_seq": 84,
+      "stationSeq": 84,
+      "station_id": "118049",
+      "stationId": "118049",
+      "station_name": "벌말.돌섬",
+      "stationName": "벌말.돌섬",
+      "name": "벌말.돌섬",
+      "mobile_no": "22137",
+      "mobileNo": "22137",
+      "latitude": 37.5843883,
+      "longitude": 127.1471223,
+      "distance_meter": 480,
+      "distanceMeter": 480,
+      "cumulative_distance_meter": 85292,
+      "cumulativeDistanceMeter": 85292,
+      "is_turn_point": false,
+      "isTurnPoint": false,
+      "direction": "DOWN",
+      "is_non_stop": false,
+      "isNonStop": false
+    },
+    {
+      "station_seq": 85,
+      "stationSeq": 85,
+      "station_id": "166421",
+      "stationId": "166421",
+      "station_name": "벌말삼거리.상록아파트",
+      "stationName": "벌말삼거리.상록아파트",
+      "name": "벌말삼거리.상록아파트",
+      "mobile_no": "22143",
+      "mobileNo": "22143",
+      "latitude": 37.586868,
+      "longitude": 127.148286,
+      "distance_meter": 294,
+      "distanceMeter": 294,
+      "cumulative_distance_meter": 85586,
+      "cumulativeDistanceMeter": 85586,
+      "is_turn_point": false,
+      "isTurnPoint": false,
+      "direction": "DOWN",
+      "is_non_stop": false,
+      "isNonStop": false
+    },
+    {
+      "station_seq": 86,
+      "stationSeq": 86,
+      "station_id": "183474",
+      "stationId": "183474",
+      "station_name": "동명빌라",
+      "stationName": "동명빌라",
+      "name": "동명빌라",
+      "mobile_no": "22149",
+      "mobileNo": "22149",
+      "latitude": 37.588973,
+      "longitude": 127.1490592,
+      "distance_meter": 244,
+      "distanceMeter": 244,
+      "cumulative_distance_meter": 85830,
+      "cumulativeDistanceMeter": 85830,
+      "is_turn_point": false,
+      "isTurnPoint": false,
+      "direction": "DOWN",
+      "is_non_stop": false,
+      "isNonStop": false
+    },
+    {
+      "station_seq": 87,
+      "stationSeq": 87,
+      "station_id": "109819",
+      "stationId": "109819",
+      "station_name": "구리여중고.청소년문화의집.성광교회",
+      "stationName": "구리여중고.청소년문화의집.성광교회",
+      "name": "구리여중고.청소년문화의집.성광교회",
+      "mobile_no": "22156",
+      "mobileNo": "22156",
+      "latitude": 37.5925341,
+      "longitude": 127.1503376,
+      "distance_meter": 412,
+      "distanceMeter": 412,
+      "cumulative_distance_meter": 86242,
+      "cumulativeDistanceMeter": 86242,
+      "is_turn_point": false,
+      "isTurnPoint": false,
+      "direction": "DOWN",
+      "is_non_stop": false,
+      "isNonStop": false
+    },
+    {
+      "station_seq": 88,
+      "stationSeq": 88,
+      "station_id": "109849",
+      "stationId": "109849",
+      "station_name": "수택고교.SK신일.우남아파트",
+      "stationName": "수택고교.SK신일.우남아파트",
+      "name": "수택고교.SK신일.우남아파트",
+      "mobile_no": "22163",
+      "mobileNo": "22163",
+      "latitude": 37.5935254,
+      "longitude": 127.1541691,
+      "distance_meter": 355,
+      "distanceMeter": 355,
+      "cumulative_distance_meter": 86597,
+      "cumulativeDistanceMeter": 86597,
+      "is_turn_point": false,
+      "isTurnPoint": false,
+      "direction": "DOWN",
+      "is_non_stop": false,
+      "isNonStop": false
+    },
+    {
+      "station_seq": 89,
+      "stationSeq": 89,
+      "station_id": "166432",
+      "stationId": "166432",
+      "station_name": "구리수택차고지",
+      "stationName": "구리수택차고지",
+      "name": "구리수택차고지",
+      "mobile_no": "22165",
+      "mobileNo": "22165",
+      "latitude": 37.5935975,
+      "longitude": 127.1566296,
+      "distance_meter": 217,
+      "distanceMeter": 217,
+      "cumulative_distance_meter": 86814,
+      "cumulativeDistanceMeter": 86814,
+      "is_turn_point": false,
+      "isTurnPoint": false,
+      "direction": "DOWN",
+      "is_non_stop": false,
+      "isNonStop": false
+    }
+  ],
+  "busPath": [
+    [
+      127.1564506,
+      37.5936318
+    ],
+    [
+      127.1564465,
+      37.5935926
+    ],
+    [
+      127.1563389,
+      37.5935843
+    ],
+    [
+      127.1552416,
+      37.5935855
+    ],
+    [
+      127.1550745,
+      37.593596
+    ],
+    [
+      127.1548481,
+      37.5936412
+    ],
+    [
+      127.1547143,
+      37.5936886
+    ],
+    [
+      127.1536996,
+      37.5939265
+    ],
+    [
+      127.1536996,
+      37.5939265
+    ],
+    [
+      127.1531524,
+      37.5940092
+    ],
+    [
+      127.1525057,
+      37.5941545
+    ],
+    [
+      127.1513141,
+      37.5943906
+    ],
+    [
+      127.1510868,
+      37.5944257
+    ],
+    [
+      127.1509064,
+      37.5944284
+    ],
+    [
+      127.1508293,
+      37.5944101
+    ],
+    [
+      127.1507487,
+      37.5943676
+    ],
+    [
+      127.1507038,
+      37.5943188
+    ],
+    [
+      127.1506268,
+      37.59412
+    ],
+    [
+      127.1504095,
+      37.5935767
+    ],
+    [
+      127.1504095,
+      37.5935767
+    ],
+    [
+      127.1502939,
+      37.5932371
+    ],
+    [
+      127.1501877,
+      37.5929005
+    ],
+    [
+      127.1498553,
+      37.5920043
+    ],
+    [
+      127.1497285,
+      37.5917608
+    ],
+    [
+      127.1497285,
+      37.5917608
+    ],
+    [
+      127.1493962,
+      37.5908937
+    ],
+    [
+      127.1492833,
+      37.5905048
+    ],
+    [
+      127.1488419,
+      37.5892124
+    ],
+    [
+      127.1487304,
+      37.5890791
+    ],
+    [
+      127.1486489,
+      37.5888299
+    ],
+    [
+      127.1486489,
+      37.5888299
+    ],
+    [
+      127.1486317,
+      37.5886373
+    ],
+    [
+      127.14843,
+      37.5880875
+    ],
+    [
+      127.1481818,
+      37.5874262
+    ],
+    [
+      127.1477105,
+      37.5860972
+    ],
+    [
+      127.147463,
+      37.585591
+    ],
+    [
+      127.147463,
+      37.585591
+    ],
+    [
+      127.1469416,
+      37.5846145
+    ],
+    [
+      127.146877,
+      37.5845081
+    ],
+    [
+      127.1468533,
+      37.5844156
+    ],
+    [
+      127.146713,
+      37.583811
+    ],
+    [
+      127.146713,
+      37.583811
+    ],
+    [
+      127.1463326,
+      37.5819442
+    ],
+    [
+      127.1459628,
+      37.580177
+    ],
+    [
+      127.1459628,
+      37.580177
+    ],
+    [
+      127.1457054,
+      37.5789468
+    ],
+    [
+      127.1454115,
+      37.5774061
+    ],
+    [
+      127.1453565,
+      37.577127
+    ],
+    [
+      127.1453153,
+      37.5770733
+    ],
+    [
+      127.1452716,
+      37.5770302
+    ],
+    [
+      127.145214,
+      37.5769871
+    ],
+    [
+      127.1451003,
+      37.5769351
+    ],
+    [
+      127.1450224,
+      37.5769171
+    ],
+    [
+      127.1447528,
+      37.5769196
+    ],
+    [
+      127.1447528,
+      37.5769196
+    ],
+    [
+      127.1440566,
+      37.5769351
+    ],
+    [
+      127.1433556,
+      37.5769502
+    ],
+    [
+      127.1427065,
+      37.5769556
+    ],
+    [
+      127.1422286,
+      37.5769463
+    ],
+    [
+      127.1417335,
+      37.5769375
+    ],
+    [
+      127.1406605,
+      37.5769146
+    ],
+    [
+      127.1401265,
+      37.57688
+    ],
+    [
+      127.1399735,
+      37.5768619
+    ],
+    [
+      127.1398209,
+      37.576843
+    ],
+    [
+      127.1394526,
+      37.5768047
+    ],
+    [
+      127.1389707,
+      37.5767459
+    ],
+    [
+      127.1384652,
+      37.5766686
+    ],
+    [
+      127.1379706,
+      37.5765865
+    ],
+    [
+      127.137192,
+      37.5764315
+    ],
+    [
+      127.1366137,
+      37.5763046
+    ],
+    [
+      127.1358336,
+      37.5760947
+    ],
+    [
+      127.1351578,
+      37.575918
+    ],
+    [
+      127.1346889,
+      37.5757913
+    ],
+    [
+      127.1341338,
+      37.5756093
+    ],
+    [
+      127.133841,
+      37.5755098
+    ],
+    [
+      127.1332761,
+      37.5752981
+    ],
+    [
+      127.1325911,
+      37.5750415
+    ],
+    [
+      127.132062,
+      37.5748243
+    ],
+    [
+      127.1309541,
+      37.5743119
+    ],
+    [
+      127.1305999,
+      37.5741577
+    ],
+    [
+      127.1302359,
+      37.5739938
+    ],
+    [
+      127.1297852,
+      37.5737919
+    ],
+    [
+      127.1292392,
+      37.5735487
+    ],
+    [
+      127.1285746,
+      37.5732377
+    ],
+    [
+      127.1285746,
+      37.5732377
+    ],
+    [
+      127.1281222,
+      37.5730237
+    ],
+    [
+      127.1279244,
+      37.5729271
+    ],
+    [
+      127.127698,
+      37.572806
+    ],
+    [
+      127.127486,
+      37.5726698
+    ],
+    [
+      127.1271579,
+      37.5724512
+    ],
+    [
+      127.1254713,
+      37.5712271
+    ],
+    [
+      127.1251284,
+      37.5709754
+    ],
+    [
+      127.1249107,
+      37.5708296
+    ],
+    [
+      127.1219595,
+      37.5686001
+    ],
+    [
+      127.1212873,
+      37.5680095
+    ],
+    [
+      127.1207081,
+      37.5674685
+    ],
+    [
+      127.1202799,
+      37.5670378
+    ],
+    [
+      127.1193409,
+      37.5660307
+    ],
+    [
+      127.1178551,
+      37.5643527
+    ],
+    [
+      127.1171853,
+      37.5635547
+    ],
+    [
+      127.1164648,
+      37.5625552
+    ],
+    [
+      127.1160783,
+      37.5619532
+    ],
+    [
+      127.1157508,
+      37.5613815
+    ],
+    [
+      127.1152635,
+      37.5604768
+    ],
+    [
+      127.1143722,
+      37.558634
+    ],
+    [
+      127.1139966,
+      37.557865
+    ],
+    [
+      127.1137943,
+      37.5574112
+    ],
+    [
+      127.1136302,
+      37.5569324
+    ],
+    [
+      127.1134889,
+      37.5564358
+    ],
+    [
+      127.1132972,
+      37.5554252
+    ],
+    [
+      127.1132113,
+      37.5550281
+    ],
+    [
+      127.113047,
+      37.5545673
+    ],
+    [
+      127.1127268,
+      37.5538891
+    ],
+    [
+      127.1120578,
+      37.5526114
+    ],
+    [
+      127.1112811,
+      37.5511422
+    ],
+    [
+      127.1110448,
+      37.5506597
+    ],
+    [
+      127.1108026,
+      37.5500902
+    ],
+    [
+      127.1107165,
+      37.5498331
+    ],
+    [
+      127.110617,
+      37.5494643
+    ],
+    [
+      127.1105093,
+      37.5489698
+    ],
+    [
+      127.1104138,
+      37.5485741
+    ],
+    [
+      127.1102982,
+      37.5480658
+    ],
+    [
+      127.1102798,
+      37.5479509
+    ],
+    [
+      127.1102747,
+      37.5477616
+    ],
+    [
+      127.1102613,
+      37.547516
+    ],
+    [
+      127.1101976,
+      37.5473152
+    ],
+    [
+      127.1100538,
+      37.5470024
+    ],
+    [
+      127.1099328,
+      37.5467933
+    ],
+    [
+      127.1098218,
+      37.5466215
+    ],
+    [
+      127.1096713,
+      37.5464178
+    ],
+    [
+      127.1093472,
+      37.546059
+    ],
+    [
+      127.1083934,
+      37.5452154
+    ],
+    [
+      127.1071878,
+      37.5440962
+    ],
+    [
+      127.1071878,
+      37.5440962
+    ],
+    [
+      127.1068175,
+      37.5437321
+    ],
+    [
+      127.1062335,
+      37.5431898
+    ],
+    [
+      127.1052924,
+      37.5423987
+    ],
+    [
+      127.103738,
+      37.5410553
+    ],
+    [
+      127.1030808,
+      37.5405304
+    ],
+    [
+      127.1027128,
+      37.5402858
+    ],
+    [
+      127.101816,
+      37.5397447
+    ],
+    [
+      127.1013858,
+      37.5394625
+    ],
+    [
+      127.1011667,
+      37.5392749
+    ],
+    [
+      127.1007201,
+      37.5388859
+    ],
+    [
+      127.0994335,
+      37.5377506
+    ],
+    [
+      127.0994335,
+      37.5377506
+    ],
+    [
+      127.0991162,
+      37.5374862
+    ],
+    [
+      127.0985265,
+      37.5370593
+    ],
+    [
+      127.0971671,
+      37.5358643
+    ],
+    [
+      127.096323,
+      37.5351304
+    ],
+    [
+      127.0959786,
+      37.5348244
+    ],
+    [
+      127.0958267,
+      37.5346875
+    ],
+    [
+      127.0957253,
+      37.5346109
+    ],
+    [
+      127.0956764,
+      37.5345904
+    ],
+    [
+      127.0956503,
+      37.534591
+    ],
+    [
+      127.0955022,
+      37.5346137
+    ],
+    [
+      127.095414,
+      37.5346549
+    ],
+    [
+      127.094607,
+      37.5359323
+    ],
+    [
+      127.0943216,
+      37.5362962
+    ],
+    [
+      127.0942018,
+      37.5364323
+    ],
+    [
+      127.093983,
+      37.5366579
+    ],
+    [
+      127.093983,
+      37.5366579
+    ],
+    [
+      127.0938373,
+      37.5367908
+    ],
+    [
+      127.0934724,
+      37.5370622
+    ],
+    [
+      127.0934195,
+      37.5370979
+    ],
+    [
+      127.0933631,
+      37.5371232
+    ],
+    [
+      127.0933027,
+      37.5371218
+    ],
+    [
+      127.0932448,
+      37.5371007
+    ],
+    [
+      127.0931991,
+      37.53706
+    ],
+    [
+      127.0931902,
+      37.5370202
+    ],
+    [
+      127.0931976,
+      37.5369666
+    ],
+    [
+      127.0932591,
+      37.5368751
+    ],
+    [
+      127.0933814,
+      37.5366916
+    ],
+    [
+      127.0934638,
+      37.5365518
+    ],
+    [
+      127.0938766,
+      37.5358411
+    ],
+    [
+      127.094308,
+      37.5350799
+    ],
+    [
+      127.0947644,
+      37.5342992
+    ],
+    [
+      127.0948796,
+      37.5341289
+    ],
+    [
+      127.0949529,
+      37.5339553
+    ],
+    [
+      127.0949342,
+      37.5338983
+    ],
+    [
+      127.0948852,
+      37.5338221
+    ],
+    [
+      127.0948387,
+      37.5337682
+    ],
+    [
+      127.0943927,
+      37.5333526
+    ],
+    [
+      127.0932331,
+      37.5321785
+    ],
+    [
+      127.0928102,
+      37.5317708
+    ],
+    [
+      127.092258,
+      37.5312665
+    ],
+    [
+      127.0920431,
+      37.5310205
+    ],
+    [
+      127.0916162,
+      37.5306606
+    ],
+    [
+      127.0912927,
+      37.5303945
+    ],
+    [
+      127.0906813,
+      37.5299565
+    ],
+    [
+      127.0904304,
+      37.529795
+    ],
+    [
+      127.0901775,
+      37.5296702
+    ],
+    [
+      127.0901056,
+      37.5296481
+    ],
+    [
+      127.0899965,
+      37.5296131
+    ],
+    [
+      127.0898079,
+      37.5295823
+    ],
+    [
+      127.0897263,
+      37.5295779
+    ],
+    [
+      127.0896385,
+      37.5295748
+    ],
+    [
+      127.0895594,
+      37.5295755
+    ],
+    [
+      127.0894577,
+      37.5295801
+    ],
+    [
+      127.0893217,
+      37.5296055
+    ],
+    [
+      127.0891696,
+      37.5296414
+    ],
+    [
+      127.0889277,
+      37.5297239
+    ],
+    [
+      127.088669,
+      37.5298191
+    ],
+    [
+      127.0885225,
+      37.5298508
+    ],
+    [
+      127.0883976,
+      37.5298649
+    ],
+    [
+      127.088255,
+      37.5298593
+    ],
+    [
+      127.0880323,
+      37.5298325
+    ],
+    [
+      127.0879362,
+      37.5298024
+    ],
+    [
+      127.087809,
+      37.5297515
+    ],
+    [
+      127.087809,
+      37.5297515
+    ],
+    [
+      127.087706,
+      37.5297105
+    ],
+    [
+      127.0876084,
+      37.5296676
+    ],
+    [
+      127.0874986,
+      37.5296125
+    ],
+    [
+      127.0873616,
+      37.5295345
+    ],
+    [
+      127.0872732,
+      37.5294689
+    ],
+    [
+      127.0871973,
+      37.5293968
+    ],
+    [
+      127.0871406,
+      37.5293188
+    ],
+    [
+      127.0871069,
+      37.5292591
+    ],
+    [
+      127.0870854,
+      37.5292114
+    ],
+    [
+      127.0870758,
+      37.5291573
+    ],
+    [
+      127.0870755,
+      37.529107
+    ],
+    [
+      127.0870835,
+      37.5290534
+    ],
+    [
+      127.0871054,
+      37.5290037
+    ],
+    [
+      127.0871312,
+      37.5289649
+    ],
+    [
+      127.087174,
+      37.5289125
+    ],
+    [
+      127.0872227,
+      37.5288769
+    ],
+    [
+      127.0872958,
+      37.5288367
+    ],
+    [
+      127.0873429,
+      37.5288185
+    ],
+    [
+      127.0874162,
+      37.5287998
+    ],
+    [
+      127.0874751,
+      37.5287913
+    ],
+    [
+      127.0875225,
+      37.5287932
+    ],
+    [
+      127.0875917,
+      37.5288026
+    ],
+    [
+      127.0877027,
+      37.5288113
+    ],
+    [
+      127.0878382,
+      37.5287957
+    ],
+    [
+      127.087901,
+      37.5287683
+    ],
+    [
+      127.0880003,
+      37.5287101
+    ],
+    [
+      127.0880569,
+      37.528671
+    ],
+    [
+      127.0894223,
+      37.5268905
+    ],
+    [
+      127.0906073,
+      37.5253379
+    ],
+    [
+      127.0929404,
+      37.5223193
+    ],
+    [
+      127.0935689,
+      37.5214799
+    ],
+    [
+      127.0935689,
+      37.5214799
+    ],
+    [
+      127.0936915,
+      37.52127
+    ],
+    [
+      127.0956271,
+      37.5188204
+    ],
+    [
+      127.0961956,
+      37.518107
+    ],
+    [
+      127.0975134,
+      37.516563
+    ],
+    [
+      127.0994688,
+      37.5140561
+    ],
+    [
+      127.0997067,
+      37.5137447
+    ],
+    [
+      127.0997067,
+      37.5137447
+    ],
+    [
+      127.0999324,
+      37.5134486
+    ],
+    [
+      127.1003633,
+      37.5124781
+    ],
+    [
+      127.1006486,
+      37.5121134
+    ],
+    [
+      127.1012445,
+      37.5113579
+    ],
+    [
+      127.1013285,
+      37.5112593
+    ],
+    [
+      127.1013285,
+      37.5112593
+    ],
+    [
+      127.1017094,
+      37.5108373
+    ],
+    [
+      127.1018301,
+      37.5107003
+    ],
+    [
+      127.1024108,
+      37.5100882
+    ],
+    [
+      127.1027156,
+      37.5097644
+    ],
+    [
+      127.1030089,
+      37.5094391
+    ],
+    [
+      127.1035549,
+      37.5088843
+    ],
+    [
+      127.1039637,
+      37.5084807
+    ],
+    [
+      127.1049466,
+      37.5076581
+    ],
+    [
+      127.1053385,
+      37.5072173
+    ],
+    [
+      127.1053385,
+      37.5072173
+    ],
+    [
+      127.1055495,
+      37.5069798
+    ],
+    [
+      127.1060437,
+      37.5064261
+    ],
+    [
+      127.1070374,
+      37.5053163
+    ],
+    [
+      127.1080311,
+      37.5042065
+    ],
+    [
+      127.1084357,
+      37.503756
+    ],
+    [
+      127.1084357,
+      37.503756
+    ],
+    [
+      127.1086745,
+      37.503491
+    ],
+    [
+      127.1108287,
+      37.5011289
+    ],
+    [
+      127.1111958,
+      37.5007196
+    ],
+    [
+      127.1111958,
+      37.5007196
+    ],
+    [
+      127.1115036,
+      37.5003779
+    ],
+    [
+      127.1126407,
+      37.4991272
+    ],
+    [
+      127.1136794,
+      37.4979778
+    ],
+    [
+      127.1142089,
+      37.4973949
+    ],
+    [
+      127.1150785,
+      37.4964232
+    ],
+    [
+      127.1156317,
+      37.4958092
+    ],
+    [
+      127.1161301,
+      37.4953371
+    ],
+    [
+      127.1165432,
+      37.4948748
+    ],
+    [
+      127.1165432,
+      37.4948748
+    ],
+    [
+      127.1168306,
+      37.4945533
+    ],
+    [
+      127.1190214,
+      37.4920515
+    ],
+    [
+      127.1197974,
+      37.4909986
+    ],
+    [
+      127.1205555,
+      37.4896799
+    ],
+    [
+      127.1208329,
+      37.4891359
+    ],
+    [
+      127.1208329,
+      37.4891359
+    ],
+    [
+      127.1209701,
+      37.4888659
+    ],
+    [
+      127.1220663,
+      37.4866907
+    ],
+    [
+      127.1232036,
+      37.4845236
+    ],
+    [
+      127.1236438,
+      37.4836157
+    ],
+    [
+      127.1239051,
+      37.4831039
+    ],
+    [
+      127.1239051,
+      37.4831039
+    ],
+    [
+      127.1240722,
+      37.4827775
+    ],
+    [
+      127.1246847,
+      37.4815515
+    ],
+    [
+      127.1252576,
+      37.4804404
+    ],
+    [
+      127.1254139,
+      37.4801342
+    ],
+    [
+      127.1255472,
+      37.4798768
+    ],
+    [
+      127.1255472,
+      37.4798768
+    ],
+    [
+      127.1256906,
+      37.4795975
+    ],
+    [
+      127.126395,
+      37.4781531
+    ],
+    [
+      127.1265648,
+      37.4777257
+    ],
+    [
+      127.1266727,
+      37.4774042
+    ],
+    [
+      127.1267536,
+      37.477091
+    ],
+    [
+      127.1268071,
+      37.4767242
+    ],
+    [
+      127.1267936,
+      37.4762304
+    ],
+    [
+      127.1267695,
+      37.4755719
+    ],
+    [
+      127.1267249,
+      37.4753684
+    ],
+    [
+      127.1267009,
+      37.4752287
+    ],
+    [
+      127.1266499,
+      37.4750478
+    ],
+    [
+      127.1265316,
+      37.4748872
+    ],
+    [
+      127.126377,
+      37.4747491
+    ],
+    [
+      127.1262369,
+      37.4745933
+    ],
+    [
+      127.1261553,
+      37.4744465
+    ],
+    [
+      127.1261013,
+      37.4742705
+    ],
+    [
+      127.1260658,
+      37.4740752
+    ],
+    [
+      127.1260143,
+      37.4738381
+    ],
+    [
+      127.1259803,
+      37.4736955
+    ],
+    [
+      127.1259268,
+      37.4734851
+    ],
+    [
+      127.1258253,
+      37.473225
+    ],
+    [
+      127.1256844,
+      37.4729006
+    ],
+    [
+      127.1256844,
+      37.4729006
+    ],
+    [
+      127.1255032,
+      37.4725515
+    ],
+    [
+      127.1253454,
+      37.4721949
+    ],
+    [
+      127.1251799,
+      37.4717848
+    ],
+    [
+      127.1250648,
+      37.4714515
+    ],
+    [
+      127.1250044,
+      37.4711866
+    ],
+    [
+      127.1249517,
+      37.4709558
+    ],
+    [
+      127.1249089,
+      37.4704476
+    ],
+    [
+      127.1248483,
+      37.4700609
+    ],
+    [
+      127.1248147,
+      37.4694327
+    ],
+    [
+      127.1248545,
+      37.4689284
+    ],
+    [
+      127.1249972,
+      37.4683258
+    ],
+    [
+      127.1252154,
+      37.4670569
+    ],
+    [
+      127.1253826,
+      37.4662922
+    ],
+    [
+      127.1254938,
+      37.4654821
+    ],
+    [
+      127.1254701,
+      37.4645989
+    ],
+    [
+      127.1250946,
+      37.4599556
+    ],
+    [
+      127.1251107,
+      37.4585681
+    ],
+    [
+      127.1252193,
+      37.45701
+    ],
+    [
+      127.125428,
+      37.4555789
+    ],
+    [
+      127.1255994,
+      37.4544538
+    ],
+    [
+      127.125666,
+      37.4535803
+    ],
+    [
+      127.1257673,
+      37.4516707
+    ],
+    [
+      127.125753,
+      37.450968
+    ],
+    [
+      127.125753,
+      37.450968
+    ],
+    [
+      127.1257912,
+      37.4496165
+    ],
+    [
+      127.1257103,
+      37.4487959
+    ],
+    [
+      127.125587,
+      37.4482273
+    ],
+    [
+      127.1254847,
+      37.4478494
+    ],
+    [
+      127.1253383,
+      37.4474363
+    ],
+    [
+      127.1243092,
+      37.4449515
+    ],
+    [
+      127.1228679,
+      37.4415213
+    ],
+    [
+      127.1225724,
+      37.4406991
+    ],
+    [
+      127.1223688,
+      37.4397425
+    ],
+    [
+      127.1223676,
+      37.4388774
+    ],
+    [
+      127.1223951,
+      37.4384541
+    ],
+    [
+      127.12218,
+      37.436542
+    ],
+    [
+      127.12218,
+      37.436542
+    ],
+    [
+      127.1221148,
+      37.4360547
+    ],
+    [
+      127.1223108,
+      37.4349004
+    ],
+    [
+      127.1227227,
+      37.4341176
+    ],
+    [
+      127.1232685,
+      37.4330895
+    ],
+    [
+      127.1233053,
+      37.4321083
+    ],
+    [
+      127.1232816,
+      37.4302609
+    ],
+    [
+      127.1232283,
+      37.4261066
+    ],
+    [
+      127.1231536,
+      37.4223213
+    ],
+    [
+      127.1231014,
+      37.4203977
+    ],
+    [
+      127.1230533,
+      37.4195827
+    ],
+    [
+      127.1228717,
+      37.418628
+    ],
+    [
+      127.1227231,
+      37.4180653
+    ],
+    [
+      127.1225251,
+      37.4176043
+    ],
+    [
+      127.1223448,
+      37.4172032
+    ],
+    [
+      127.122181,
+      37.4168569
+    ],
+    [
+      127.121852,
+      37.416342
+    ],
+    [
+      127.1211781,
+      37.4153745
+    ],
+    [
+      127.1179691,
+      37.4111277
+    ],
+    [
+      127.1178043,
+      37.4109396
+    ],
+    [
+      127.117379,
+      37.4104659
+    ],
+    [
+      127.1168151,
+      37.4099897
+    ],
+    [
+      127.1162256,
+      37.4095289
+    ],
+    [
+      127.1154769,
+      37.4090885
+    ],
+    [
+      127.1148978,
+      37.4088044
+    ],
+    [
+      127.1141652,
+      37.4084987
+    ],
+    [
+      127.1135033,
+      37.4082805
+    ],
+    [
+      127.1129194,
+      37.4081316
+    ],
+    [
+      127.1123414,
+      37.4080218
+    ],
+    [
+      127.1117254,
+      37.4079272
+    ],
+    [
+      127.1109812,
+      37.4078767
+    ],
+    [
+      127.1081357,
+      37.4078158
+    ],
+    [
+      127.1048493,
+      37.4077704
+    ],
+    [
+      127.1039868,
+      37.4077375
+    ],
+    [
+      127.1025364,
+      37.407732
+    ],
+    [
+      127.1021248,
+      37.407739
+    ],
+    [
+      127.1015221,
+      37.407728
+    ],
+    [
+      127.100974,
+      37.4076922
+    ],
+    [
+      127.1006002,
+      37.4076615
+    ],
+    [
+      127.1000285,
+      37.4075638
+    ],
+    [
+      127.099347,
+      37.4074098
+    ],
+    [
+      127.0986427,
+      37.4072247
+    ],
+    [
+      127.095053,
+      37.40608
+    ],
+    [
+      127.095053,
+      37.40608
+    ],
+    [
+      127.0942019,
+      37.4058001
+    ],
+    [
+      127.092105,
+      37.4051222
+    ],
+    [
+      127.0901028,
+      37.4044472
+    ],
+    [
+      127.089046,
+      37.4040426
+    ],
+    [
+      127.0875404,
+      37.4033822
+    ],
+    [
+      127.0866436,
+      37.4029059
+    ],
+    [
+      127.0857469,
+      37.4024296
+    ],
+    [
+      127.0847839,
+      37.4018445
+    ],
+    [
+      127.0834231,
+      37.4009372
+    ],
+    [
+      127.0818468,
+      37.3997429
+    ],
+    [
+      127.0789705,
+      37.397757
+    ],
+    [
+      127.0780955,
+      37.3973401
+    ],
+    [
+      127.0771097,
+      37.3968852
+    ],
+    [
+      127.0761485,
+      37.3965024
+    ],
+    [
+      127.0753206,
+      37.3962737
+    ],
+    [
+      127.0747309,
+      37.396124
+    ],
+    [
+      127.0736655,
+      37.3959204
+    ],
+    [
+      127.0728216,
+      37.3958187
+    ],
+    [
+      127.0718042,
+      37.3957535
+    ],
+    [
+      127.0706027,
+      37.3956544
+    ],
+    [
+      127.0681706,
+      37.3954958
+    ],
+    [
+      127.0659084,
+      37.3954528
+    ],
+    [
+      127.063116,
+      37.3954463
+    ],
+    [
+      127.0610718,
+      37.3955612
+    ],
+    [
+      127.0585794,
+      37.395937
+    ],
+    [
+      127.0565455,
+      37.3962641
+    ],
+    [
+      127.0548927,
+      37.3964922
+    ],
+    [
+      127.054283,
+      37.396543
+    ],
+    [
+      127.054283,
+      37.396543
+    ],
+    [
+      127.0540253,
+      37.396567
+    ],
+    [
+      127.0538026,
+      37.3965771
+    ],
+    [
+      127.0533987,
+      37.3965999
+    ],
+    [
+      127.052768,
+      37.3966158
+    ],
+    [
+      127.0517394,
+      37.3965902
+    ],
+    [
+      127.0505791,
+      37.3965138
+    ],
+    [
+      127.0469818,
+      37.3958933
+    ],
+    [
+      127.044729,
+      37.3956017
+    ],
+    [
+      127.0400614,
+      37.3950015
+    ],
+    [
+      127.0365524,
+      37.3945483
+    ],
+    [
+      127.035506,
+      37.3943856
+    ],
+    [
+      127.034127,
+      37.3942176
+    ],
+    [
+      127.0328782,
+      37.3939876
+    ],
+    [
+      127.0316231,
+      37.3937691
+    ],
+    [
+      127.0310153,
+      37.3936595
+    ],
+    [
+      127.0301033,
+      37.3934768
+    ],
+    [
+      127.0290764,
+      37.3933026
+    ],
+    [
+      127.0285879,
+      37.3932468
+    ],
+    [
+      127.0283771,
+      37.3932267
+    ],
+    [
+      127.0282331,
+      37.3932221
+    ],
+    [
+      127.0280024,
+      37.3932195
+    ],
+    [
+      127.0277165,
+      37.3932305
+    ],
+    [
+      127.0271658,
+      37.3932634
+    ],
+    [
+      127.0265083,
+      37.3933192
+    ],
+    [
+      127.0259643,
+      37.3934124
+    ],
+    [
+      127.0247799,
+      37.3934187
+    ],
+    [
+      127.0240315,
+      37.3933628
+    ],
+    [
+      127.023549,
+      37.393338
+    ],
+    [
+      127.023549,
+      37.393338
+    ],
+    [
+      127.022953,
+      37.3931792
+    ],
+    [
+      127.0219643,
+      37.3929991
+    ],
+    [
+      127.0217133,
+      37.3929349
+    ],
+    [
+      127.0180795,
+      37.3929754
+    ],
+    [
+      127.0178345,
+      37.3929372
+    ],
+    [
+      127.0169312,
+      37.3928962
+    ],
+    [
+      127.016022,
+      37.392798
+    ],
+    [
+      127.0150692,
+      37.3926302
+    ],
+    [
+      127.0141921,
+      37.3924408
+    ],
+    [
+      127.0133984,
+      37.3921918
+    ],
+    [
+      127.0128056,
+      37.3919677
+    ],
+    [
+      127.0121448,
+      37.3916769
+    ],
+    [
+      127.0091333,
+      37.3903336
+    ],
+    [
+      127.0069069,
+      37.3891758
+    ],
+    [
+      127.0061029,
+      37.3888322
+    ],
+    [
+      127.0055302,
+      37.3885931
+    ],
+    [
+      127.0047094,
+      37.3883159
+    ],
+    [
+      127.0039671,
+      37.3880934
+    ],
+    [
+      127.0018114,
+      37.3875787
+    ],
+    [
+      127.0018114,
+      37.3875787
+    ],
+    [
+      126.9986153,
+      37.3867776
+    ],
+    [
+      126.9978031,
+      37.3866208
+    ],
+    [
+      126.9960218,
+      37.3861155
+    ],
+    [
+      126.9941219,
+      37.3855591
+    ],
+    [
+      126.9924295,
+      37.3849908
+    ],
+    [
+      126.9915841,
+      37.3847313
+    ],
+    [
+      126.9890989,
+      37.3837849
+    ],
+    [
+      126.984359,
+      37.3819836
+    ],
+    [
+      126.9799955,
+      37.3803654
+    ],
+    [
+      126.9793209,
+      37.3801523
+    ],
+    [
+      126.9787473,
+      37.3799852
+    ],
+    [
+      126.9779143,
+      37.3797978
+    ],
+    [
+      126.9775618,
+      37.3797572
+    ],
+    [
+      126.9768809,
+      37.3796937
+    ],
+    [
+      126.976343,
+      37.3796705
+    ],
+    [
+      126.9753575,
+      37.3796844
+    ],
+    [
+      126.9746473,
+      37.3797472
+    ],
+    [
+      126.9741919,
+      37.3798243
+    ],
+    [
+      126.973678,
+      37.3799456
+    ],
+    [
+      126.9727382,
+      37.3801902
+    ],
+    [
+      126.972086,
+      37.3804083
+    ],
+    [
+      126.9711199,
+      37.3807852
+    ],
+    [
+      126.9703788,
+      37.3810389
+    ],
+    [
+      126.9689028,
+      37.3815052
+    ],
+    [
+      126.9686296,
+      37.3816693
+    ],
+    [
+      126.9681972,
+      37.3817801
+    ],
+    [
+      126.967893,
+      37.3819
+    ],
+    [
+      126.967893,
+      37.3819
+    ],
+    [
+      126.9664407,
+      37.3823586
+    ],
+    [
+      126.9662243,
+      37.3824893
+    ],
+    [
+      126.9658184,
+      37.382724
+    ],
+    [
+      126.9656113,
+      37.3827779
+    ],
+    [
+      126.9653816,
+      37.3827598
+    ],
+    [
+      126.9650365,
+      37.3826609
+    ],
+    [
+      126.9633174,
+      37.3819642
+    ],
+    [
+      126.9616006,
+      37.3812803
+    ],
+    [
+      126.9601844,
+      37.3807878
+    ],
+    [
+      126.9554357,
+      37.3787907
+    ],
+    [
+      126.955359,
+      37.3787554
+    ],
+    [
+      126.9552032,
+      37.3787506
+    ],
+    [
+      126.9550583,
+      37.3789815
+    ],
+    [
+      126.954908,
+      37.379372
+    ],
+    [
+      126.954908,
+      37.379372
+    ],
+    [
+      126.9546931,
+      37.3797238
+    ],
+    [
+      126.9541979,
+      37.3806696
+    ],
+    [
+      126.9535478,
+      37.381849
+    ],
+    [
+      126.9535478,
+      37.381849
+    ],
+    [
+      126.9533535,
+      37.3822241
+    ],
+    [
+      126.9528674,
+      37.3830658
+    ],
+    [
+      126.9523146,
+      37.3841204
+    ],
+    [
+      126.9518719,
+      37.3849478
+    ],
+    [
+      126.951408,
+      37.385832
+    ],
+    [
+      126.951408,
+      37.385832
+    ],
+    [
+      126.9513014,
+      37.3859652
+    ],
+    [
+      126.9508775,
+      37.3867547
+    ],
+    [
+      126.9507149,
+      37.387043
+    ],
+    [
+      126.9505769,
+      37.3872642
+    ],
+    [
+      126.9503292,
+      37.3875838
+    ],
+    [
+      126.9500726,
+      37.3878487
+    ],
+    [
+      126.949693,
+      37.3881999
+    ],
+    [
+      126.949222,
+      37.388556
+    ],
+    [
+      126.949222,
+      37.388556
+    ],
+    [
+      126.948645,
+      37.388879
+    ],
+    [
+      126.9481305,
+      37.3893037
+    ],
+    [
+      126.947186,
+      37.3901388
+    ],
+    [
+      126.945297,
+      37.391622
+    ],
+    [
+      126.945297,
+      37.391622
+    ],
+    [
+      126.9424892,
+      37.3938632
+    ],
+    [
+      126.941506,
+      37.394589
+    ],
+    [
+      126.941506,
+      37.394589
+    ],
+    [
+      126.9407204,
+      37.3952238
+    ],
+    [
+      126.940309,
+      37.3955097
+    ],
+    [
+      126.9399782,
+      37.3957757
+    ],
+    [
+      126.939768,
+      37.3959217
+    ],
+    [
+      126.9392891,
+      37.3962865
+    ],
+    [
+      126.9390415,
+      37.3964717
+    ],
+    [
+      126.9390415,
+      37.3964717
+    ],
+    [
+      126.9388465,
+      37.3966169
+    ],
+    [
+      126.9386825,
+      37.3967308
+    ],
+    [
+      126.9386509,
+      37.3967633
+    ],
+    [
+      126.9384641,
+      37.3968796
+    ],
+    [
+      126.9383721,
+      37.3969184
+    ],
+    [
+      126.9380214,
+      37.3970844
+    ],
+    [
+      126.9371004,
+      37.3974441
+    ],
+    [
+      126.937007,
+      37.3974911
+    ],
+    [
+      126.9364391,
+      37.3977046
+    ],
+    [
+      126.9360243,
+      37.3978624
+    ],
+    [
+      126.9354,
+      37.3980963
+    ],
+    [
+      126.9346184,
+      37.3983064
+    ],
+    [
+      126.9339231,
+      37.3985281
+    ],
+    [
+      126.9336999,
+      37.3985651
+    ],
+    [
+      126.9334811,
+      37.3985534
+    ],
+    [
+      126.9331957,
+      37.3984699
+    ],
+    [
+      126.9328067,
+      37.3982952
+    ],
+    [
+      126.931843,
+      37.3977862
+    ],
+    [
+      126.9312145,
+      37.397449
+    ],
+    [
+      126.9309365,
+      37.3973054
+    ],
+    [
+      126.9305341,
+      37.3971013
+    ],
+    [
+      126.9305341,
+      37.3971013
+    ],
+    [
+      126.9305141,
+      37.3970927
+    ],
+    [
+      126.9304467,
+      37.3970358
+    ],
+    [
+      126.930283,
+      37.396919
+    ],
+    [
+      126.9301286,
+      37.3968211
+    ],
+    [
+      126.928303,
+      37.3958703
+    ],
+    [
+      126.9280653,
+      37.3957488
+    ],
+    [
+      126.9278885,
+      37.3956426
+    ],
+    [
+      126.9273105,
+      37.3953331
+    ],
+    [
+      126.9268205,
+      37.3951373
+    ],
+    [
+      126.9263207,
+      37.394887
+    ],
+    [
+      126.9262231,
+      37.3948498
+    ],
+    [
+      126.9261227,
+      37.394805
+    ],
+    [
+      126.9261227,
+      37.394805
+    ],
+    [
+      126.9259829,
+      37.3947304
+    ],
+    [
+      126.9259514,
+      37.3947112
+    ],
+    [
+      126.9257441,
+      37.3946028
+    ],
+    [
+      126.9253972,
+      37.3944304
+    ],
+    [
+      126.9253052,
+      37.3944454
+    ],
+    [
+      126.9241442,
+      37.3958383
+    ],
+    [
+      126.923866,
+      37.396169
+    ],
+    [
+      126.923866,
+      37.396169
+    ],
+    [
+      126.9228762,
+      37.3973487
+    ],
+    [
+      126.9225497,
+      37.3977359
+    ],
+    [
+      126.921384,
+      37.399138
+    ],
+    [
+      126.921384,
+      37.399138
+    ],
+    [
+      126.9206867,
+      37.3999701
+    ],
+    [
+      126.9206889,
+      37.4001361
+    ],
+    [
+      126.9211382,
+      37.4003749
+    ],
+    [
+      126.9219197,
+      37.4007913
+    ],
+    [
+      126.9221533,
+      37.4008659
+    ],
+    [
+      126.9222155,
+      37.4008624
+    ],
+    [
+      126.9222831,
+      37.4008689
+    ],
+    [
+      126.9223369,
+      37.4008898
+    ],
+    [
+      126.9223968,
+      37.400936
+    ],
+    [
+      126.9224325,
+      37.4009835
+    ],
+    [
+      126.9224605,
+      37.4010407
+    ],
+    [
+      126.9224666,
+      37.401101
+    ],
+    [
+      126.9224651,
+      37.4011542
+    ],
+    [
+      126.9224499,
+      37.4012073
+    ],
+    [
+      126.9222153,
+      37.4014935
+    ],
+    [
+      126.922192,
+      37.4015178
+    ],
+    [
+      126.922192,
+      37.4015178
+    ],
+    [
+      126.9218681,
+      37.4018586
+    ],
+    [
+      126.9217487,
+      37.4020028
+    ],
+    [
+      126.9215239,
+      37.4021909
+    ],
+    [
+      126.9213332,
+      37.4024247
+    ],
+    [
+      126.9212548,
+      37.4025376
+    ],
+    [
+      126.9209485,
+      37.4028994
+    ],
+    [
+      126.9207783,
+      37.4030876
+    ],
+    [
+      126.9204643,
+      37.403478
+    ],
+    [
+      126.920256,
+      37.403714
+    ],
+    [
+      126.920256,
+      37.403714
+    ],
+    [
+      126.9201195,
+      37.4038118
+    ],
+    [
+      126.919995,
+      37.4038286
+    ],
+    [
+      126.9198414,
+      37.4037774
+    ],
+    [
+      126.9190195,
+      37.4033332
+    ],
+    [
+      126.9183358,
+      37.4029665
+    ],
+    [
+      126.9181005,
+      37.4028292
+    ],
+    [
+      126.9180349,
+      37.4026844
+    ],
+    [
+      126.9180895,
+      37.4025251
+    ],
+    [
+      126.9190034,
+      37.4014205
+    ],
+    [
+      126.9190034,
+      37.4014205
+    ],
+    [
+      126.919592,
+      37.4007219
+    ],
+    [
+      126.9196745,
+      37.4006313
+    ],
+    [
+      126.9198274,
+      37.400439
+    ],
+    [
+      126.9200628,
+      37.4001562
+    ],
+    [
+      126.9214703,
+      37.3984838
+    ],
+    [
+      126.9214703,
+      37.3984838
+    ],
+    [
+      126.9222332,
+      37.3975485
+    ],
+    [
+      126.9225509,
+      37.3971709
+    ],
+    [
+      126.923208,
+      37.396361
+    ],
+    [
+      126.923208,
+      37.396361
+    ],
+    [
+      126.9237572,
+      37.3957319
+    ],
+    [
+      126.924977,
+      37.3942687
+    ],
+    [
+      126.9250572,
+      37.3941883
+    ],
+    [
+      126.9251278,
+      37.3941397
+    ],
+    [
+      126.9252238,
+      37.3941012
+    ],
+    [
+      126.9253289,
+      37.3940969
+    ],
+    [
+      126.9254889,
+      37.3940992
+    ],
+    [
+      126.9256682,
+      37.3941851
+    ],
+    [
+      126.9259366,
+      37.3943225
+    ],
+    [
+      126.9261528,
+      37.3944417
+    ],
+    [
+      126.926205,
+      37.39446
+    ],
+    [
+      126.926205,
+      37.39446
+    ],
+    [
+      126.9265081,
+      37.3946324
+    ],
+    [
+      126.9268402,
+      37.3948832
+    ],
+    [
+      126.9270663,
+      37.3950133
+    ],
+    [
+      126.9272853,
+      37.3951389
+    ],
+    [
+      126.9274085,
+      37.3952092
+    ],
+    [
+      126.9280654,
+      37.3955544
+    ],
+    [
+      126.9300212,
+      37.3965949
+    ],
+    [
+      126.9303139,
+      37.3967199
+    ],
+    [
+      126.9306316,
+      37.3968863
+    ],
+    [
+      126.9306316,
+      37.3968863
+    ],
+    [
+      126.9311515,
+      37.3971379
+    ],
+    [
+      126.9316713,
+      37.3974173
+    ],
+    [
+      126.9321933,
+      37.3976846
+    ],
+    [
+      126.9326254,
+      37.3979033
+    ],
+    [
+      126.9326254,
+      37.3979033
+    ],
+    [
+      126.9333465,
+      37.3982789
+    ],
+    [
+      126.9334755,
+      37.3982992
+    ],
+    [
+      126.937182,
+      37.39692
+    ],
+    [
+      126.937182,
+      37.39692
+    ],
+    [
+      126.9379086,
+      37.396638
+    ],
+    [
+      126.9382614,
+      37.396452
+    ],
+    [
+      126.9387067,
+      37.3961046
+    ],
+    [
+      126.941138,
+      37.394252
+    ],
+    [
+      126.941138,
+      37.394252
+    ],
+    [
+      126.9421836,
+      37.3934144
+    ],
+    [
+      126.945409,
+      37.390902
+    ],
+    [
+      126.945409,
+      37.390902
+    ],
+    [
+      126.9463133,
+      37.390151
+    ],
+    [
+      126.9464399,
+      37.3900502
+    ],
+    [
+      126.9465576,
+      37.3900022
+    ],
+    [
+      126.9467686,
+      37.3898334
+    ],
+    [
+      126.9472574,
+      37.3894355
+    ],
+    [
+      126.9477508,
+      37.3890716
+    ],
+    [
+      126.9483116,
+      37.3886307
+    ],
+    [
+      126.948749,
+      37.3882463
+    ],
+    [
+      126.948749,
+      37.3882463
+    ],
+    [
+      126.9492377,
+      37.3878489
+    ],
+    [
+      126.9496071,
+      37.3875168
+    ],
+    [
+      126.9500032,
+      37.3870713
+    ],
+    [
+      126.9502192,
+      37.386761
+    ],
+    [
+      126.9503872,
+      37.3864622
+    ],
+    [
+      126.9505728,
+      37.3861091
+    ],
+    [
+      126.950833,
+      37.385617
+    ],
+    [
+      126.9509626,
+      37.3853835
+    ],
+    [
+      126.9509626,
+      37.3853835
+    ],
+    [
+      126.9518669,
+      37.383715
+    ],
+    [
+      126.952208,
+      37.383072
+    ],
+    [
+      126.952753,
+      37.3820915
+    ],
+    [
+      126.952753,
+      37.3820915
+    ],
+    [
+      126.9547529,
+      37.3783611
+    ],
+    [
+      126.9549303,
+      37.3781422
+    ],
+    [
+      126.9552872,
+      37.3780635
+    ],
+    [
+      126.9556712,
+      37.3780899
+    ],
+    [
+      126.9586238,
+      37.3792771
+    ],
+    [
+      126.9586238,
+      37.3792771
+    ],
+    [
+      126.9602886,
+      37.3799319
+    ],
+    [
+      126.9612328,
+      37.3803611
+    ],
+    [
+      126.9615829,
+      37.3805381
+    ],
+    [
+      126.9618839,
+      37.3807031
+    ],
+    [
+      126.9628432,
+      37.381119
+    ],
+    [
+      126.963218,
+      37.3812644
+    ],
+    [
+      126.9637661,
+      37.3814409
+    ],
+    [
+      126.9642842,
+      37.3815355
+    ],
+    [
+      126.964633,
+      37.381598
+    ],
+    [
+      126.965099,
+      37.3816294
+    ],
+    [
+      126.9655073,
+      37.3816375
+    ],
+    [
+      126.9660652,
+      37.3816011
+    ],
+    [
+      126.9663072,
+      37.3815788
+    ],
+    [
+      126.9670407,
+      37.3814425
+    ],
+    [
+      126.9671939,
+      37.3813913
+    ],
+    [
+      126.9676713,
+      37.3811624
+    ],
+    [
+      126.9676713,
+      37.3811624
+    ],
+    [
+      126.970785,
+      37.3801235
+    ],
+    [
+      126.9715893,
+      37.3799322
+    ],
+    [
+      126.9734257,
+      37.3794365
+    ],
+    [
+      126.9739236,
+      37.3793442
+    ],
+    [
+      126.9744285,
+      37.3792739
+    ],
+    [
+      126.9752832,
+      37.37918
+    ],
+    [
+      126.9762018,
+      37.3791616
+    ],
+    [
+      126.9770134,
+      37.3792217
+    ],
+    [
+      126.977968,
+      37.3793841
+    ],
+    [
+      126.9789445,
+      37.3795994
+    ],
+    [
+      126.9794624,
+      37.3797345
+    ],
+    [
+      126.9800002,
+      37.3799224
+    ],
+    [
+      126.9803758,
+      37.3800733
+    ],
+    [
+      126.9844075,
+      37.3816097
+    ],
+    [
+      126.9897556,
+      37.3836361
+    ],
+    [
+      126.9909954,
+      37.3840944
+    ],
+    [
+      126.9918463,
+      37.3843984
+    ],
+    [
+      126.9931251,
+      37.3847907
+    ],
+    [
+      126.9944568,
+      37.3852228
+    ],
+    [
+      126.9960706,
+      37.385765
+    ],
+    [
+      126.9976125,
+      37.3861475
+    ],
+    [
+      127.001192,
+      37.386998
+    ],
+    [
+      127.001192,
+      37.386998
+    ],
+    [
+      127.0033424,
+      37.3875114
+    ],
+    [
+      127.0046398,
+      37.3879117
+    ],
+    [
+      127.0053793,
+      37.3881398
+    ],
+    [
+      127.006401,
+      37.3884923
+    ],
+    [
+      127.0082833,
+      37.3894134
+    ],
+    [
+      127.0095996,
+      37.3900914
+    ],
+    [
+      127.0124159,
+      37.391399
+    ],
+    [
+      127.0133709,
+      37.3917764
+    ],
+    [
+      127.0139669,
+      37.3919706
+    ],
+    [
+      127.0147207,
+      37.3921841
+    ],
+    [
+      127.015329,
+      37.3923063
+    ],
+    [
+      127.0160952,
+      37.3924388
+    ],
+    [
+      127.0166479,
+      37.3924884
+    ],
+    [
+      127.0172458,
+      37.3925385
+    ],
+    [
+      127.0183611,
+      37.3925754
+    ],
+    [
+      127.021785,
+      37.3925941
+    ],
+    [
+      127.0235847,
+      37.3922845
+    ],
+    [
+      127.0242066,
+      37.3922266
+    ],
+    [
+      127.0257534,
+      37.3922573
+    ],
+    [
+      127.026058,
+      37.392287
+    ],
+    [
+      127.026058,
+      37.392287
+    ],
+    [
+      127.0270598,
+      37.3925193
+    ],
+    [
+      127.0283996,
+      37.3928558
+    ],
+    [
+      127.0295335,
+      37.3930234
+    ],
+    [
+      127.0306732,
+      37.393231
+    ],
+    [
+      127.0316903,
+      37.3933801
+    ],
+    [
+      127.0332909,
+      37.393598
+    ],
+    [
+      127.0346528,
+      37.393768
+    ],
+    [
+      127.0375514,
+      37.3941816
+    ],
+    [
+      127.040384,
+      37.3945226
+    ],
+    [
+      127.0429482,
+      37.3948417
+    ],
+    [
+      127.0435637,
+      37.3949013
+    ],
+    [
+      127.0446227,
+      37.3950783
+    ],
+    [
+      127.0476501,
+      37.3956337
+    ],
+    [
+      127.0490842,
+      37.395915
+    ],
+    [
+      127.0504346,
+      37.396104
+    ],
+    [
+      127.0513185,
+      37.3962136
+    ],
+    [
+      127.0520758,
+      37.3962481
+    ],
+    [
+      127.0525503,
+      37.3962578
+    ],
+    [
+      127.0531469,
+      37.3962606
+    ],
+    [
+      127.0537124,
+      37.3962313
+    ],
+    [
+      127.0542711,
+      37.3961991
+    ],
+    [
+      127.0550138,
+      37.3961197
+    ],
+    [
+      127.0550138,
+      37.3961197
+    ],
+    [
+      127.0584283,
+      37.3955938
+    ],
+    [
+      127.0599639,
+      37.3953427
+    ],
+    [
+      127.0610307,
+      37.3952365
+    ],
+    [
+      127.0630564,
+      37.3950879
+    ],
+    [
+      127.0656518,
+      37.395113
+    ],
+    [
+      127.0663802,
+      37.3950925
+    ],
+    [
+      127.0681245,
+      37.395128
+    ],
+    [
+      127.0717919,
+      37.3953844
+    ],
+    [
+      127.0727315,
+      37.3954404
+    ],
+    [
+      127.0746735,
+      37.3957256
+    ],
+    [
+      127.0758952,
+      37.3959972
+    ],
+    [
+      127.0772445,
+      37.3964993
+    ],
+    [
+      127.0782387,
+      37.3969587
+    ],
+    [
+      127.0787412,
+      37.3972087
+    ],
+    [
+      127.0792126,
+      37.3974457
+    ],
+    [
+      127.0821992,
+      37.3995564
+    ],
+    [
+      127.0838172,
+      37.4006585
+    ],
+    [
+      127.0848758,
+      37.4014238
+    ],
+    [
+      127.0860564,
+      37.4021154
+    ],
+    [
+      127.0879269,
+      37.4030831
+    ],
+    [
+      127.089053,
+      37.4035594
+    ],
+    [
+      127.0896177,
+      37.4038012
+    ],
+    [
+      127.0903954,
+      37.4041679
+    ],
+    [
+      127.0908049,
+      37.4043212
+    ],
+    [
+      127.0935671,
+      37.405217
+    ],
+    [
+      127.0935671,
+      37.405217
+    ],
+    [
+      127.0952514,
+      37.4057643
+    ],
+    [
+      127.0977388,
+      37.4065695
+    ],
+    [
+      127.0980591,
+      37.4066651
+    ],
+    [
+      127.0983278,
+      37.4067402
+    ],
+    [
+      127.098756,
+      37.4068418
+    ],
+    [
+      127.0991389,
+      37.4069179
+    ],
+    [
+      127.0995354,
+      37.4069854
+    ],
+    [
+      127.1000482,
+      37.4070631
+    ],
+    [
+      127.1007444,
+      37.4071776
+    ],
+    [
+      127.1014259,
+      37.4072598
+    ],
+    [
+      127.1018075,
+      37.4073077
+    ],
+    [
+      127.1032958,
+      37.4073402
+    ],
+    [
+      127.1044085,
+      37.4073434
+    ],
+    [
+      127.1051194,
+      37.4073961
+    ],
+    [
+      127.1077205,
+      37.407464
+    ],
+    [
+      127.1094785,
+      37.4074846
+    ],
+    [
+      127.1106306,
+      37.4074864
+    ],
+    [
+      127.1110872,
+      37.4075027
+    ],
+    [
+      127.1115123,
+      37.4075327
+    ],
+    [
+      127.1120475,
+      37.4075877
+    ],
+    [
+      127.1126152,
+      37.4076789
+    ],
+    [
+      127.1130518,
+      37.407777
+    ],
+    [
+      127.1135288,
+      37.4078938
+    ],
+    [
+      127.1140925,
+      37.4080544
+    ],
+    [
+      127.11473,
+      37.4083054
+    ],
+    [
+      127.1154265,
+      37.4085997
+    ],
+    [
+      127.1160758,
+      37.408969
+    ],
+    [
+      127.1165936,
+      37.4093138
+    ],
+    [
+      127.1171492,
+      37.4097298
+    ],
+    [
+      127.11776,
+      37.4102927
+    ],
+    [
+      127.1182311,
+      37.4108054
+    ],
+    [
+      127.1189001,
+      37.4116342
+    ],
+    [
+      127.1198839,
+      37.412963
+    ],
+    [
+      127.1218516,
+      37.4155957
+    ],
+    [
+      127.1224438,
+      37.4164695
+    ],
+    [
+      127.1228628,
+      37.4172559
+    ],
+    [
+      127.1230801,
+      37.4177821
+    ],
+    [
+      127.1232812,
+      37.4183902
+    ],
+    [
+      127.1234307,
+      37.4189739
+    ],
+    [
+      127.1235369,
+      37.4197088
+    ],
+    [
+      127.1235778,
+      37.4201732
+    ],
+    [
+      127.123603,
+      37.4207501
+    ],
+    [
+      127.1236061,
+      37.4227664
+    ],
+    [
+      127.1236608,
+      37.4263025
+    ],
+    [
+      127.1236367,
+      37.4288759
+    ],
+    [
+      127.1236695,
+      37.433823
+    ],
+    [
+      127.1237122,
+      37.4341779
+    ],
+    [
+      127.1238808,
+      37.4350702
+    ],
+    [
+      127.1238808,
+      37.4350702
+    ],
+    [
+      127.1237098,
+      37.4360367
+    ],
+    [
+      127.1236242,
+      37.436285
+    ],
+    [
+      127.1230035,
+      37.4375742
+    ],
+    [
+      127.1228324,
+      37.4387547
+    ],
+    [
+      127.1228207,
+      37.4397548
+    ],
+    [
+      127.1229804,
+      37.440594
+    ],
+    [
+      127.123277,
+      37.4413261
+    ],
+    [
+      127.1239139,
+      37.4429257
+    ],
+    [
+      127.1256345,
+      37.4469902
+    ],
+    [
+      127.1257778,
+      37.4473506
+    ],
+    [
+      127.1258769,
+      37.447626
+    ],
+    [
+      127.1260122,
+      37.4481043
+    ],
+    [
+      127.1260847,
+      37.4484207
+    ],
+    [
+      127.1261509,
+      37.4488172
+    ],
+    [
+      127.1262331,
+      37.4495206
+    ],
+    [
+      127.126231,
+      37.450647
+    ],
+    [
+      127.126231,
+      37.450647
+    ],
+    [
+      127.1262265,
+      37.4510614
+    ],
+    [
+      127.1261938,
+      37.4519352
+    ],
+    [
+      127.1261026,
+      37.4539439
+    ],
+    [
+      127.1259411,
+      37.4551952
+    ],
+    [
+      127.1257471,
+      37.4563291
+    ],
+    [
+      127.1255642,
+      37.4584543
+    ],
+    [
+      127.125536,
+      37.4599048
+    ],
+    [
+      127.1255832,
+      37.4607071
+    ],
+    [
+      127.1257799,
+      37.4632315
+    ],
+    [
+      127.1258969,
+      37.4648363
+    ],
+    [
+      127.1258962,
+      37.4658725
+    ],
+    [
+      127.1257996,
+      37.4666913
+    ],
+    [
+      127.1255373,
+      37.4682877
+    ],
+    [
+      127.1254745,
+      37.4686288
+    ],
+    [
+      127.1254186,
+      37.4690785
+    ],
+    [
+      127.1253797,
+      37.4694549
+    ],
+    [
+      127.1254063,
+      37.4700859
+    ],
+    [
+      127.1254655,
+      37.4704178
+    ],
+    [
+      127.1257198,
+      37.4713227
+    ],
+    [
+      127.1258326,
+      37.4715903
+    ],
+    [
+      127.1259181,
+      37.4717657
+    ],
+    [
+      127.126111,
+      37.4721268
+    ],
+    [
+      127.1262287,
+      37.4722816
+    ],
+    [
+      127.1266523,
+      37.4727983
+    ],
+    [
+      127.1269747,
+      37.4731554
+    ],
+    [
+      127.127181,
+      37.4733539
+    ],
+    [
+      127.1274661,
+      37.4736173
+    ],
+    [
+      127.1276213,
+      37.4737452
+    ],
+    [
+      127.1279011,
+      37.4738243
+    ],
+    [
+      127.1281258,
+      37.4738709
+    ],
+    [
+      127.1282869,
+      37.4738995
+    ],
+    [
+      127.1284337,
+      37.473909
+    ],
+    [
+      127.1285784,
+      37.4739053
+    ],
+    [
+      127.1285784,
+      37.4739053
+    ],
+    [
+      127.1287624,
+      37.4738785
+    ],
+    [
+      127.1290017,
+      37.4738159
+    ],
+    [
+      127.1300283,
+      37.4733046
+    ],
+    [
+      127.1308935,
+      37.4728757
+    ],
+    [
+      127.1314524,
+      37.4726473
+    ],
+    [
+      127.1317708,
+      37.47236
+    ],
+    [
+      127.1318801,
+      37.4722522
+    ],
+    [
+      127.1320163,
+      37.4720896
+    ],
+    [
+      127.1321039,
+      37.4719145
+    ],
+    [
+      127.132163,
+      37.4717602
+    ],
+    [
+      127.1321945,
+      37.4715979
+    ],
+    [
+      127.1322102,
+      37.4714544
+    ],
+    [
+      127.13221,
+      37.4712826
+    ],
+    [
+      127.1321855,
+      37.4711225
+    ],
+    [
+      127.1321596,
+      37.4710074
+    ],
+    [
+      127.1321086,
+      37.4708657
+    ],
+    [
+      127.1320213,
+      37.4706752
+    ],
+    [
+      127.1319215,
+      37.4705247
+    ],
+    [
+      127.1315865,
+      37.4703937
+    ],
+    [
+      127.1315005,
+      37.4703715
+    ],
+    [
+      127.1313897,
+      37.4703636
+    ],
+    [
+      127.1312698,
+      37.4703759
+    ],
+    [
+      127.1311315,
+      37.4704007
+    ],
+    [
+      127.131038,
+      37.4704228
+    ],
+    [
+      127.1309295,
+      37.4704555
+    ],
+    [
+      127.1308134,
+      37.4705163
+    ],
+    [
+      127.1306656,
+      37.4705905
+    ],
+    [
+      127.1303879,
+      37.4707075
+    ],
+    [
+      127.130113,
+      37.4708063
+    ],
+    [
+      127.129847,
+      37.4708812
+    ],
+    [
+      127.1297313,
+      37.4709058
+    ],
+    [
+      127.1287595,
+      37.470997
+    ],
+    [
+      127.1281314,
+      37.4710161
+    ],
+    [
+      127.127831,
+      37.4710385
+    ],
+    [
+      127.1274004,
+      37.4710781
+    ],
+    [
+      127.1272417,
+      37.4711336
+    ],
+    [
+      127.1271336,
+      37.4711892
+    ],
+    [
+      127.1270404,
+      37.4712715
+    ],
+    [
+      127.12711,
+      37.472288
+    ],
+    [
+      127.12711,
+      37.472288
+    ],
+    [
+      127.1272822,
+      37.4749281
+    ],
+    [
+      127.1272409,
+      37.475659
+    ],
+    [
+      127.1271671,
+      37.4761721
+    ],
+    [
+      127.1270528,
+      37.4767076
+    ],
+    [
+      127.1268938,
+      37.4773897
+    ],
+    [
+      127.1267534,
+      37.4777189
+    ],
+    [
+      127.1263092,
+      37.4784858
+    ],
+    [
+      127.1260685,
+      37.478959
+    ],
+    [
+      127.1260685,
+      37.478959
+    ],
+    [
+      127.1259654,
+      37.4791658
+    ],
+    [
+      127.1253503,
+      37.4804513
+    ],
+    [
+      127.1247666,
+      37.4815352
+    ],
+    [
+      127.1244325,
+      37.4821906
+    ],
+    [
+      127.1244325,
+      37.4821906
+    ],
+    [
+      127.1243336,
+      37.4823856
+    ],
+    [
+      127.1241001,
+      37.4828564
+    ],
+    [
+      127.1236757,
+      37.4837144
+    ],
+    [
+      127.1232369,
+      37.4846135
+    ],
+    [
+      127.1223562,
+      37.4863031
+    ],
+    [
+      127.1216097,
+      37.4878176
+    ],
+    [
+      127.1213324,
+      37.488364
+    ],
+    [
+      127.1213324,
+      37.488364
+    ],
+    [
+      127.1211885,
+      37.488648
+    ],
+    [
+      127.1209003,
+      37.4892688
+    ],
+    [
+      127.1200887,
+      37.4907909
+    ],
+    [
+      127.1191337,
+      37.4921245
+    ],
+    [
+      127.1175365,
+      37.4939267
+    ],
+    [
+      127.1170902,
+      37.4944281
+    ],
+    [
+      127.1170902,
+      37.4944281
+    ],
+    [
+      127.1168381,
+      37.4947078
+    ],
+    [
+      127.1161725,
+      37.4954154
+    ],
+    [
+      127.1157592,
+      37.4958859
+    ],
+    [
+      127.1151344,
+      37.4965909
+    ],
+    [
+      127.1139768,
+      37.4978586
+    ],
+    [
+      127.1133866,
+      37.4985105
+    ],
+    [
+      127.1127342,
+      37.4992067
+    ],
+    [
+      127.1123941,
+      37.4995813
+    ],
+    [
+      127.1118056,
+      37.5002143
+    ],
+    [
+      127.1118056,
+      37.5002143
+    ],
+    [
+      127.1115351,
+      37.5005055
+    ],
+    [
+      127.1104697,
+      37.5017136
+    ],
+    [
+      127.1093525,
+      37.5028943
+    ],
+    [
+      127.1089521,
+      37.5033393
+    ],
+    [
+      127.1089521,
+      37.5033393
+    ],
+    [
+      127.1087064,
+      37.5036122
+    ],
+    [
+      127.1074444,
+      37.5050181
+    ],
+    [
+      127.1061823,
+      37.506424
+    ],
+    [
+      127.1058102,
+      37.50684
+    ],
+    [
+      127.1058102,
+      37.50684
+    ],
+    [
+      127.1055789,
+      37.5070979
+    ],
+    [
+      127.1051394,
+      37.5076044
+    ],
+    [
+      127.1046498,
+      37.5084341
+    ],
+    [
+      127.1044096,
+      37.5086979
+    ],
+    [
+      127.1044096,
+      37.5086979
+    ],
+    [
+      127.1026197,
+      37.5106556
+    ],
+    [
+      127.101997,
+      37.5114159
+    ],
+    [
+      127.1016814,
+      37.5117931
+    ],
+    [
+      127.1012906,
+      37.5123021
+    ],
+    [
+      127.1008571,
+      37.5128936
+    ],
+    [
+      127.0999732,
+      37.514034
+    ],
+    [
+      127.0994604,
+      37.514714
+    ],
+    [
+      127.0988995,
+      37.5150043
+    ],
+    [
+      127.0984091,
+      37.5156375
+    ],
+    [
+      127.0984091,
+      37.5156375
+    ],
+    [
+      127.0983675,
+      37.515692
+    ],
+    [
+      127.0959599,
+      37.5189893
+    ],
+    [
+      127.0941711,
+      37.5213781
+    ],
+    [
+      127.0938873,
+      37.5217021
+    ],
+    [
+      127.093517,
+      37.5221611
+    ],
+    [
+      127.0931128,
+      37.52269
+    ],
+    [
+      127.0909101,
+      37.5255565
+    ],
+    [
+      127.0897912,
+      37.5270226
+    ],
+    [
+      127.089693,
+      37.5271862
+    ],
+    [
+      127.0894362,
+      37.5275428
+    ],
+    [
+      127.0890712,
+      37.5280275
+    ],
+    [
+      127.0890375,
+      37.5280927
+    ],
+    [
+      127.0890272,
+      37.5281416
+    ],
+    [
+      127.0890102,
+      37.5282024
+    ],
+    [
+      127.0889945,
+      37.528272
+    ],
+    [
+      127.0889902,
+      37.5283419
+    ],
+    [
+      127.0890071,
+      37.5284253
+    ],
+    [
+      127.0890307,
+      37.5284687
+    ],
+    [
+      127.0892463,
+      37.5285733
+    ],
+    [
+      127.0895197,
+      37.5287259
+    ],
+    [
+      127.0897414,
+      37.5288604
+    ],
+    [
+      127.0899135,
+      37.528971
+    ],
+    [
+      127.0901557,
+      37.5291381
+    ],
+    [
+      127.0903057,
+      37.5292467
+    ],
+    [
+      127.0904172,
+      37.5293357
+    ],
+    [
+      127.0904172,
+      37.5293357
+    ],
+    [
+      127.0908022,
+      37.5296374
+    ],
+    [
+      127.0911872,
+      37.5299392
+    ],
+    [
+      127.0916205,
+      37.530246
+    ],
+    [
+      127.0918153,
+      37.5303944
+    ],
+    [
+      127.0925472,
+      37.530968
+    ],
+    [
+      127.0931829,
+      37.5314645
+    ],
+    [
+      127.0933995,
+      37.5316552
+    ],
+    [
+      127.0936934,
+      37.5319333
+    ],
+    [
+      127.0946483,
+      37.5328014
+    ],
+    [
+      127.09486,
+      37.533008
+    ],
+    [
+      127.0951019,
+      37.5332584
+    ],
+    [
+      127.0957622,
+      37.5338663
+    ],
+    [
+      127.096339,
+      37.5344056
+    ],
+    [
+      127.096794,
+      37.5348201
+    ],
+    [
+      127.0968658,
+      37.5348761
+    ],
+    [
+      127.0973599,
+      37.5352777
+    ],
+    [
+      127.0973776,
+      37.53532
+    ],
+    [
+      127.0973838,
+      37.5353674
+    ],
+    [
+      127.0973703,
+      37.535406
+    ],
+    [
+      127.0972958,
+      37.5354658
+    ],
+    [
+      127.0971469,
+      37.5355779
+    ],
+    [
+      127.097053,
+      37.5356263
+    ],
+    [
+      127.0969802,
+      37.5356306
+    ],
+    [
+      127.0969074,
+      37.5356133
+    ],
+    [
+      127.0968476,
+      37.5355869
+    ],
+    [
+      127.0963272,
+      37.5351332
+    ],
+    [
+      127.0957545,
+      37.5346313
+    ],
+    [
+      127.0956725,
+      37.5345956
+    ],
+    [
+      127.0955715,
+      37.5345985
+    ],
+    [
+      127.0954906,
+      37.5346201
+    ],
+    [
+      127.0954096,
+      37.5346497
+    ],
+    [
+      127.0946104,
+      37.5359285
+    ],
+    [
+      127.0944643,
+      37.5361139
+    ],
+    [
+      127.0943579,
+      37.536426
+    ],
+    [
+      127.0941998,
+      37.5367048
+    ],
+    [
+      127.094022,
+      37.5369135
+    ],
+    [
+      127.094022,
+      37.5369135
+    ],
+    [
+      127.0938566,
+      37.5370778
+    ],
+    [
+      127.0937002,
+      37.5372775
+    ],
+    [
+      127.0935291,
+      37.5374519
+    ],
+    [
+      127.0935149,
+      37.5375195
+    ],
+    [
+      127.0935316,
+      37.5375522
+    ],
+    [
+      127.0936753,
+      37.5377888
+    ],
+    [
+      127.093839,
+      37.5381165
+    ],
+    [
+      127.0939044,
+      37.5382415
+    ],
+    [
+      127.0939697,
+      37.5384075
+    ],
+    [
+      127.0940779,
+      37.5388587
+    ],
+    [
+      127.094197,
+      37.5393524
+    ],
+    [
+      127.0942667,
+      37.5396899
+    ],
+    [
+      127.0943156,
+      37.5398088
+    ],
+    [
+      127.0943657,
+      37.5399216
+    ],
+    [
+      127.0944347,
+      37.540063
+    ],
+    [
+      127.0944557,
+      37.5400968
+    ],
+    [
+      127.094472,
+      37.5401155
+    ],
+    [
+      127.094472,
+      37.5401179
+    ],
+    [
+      127.094472,
+      37.5401179
+    ],
+    [
+      127.0945563,
+      37.5402139
+    ],
+    [
+      127.0946699,
+      37.540307
+    ],
+    [
+      127.0947835,
+      37.5404001
+    ],
+    [
+      127.0951399,
+      37.5406138
+    ],
+    [
+      127.0954311,
+      37.5407848
+    ],
+    [
+      127.0957038,
+      37.5409149
+    ],
+    [
+      127.095873,
+      37.5408974
+    ],
+    [
+      127.0962129,
+      37.5405935
+    ],
+    [
+      127.0963308,
+      37.5405233
+    ],
+    [
+      127.0968667,
+      37.5401275
+    ],
+    [
+      127.0971228,
+      37.5399362
+    ],
+    [
+      127.0975413,
+      37.5395921
+    ],
+    [
+      127.0983413,
+      37.5389524
+    ],
+    [
+      127.0984689,
+      37.5388458
+    ],
+    [
+      127.0986175,
+      37.5387048
+    ],
+    [
+      127.0987669,
+      37.5385572
+    ],
+    [
+      127.0988686,
+      37.5384532
+    ],
+    [
+      127.0989342,
+      37.538369
+    ],
+    [
+      127.0989851,
+      37.5382907
+    ],
+    [
+      127.0990393,
+      37.5381905
+    ],
+    [
+      127.0990713,
+      37.5381159
+    ],
+    [
+      127.0990968,
+      37.5380129
+    ],
+    [
+      127.0991035,
+      37.5379425
+    ],
+    [
+      127.0991102,
+      37.5378534
+    ],
+    [
+      127.0991075,
+      37.5377812
+    ],
+    [
+      127.0990947,
+      37.5376772
+    ],
+    [
+      127.0990805,
+      37.5376245
+    ],
+    [
+      127.0990601,
+      37.5375674
+    ],
+    [
+      127.0990095,
+      37.5374835
+    ],
+    [
+      127.0988086,
+      37.5373076
+    ],
+    [
+      127.0985265,
+      37.5370597
+    ],
+    [
+      127.0972186,
+      37.5359097
+    ],
+    [
+      127.0971525,
+      37.5358192
+    ],
+    [
+      127.0971595,
+      37.5357559
+    ],
+    [
+      127.0971904,
+      37.5357122
+    ],
+    [
+      127.097466,
+      37.535512
+    ],
+    [
+      127.0975344,
+      37.535494
+    ],
+    [
+      127.0976122,
+      37.535501
+    ],
+    [
+      127.0977295,
+      37.5355374
+    ],
+    [
+      127.0982223,
+      37.5359763
+    ],
+    [
+      127.0983693,
+      37.5360991
+    ],
+    [
+      127.0987208,
+      37.5363784
+    ],
+    [
+      127.0993131,
+      37.5368058
+    ],
+    [
+      127.0995089,
+      37.5369567
+    ],
+    [
+      127.0999486,
+      37.5373337
+    ],
+    [
+      127.1004128,
+      37.537744
+    ],
+    [
+      127.1014301,
+      37.5386309
+    ],
+    [
+      127.1016169,
+      37.5388039
+    ],
+    [
+      127.1017803,
+      37.5389862
+    ],
+    [
+      127.10199,
+      37.5392039
+    ],
+    [
+      127.1021862,
+      37.5393834
+    ],
+    [
+      127.1023631,
+      37.5395231
+    ],
+    [
+      127.1025962,
+      37.5396879
+    ],
+    [
+      127.103036,
+      37.5399744
+    ],
+    [
+      127.1034566,
+      37.5402605
+    ],
+    [
+      127.1038241,
+      37.540554
+    ],
+    [
+      127.1044027,
+      37.5410613
+    ],
+    [
+      127.1047392,
+      37.5413489
+    ],
+    [
+      127.1049511,
+      37.541552
+    ],
+    [
+      127.105029,
+      37.5416388
+    ],
+    [
+      127.105163,
+      37.541775
+    ],
+    [
+      127.1057241,
+      37.5422456
+    ],
+    [
+      127.1061792,
+      37.5426519
+    ],
+    [
+      127.1070338,
+      37.5433325
+    ],
+    [
+      127.1074608,
+      37.5437435
+    ],
+    [
+      127.1076444,
+      37.5439516
+    ],
+    [
+      127.1076444,
+      37.5439516
+    ],
+    [
+      127.1077135,
+      37.5440402
+    ],
+    [
+      127.107955,
+      37.5442893
+    ],
+    [
+      127.108408,
+      37.5447493
+    ],
+    [
+      127.1087504,
+      37.5450669
+    ],
+    [
+      127.1091266,
+      37.5454192
+    ],
+    [
+      127.109572,
+      37.5458438
+    ],
+    [
+      127.1098271,
+      37.5461208
+    ],
+    [
+      127.1099823,
+      37.546307
+    ],
+    [
+      127.1100961,
+      37.5464709
+    ],
+    [
+      127.1102098,
+      37.5466348
+    ],
+    [
+      127.110406,
+      37.5470068
+    ],
+    [
+      127.1105521,
+      37.5473582
+    ],
+    [
+      127.1106257,
+      37.5475427
+    ],
+    [
+      127.1106925,
+      37.5477305
+    ],
+    [
+      127.1107612,
+      37.5479254
+    ],
+    [
+      127.1108125,
+      37.5481453
+    ],
+    [
+      127.1108416,
+      37.5483923
+    ],
+    [
+      127.1108648,
+      37.548658
+    ],
+    [
+      127.1108924,
+      37.5489868
+    ],
+    [
+      127.1109112,
+      37.5491903
+    ],
+    [
+      127.110952,
+      37.5494126
+    ],
+    [
+      127.1110662,
+      37.5498129
+    ],
+    [
+      127.1112092,
+      37.5502018
+    ],
+    [
+      127.1112817,
+      37.5503738
+    ],
+    [
+      127.1115065,
+      37.5508524
+    ],
+    [
+      127.112151,
+      37.5520803
+    ],
+    [
+      127.1131449,
+      37.5539832
+    ],
+    [
+      127.1133454,
+      37.5544092
+    ],
+    [
+      127.1134643,
+      37.554714
+    ],
+    [
+      127.1136057,
+      37.5551752
+    ],
+    [
+      127.1138545,
+      37.5564549
+    ],
+    [
+      127.1140549,
+      37.5571462
+    ],
+    [
+      127.1142405,
+      37.5575894
+    ],
+    [
+      127.1144762,
+      37.5580807
+    ],
+    [
+      127.1156042,
+      37.5603802
+    ],
+    [
+      127.115919,
+      37.5610197
+    ],
+    [
+      127.1162912,
+      37.5616767
+    ],
+    [
+      127.1165575,
+      37.5620813
+    ],
+    [
+      127.1171471,
+      37.5629598
+    ],
+    [
+      127.1174146,
+      37.5633132
+    ],
+    [
+      127.1180394,
+      37.5640837
+    ],
+    [
+      127.1194471,
+      37.565662
+    ],
+    [
+      127.1203154,
+      37.5666452
+    ],
+    [
+      127.1209187,
+      37.5672464
+    ],
+    [
+      127.1214684,
+      37.5677613
+    ],
+    [
+      127.1220201,
+      37.5682582
+    ],
+    [
+      127.1225446,
+      37.5686774
+    ],
+    [
+      127.1228829,
+      37.5689479
+    ],
+    [
+      127.1233537,
+      37.5693052
+    ],
+    [
+      127.123628,
+      37.5695089
+    ],
+    [
+      127.123991,
+      37.5697665
+    ],
+    [
+      127.1244762,
+      37.5701346
+    ],
+    [
+      127.1249724,
+      37.5704875
+    ],
+    [
+      127.1259067,
+      37.5711971
+    ],
+    [
+      127.1267619,
+      37.5718289
+    ],
+    [
+      127.1270965,
+      37.5720611
+    ],
+    [
+      127.1279441,
+      37.572619
+    ],
+    [
+      127.1279441,
+      37.572619
+    ],
+    [
+      127.1282156,
+      37.5727756
+    ],
+    [
+      127.1287323,
+      37.5730517
+    ],
+    [
+      127.1293825,
+      37.5733435
+    ],
+    [
+      127.1304835,
+      37.5738251
+    ],
+    [
+      127.1317239,
+      37.5743557
+    ],
+    [
+      127.132337,
+      37.5746197
+    ],
+    [
+      127.1331958,
+      37.5749287
+    ],
+    [
+      127.1337134,
+      37.5751384
+    ],
+    [
+      127.1353608,
+      37.5757198
+    ],
+    [
+      127.1361014,
+      37.5759395
+    ],
+    [
+      127.1367091,
+      37.5761022
+    ],
+    [
+      127.1376563,
+      37.5762921
+    ],
+    [
+      127.13823,
+      37.5764131
+    ],
+    [
+      127.1395952,
+      37.5766062
+    ],
+    [
+      127.1403196,
+      37.5766739
+    ],
+    [
+      127.1409183,
+      37.5766957
+    ],
+    [
+      127.142991,
+      37.5767421
+    ],
+    [
+      127.145184,
+      37.5766956
+    ],
+    [
+      127.145184,
+      37.5766956
+    ],
+    [
+      127.1452915,
+      37.5766959
+    ],
+    [
+      127.1453845,
+      37.576718
+    ],
+    [
+      127.1454365,
+      37.5767472
+    ],
+    [
+      127.1454813,
+      37.5767842
+    ],
+    [
+      127.1455157,
+      37.5768264
+    ],
+    [
+      127.1455546,
+      37.5768884
+    ],
+    [
+      127.1455869,
+      37.5769872
+    ],
+    [
+      127.1456196,
+      37.5771235
+    ],
+    [
+      127.1456926,
+      37.5774936
+    ],
+    [
+      127.1460061,
+      37.5790696
+    ],
+    [
+      127.1461796,
+      37.5798795
+    ],
+    [
+      127.1462435,
+      37.5801307
+    ],
+    [
+      127.1462435,
+      37.5801307
+    ],
+    [
+      127.1466397,
+      37.5820566
+    ],
+    [
+      127.1471223,
+      37.5843883
+    ],
+    [
+      127.1471223,
+      37.5843883
+    ],
+    [
+      127.1471331,
+      37.584423
+    ],
+    [
+      127.1471984,
+      37.5845701
+    ],
+    [
+      127.1473759,
+      37.5848561
+    ],
+    [
+      127.1479555,
+      37.5859448
+    ],
+    [
+      127.148286,
+      37.586868
+    ],
+    [
+      127.148286,
+      37.586868
+    ],
+    [
+      127.1487009,
+      37.5880173
+    ],
+    [
+      127.1490592,
+      37.588973
+    ],
+    [
+      127.1490592,
+      37.588973
+    ],
+    [
+      127.1496033,
+      37.5905175
+    ],
+    [
+      127.1503376,
+      37.5925341
+    ],
+    [
+      127.1503376,
+      37.5925341
+    ],
+    [
+      127.1505902,
+      37.5931399
+    ],
+    [
+      127.1509065,
+      37.5940736
+    ],
+    [
+      127.150917,
+      37.5941037
+    ],
+    [
+      127.1509245,
+      37.5941243
+    ],
+    [
+      127.1509301,
+      37.5941414
+    ],
+    [
+      127.1509459,
+      37.5941536
+    ],
+    [
+      127.150967,
+      37.5941649
+    ],
+    [
+      127.150989,
+      37.5941772
+    ],
+    [
+      127.1510199,
+      37.594194
+    ],
+    [
+      127.1510455,
+      37.5941991
+    ],
+    [
+      127.1511052,
+      37.5941872
+    ],
+    [
+      127.1526683,
+      37.5938675
+    ],
+    [
+      127.1541691,
+      37.5935254
+    ],
+    [
+      127.1541691,
+      37.5935254
+    ],
+    [
+      127.1546285,
+      37.5934528
+    ],
+    [
+      127.154852,
+      37.5934122
+    ],
+    [
+      127.154933,
+      37.593377
+    ],
+    [
+      127.1552844,
+      37.5933662
+    ],
+    [
+      127.1564642,
+      37.5933745
+    ],
+    [
+      127.157582,
+      37.5933131
+    ],
+    [
+      127.1594222,
+      37.5932863
+    ],
+    [
+      127.1605175,
+      37.5932819
+    ],
+    [
+      127.1608657,
+      37.5932785
+    ],
+    [
+      127.1609145,
+      37.5932859
+    ],
+    [
+      127.1609533,
+      37.5932957
+    ],
+    [
+      127.1609824,
+      37.593326
+    ],
+    [
+      127.1609961,
+      37.593351
+    ],
+    [
+      127.1609998,
+      37.5933716
+    ],
+    [
+      127.1610035,
+      37.5934148
+    ],
+    [
+      127.1609998,
+      37.5934527
+    ],
+    [
+      127.1609959,
+      37.5934879
+    ],
+    [
+      127.1609929,
+      37.5935593
+    ],
+    [
+      127.1609864,
+      37.5935817
+    ],
+    [
+      127.1609577,
+      37.5935904
+    ],
+    [
+      127.1609147,
+      37.5935902
+    ],
+    [
+      127.1608715,
+      37.5935882
+    ],
+    [
+      127.1608322,
+      37.5935903
+    ],
+    [
+      127.1607583,
+      37.5935899
+    ],
+    [
+      127.1606647,
+      37.5935908
+    ],
+    [
+      127.1605619,
+      37.5935913
+    ],
+    [
+      127.1601537,
+      37.5935919
+    ],
+    [
+      127.1591609,
+      37.5936089
+    ],
+    [
+      127.1570646,
+      37.5935985
+    ],
+    [
+      127.1566296,
+      37.5935975
+    ]
+  ]
+}

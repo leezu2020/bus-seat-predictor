@@ -1,0 +1,20 @@
+{
+  "metadata": {
+    "routeId": "234000050",
+    "routeName": "1650",
+    "companyName": "경기여객",
+    "capacity": 45,
+    "rollingWindowDays": 90,
+    "sampleWeeks": 12,
+    "samplePeriodStr": "최근 3개월 (12주 롤링)",
+    "windowStartDate": "2026-06-07",
+    "windowEndDate": "2026-09-05",
+    "lastUpdated": "2026-09-05T05:32:46.334519+00:00",
+    "updateFrequency": "매일/매주 자동 롤링 업데이트",
+    "status": "HEALTHY",
+    "groundTruthCalibrated": true,
+    "notes": "05:42 태영아파트 첫차 정합, 06:15 한자리수(7.2석) 잔여, 06:55 조기 만차(0석) 실측 반영",
+    "updateCount": 4
+  },
+  "routeId": "234000050"
+}
