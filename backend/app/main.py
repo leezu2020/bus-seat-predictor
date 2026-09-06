@@ -46,13 +46,16 @@ async def lifespan(app: FastAPI):
     # Load ML Model
     model_path = settings.MODEL_DIR / "ensemble_model.joblib"
     if model_path.exists():
-        logger.info(f"Loading pre-trained ensemble model from {model_path}...")
-        loaded = EnsembleSeatPredictor.load(model_path)
-        seat_predictor.hist_gb = loaded.hist_gb
-        seat_predictor.extra_trees = loaded.extra_trees
-        seat_predictor.lgbm = loaded.lgbm
-        seat_predictor.classifier = loaded.classifier
-        seat_predictor.is_trained = loaded.is_trained
+        try:
+            logger.info(f"Loading pre-trained ensemble model from {model_path}...")
+            loaded = EnsembleSeatPredictor.load(model_path)
+            seat_predictor.hist_gb = loaded.hist_gb
+            seat_predictor.extra_trees = loaded.extra_trees
+            seat_predictor.lgbm = loaded.lgbm
+            seat_predictor.classifier = loaded.classifier
+            seat_predictor.is_trained = loaded.is_trained
+        except Exception as e:
+            logger.warning(f"Failed to load ensemble model (version mismatch): {e}. Using default heuristic weights.")
     else:
         logger.info("Ensemble model not found on disk. Initializing with default heuristic weights.")
 
