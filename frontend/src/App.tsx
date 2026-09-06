@@ -3,22 +3,22 @@ import { useQuery, QueryClient, QueryClientProvider } from '@tanstack/react-quer
 import { Header } from './components/Header';
 import { MapView } from './components/MapView';
 import { SimulationCard } from './components/SimulationCard';
+import { StationTimeline } from './components/StationTimeline';
+import { MobileBottomSheet } from './components/MobileBottomSheet';
 import { AnalyticsModal } from './components/AnalyticsModal';
 import { ByokModal } from './components/ByokModal';
 import {
   fetchRoutePath,
   fetchLiveBuses,
-  fetchTravelTime,
   runSimulation,
   getStoredApiKey,
 } from './api/client';
 import {
   getDefaultBookmark,
   toggleStationBookmark,
-  isStationBookmarked,
+  getBookmarks,
 } from './utils/favorites';
 import { Station, LiveBus } from './types';
-import { Bus, Clock, Calendar, X, ArrowUpDown, ChevronRight, Activity, Star } from 'lucide-react';
 
 const queryClient = new QueryClient({
   defaultOptions: {
@@ -58,7 +58,7 @@ function Dashboard() {
   }, []);
 
   // 1. Fetch Route Path & Stations
-  const { data: routeData, isLoading: isRouteLoading } = useQuery({
+  const { data: routeData } = useQuery({
     queryKey: ['routePath'],
     queryFn: () => fetchRoutePath('234000050'),
   });
@@ -66,7 +66,6 @@ function Dashboard() {
   // 2. Fetch Live Buses (Auto-refresh every 15 seconds)
   const {
     data: liveData,
-    isLoading: isLiveLoading,
     isFetching: isLiveFetching,
     refetch: refetchLive,
   } = useQuery({
@@ -117,6 +116,22 @@ function Dashboard() {
     return map;
   }, [liveBuses]);
 
+  // Bookmarked station sequences
+  const favoriteSeqs = useMemo(() => {
+    return getBookmarks()
+      .filter((b) => b.type === 'STATION' && typeof b.stationSeq === 'number')
+      .map((b) => b.stationSeq as number);
+  }, [bookmarkVersion]);
+
+  // Toggle favorite handler for stations
+  const handleToggleFavorite = (seq: number) => {
+    const st = stations.find((s) => s.stationSeq === seq);
+    if (st) {
+      toggleStationBookmark(st.stationSeq, st.stationName, st.direction);
+      setBookmarkVersion((v) => v + 1);
+    }
+  };
+
   // When direction changes, pick a sensible default station if currently selected station is in the other direction
   const handleDirectionChange = (dir: 'UP' | 'DOWN') => {
     setActiveDirection(dir);
@@ -128,7 +143,7 @@ function Dashboard() {
   };
 
   return (
-    <div className="h-screen w-screen flex flex-col bg-slate-100 overflow-hidden font-sans select-none">
+    <div className="h-[100dvh] w-screen flex flex-col bg-slate-100 overflow-hidden font-sans select-none">
       {/* Top Navigation Bar */}
       <Header
         onOpenByokModal={() => setIsByokOpen(true)}
@@ -146,8 +161,8 @@ function Dashboard() {
 
       {/* Main Split Layout: Left Sidebar + Central Map */}
       <div className="flex-1 flex overflow-hidden relative">
-        {/* Left Sidebar: Route Card + Direction Tabs + Vertical Timeline + Boarding Card */}
-        <aside className="w-full sm:w-[410px] lg:w-[430px] bg-white border-r border-slate-200 flex flex-col z-10 shrink-0 h-full shadow-sm">
+        {/* Left Sidebar: Route Card + Direction Tabs + Shared Vertical Timeline + Boarding Card */}
+        <aside className="hidden sm:flex sm:w-[410px] lg:w-[430px] bg-white border-r border-slate-200 flex-col z-10 shrink-0 h-full shadow-sm">
           {/* 1. Route Summary Box */}
           <div className="p-3.5 border-b border-slate-100 bg-white">
             <div className="flex items-center justify-between mb-1.5">
@@ -210,124 +225,15 @@ function Dashboard() {
             </button>
           </div>
 
-          {/* 3. Vertical Stop Timeline (Naver Map Transit Style) */}
-          <div className="flex-1 overflow-y-auto px-4 py-3 space-y-0.5 relative">
-            {/* Continuous Vertical Line */}
-            <div className="absolute left-[29px] top-4 bottom-4 w-0.5 bg-slate-200 -z-0" />
-
-            {displayedStations.map((station) => {
-              const isSelected = station.stationSeq === selectedStationSeq;
-              const isTurn = station.isTurnPoint;
-              const busesAtStop = busesByStationSeq[station.stationSeq] || [];
-
-              return (
-                <div
-                  key={station.stationSeq}
-                  onClick={() => setSelectedStationSeq(station.stationSeq)}
-                  className={`group relative flex items-start gap-3.5 py-2 px-2 rounded-xl cursor-pointer transition ${
-                    isSelected ? 'bg-blue-50/70' : 'hover:bg-slate-50'
-                  }`}
-                >
-                  {/* Timeline Node */}
-                  <div className="relative z-10 mt-1">
-                    {isSelected ? (
-                      <div className="w-5 h-5 rounded-full bg-blue-600 border-2 border-white shadow-md flex items-center justify-center text-white text-[9px] font-black">
-                        {station.stationSeq}
-                      </div>
-                    ) : isTurn ? (
-                      <div className="w-4 h-4 rounded-full bg-amber-500 border-2 border-white shadow-xs flex items-center justify-center text-white text-[8px] font-bold">
-                        회
-                      </div>
-                    ) : (
-                      <div
-                        className={`w-3.5 h-3.5 rounded-full border-2 transition ${
-                          station.isNonStop
-                            ? 'bg-slate-200 border-slate-300'
-                            : 'bg-white border-rose-500 group-hover:bg-rose-50'
-                        }`}
-                      />
-                    )}
-                  </div>
-
-                  {/* Stop Name & Badges & Favorite Star */}
-                  <div className="flex-1 min-w-0">
-                    <div className="flex items-center justify-between gap-1">
-                      <div className="flex items-center gap-1.5 flex-wrap min-w-0">
-                        <span
-                          className={`text-xs tracking-tight ${
-                            isSelected
-                              ? 'font-black text-blue-900'
-                              : 'font-semibold text-slate-800 group-hover:text-rose-600'
-                          }`}
-                        >
-                          {station.stationName}
-                        </span>
-                        {isTurn && (
-                          <span className="text-[10px] font-extrabold text-amber-700 bg-amber-100 px-1.5 py-0.2 rounded">
-                            회차지
-                          </span>
-                        )}
-                        {station.isNonStop && (
-                          <span className="text-[10px] text-slate-400 font-medium">미정차</span>
-                        )}
-                      </div>
-                      <button
-                        title={isStationBookmarked(station.stationSeq) ? '즐겨찾기 해제' : '즐겨찾기 등록'}
-                        onClick={(e) => {
-                          e.stopPropagation();
-                          toggleStationBookmark(station.stationSeq, station.stationName, station.direction);
-                          setBookmarkVersion((v) => v + 1);
-                        }}
-                        className="p-1 text-slate-300 hover:text-amber-400 opacity-40 group-hover:opacity-100 transition shrink-0"
-                      >
-                        <Star
-                          className={`w-3.5 h-3.5 ${
-                            isStationBookmarked(station.stationSeq)
-                              ? 'text-amber-500 fill-amber-400 opacity-100'
-                              : ''
-                          }`}
-                        />
-                      </button>
-                    </div>
-                    {station.mobileNo && station.mobileNo !== '-' && (
-                      <div className="text-[10px] text-slate-400 mt-0.5">
-                        {station.mobileNo}
-                      </div>
-                    )}
-
-                    {/* LIVE BUS BADGE AT THIS STOP */}
-                    {busesAtStop.map((b) => {
-                      const seats = b.remainSeatCnt;
-                      const shortPlate = b.plateNo.replace(/[^0-9]/g, '').slice(-4) || b.plateNo;
-                      return (
-                        <div
-                          key={b.plateNo}
-                          className="mt-1.5 inline-flex items-center gap-1.5 bg-rose-600 text-white pl-2 pr-2.5 py-0.5 rounded-full shadow-md text-xs animate-fadeIn"
-                        >
-                          <Bus className="w-3 h-3 text-white" />
-                          <span className="font-bold">{shortPlate}</span>
-                          <span
-                            className={`px-1.5 py-0.2 rounded-full font-black text-[10px] ${
-                              seats === 0
-                                ? 'bg-white text-rose-700'
-                                : seats <= 15
-                                ? 'bg-amber-300 text-slate-900'
-                                : 'bg-emerald-300 text-slate-900'
-                            }`}
-                          >
-                            {seats === 0 ? '만차' : `${seats}석`}
-                          </span>
-                          {b.lowPlate && (
-                            <span className="text-[9px] bg-white/20 px-1 rounded">저상</span>
-                          )}
-                        </div>
-                      );
-                    })}
-                  </div>
-                </div>
-              );
-            })}
-          </div>
+          {/* 3. Extracted Vertical Stop Timeline (Shared Component) */}
+          <StationTimeline
+            stations={displayedStations}
+            selectedStationSeq={selectedStationSeq}
+            onSelectStation={(seq) => setSelectedStationSeq(seq)}
+            busesByStationSeq={busesByStationSeq}
+            favorites={favoriteSeqs}
+            onToggleFavorite={handleToggleFavorite}
+          />
 
           {/* 4. Commuter Boarding Prediction Widget (Fixed at bottom of left panel) */}
           <SimulationCard
@@ -338,27 +244,44 @@ function Dashboard() {
             onChangeQueueCount={(q) => setQueueCount(q)}
             simulationResult={simData || null}
             isLoading={isSimLoading}
-            isFavorite={isStationBookmarked(selectedStationSeq)}
-            onToggleFavorite={() => {
-              const st = stations.find((s) => s.stationSeq === selectedStationSeq);
-              if (st) {
-                toggleStationBookmark(st.stationSeq, st.stationName, st.direction);
-                setBookmarkVersion((v) => v + 1);
-              }
-            }}
+            isFavorite={favoriteSeqs.includes(selectedStationSeq)}
+            onToggleFavorite={() => handleToggleFavorite(selectedStationSeq)}
           />
         </aside>
 
         {/* Center / Right: Interactive Map */}
-        <main className="flex-1 h-full relative">
+        <main className="absolute inset-0 w-full h-full sm:static sm:relative sm:flex-1 sm:h-full z-0">
           <MapView
             stations={stations}
             busPath={busPath}
             liveBuses={liveBuses}
             selectedStationSeq={selectedStationSeq}
             onSelectStation={(seq) => setSelectedStationSeq(seq)}
+            activeDirection={activeDirection}
+            onToggleDirection={() => handleDirectionChange(activeDirection === 'UP' ? 'DOWN' : 'UP')}
           />
         </main>
+
+        {/* Mobile Naver Map Style 3-Tier Bottom Sheet */}
+        <MobileBottomSheet
+          className="sm:hidden"
+          stations={stations}
+          displayedStations={displayedStations}
+          upStations={upStations}
+          downStations={downStations}
+          activeDirection={activeDirection}
+          onDirectionChange={handleDirectionChange}
+          selectedStationSeq={selectedStationSeq}
+          onSelectStation={(seq) => setSelectedStationSeq(seq)}
+          busesByStationSeq={busesByStationSeq}
+          liveBuses={liveBuses}
+          simData={simData || null}
+          isSimLoading={isSimLoading}
+          queueCount={queueCount}
+          onChangeQueueCount={(q) => setQueueCount(q)}
+          favorites={favoriteSeqs}
+          onToggleFavorite={handleToggleFavorite}
+        />
 
         {/* Analytics & Favorites Modal */}
         <AnalyticsModal

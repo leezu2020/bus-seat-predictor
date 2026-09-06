@@ -1,0 +1,87 @@
+{
+  "timestamp": "2026-09-06T02:41:46.398Z",
+  "testResults": [
+    {
+      "name": "Layout Decoupling & Bottom Sheet Presence",
+      "pass": true,
+      "details": {
+        "asideDisplay": "none",
+        "mainWidth": 384,
+        "mainHeight": 768,
+        "canvasExists": true,
+        "sheetExists": true,
+        "sheetTransform": "translateY(calc(-92px + 88vh))"
+      }
+    },
+    {
+      "name": "Initial PEEK Tier State & Elements",
+      "pass": true,
+      "details": {
+        "transform": "translateY(calc(-92px + 88vh))",
+        "hasPeekBar": true,
+        "stationTitle": "구종점",
+        "dirBadge": "안양행",
+        "hasBusEtaOrSeats": true,
+        "hasBookmarkStar": true,
+        "rawText": "안양행구종점#64개 전44석"
+      }
+    },
+    {
+      "name": "Header Click -> HALF Tier with SimulationCard",
+      "pass": true,
+      "details": {
+        "transform": "translateY(calc(40vh))",
+        "hasSimCard": true,
+        "hasRangeInput": true,
+        "sliderValue": "5",
+        "simProbsCount": 4
+      }
+    },
+    {
+      "name": "Queue Count Slider (+ button) Updates State",
+      "pass": true,
+      "details": {
+        "newSliderValue": "6",
+        "queueLabel": "6명"
+      }
+    },
+    {
+      "name": "Expand to FULL Tier (Station Timeline & Direction Tabs)",
+      "pass": true,
+      "details": {
+        "transform": "translateY(0px)",
+        "dirButtonTexts": [
+          "안양역 방면44",
+          "구리수택 방면45"
+        ],
+        "timelineStopCount": 44,
+        "liveBusBadgeCount": 6
+      }
+    },
+    {
+      "name": "Station Selection Snaps to HALF with Selected Station",
+      "pass": true,
+      "details": {
+        "transform": "translateY(calc(40vh))",
+        "currentStationTitle": "동명빌라"
+      }
+    },
+    {
+      "name": "Touch Gesture Drag Down Snaps to PEEK",
+      "pass": true,
+      "details": {
+        "transform": "translateY(calc(-92px + 88vh))"
+      }
+    },
+    {
+      "name": "Desktop Split Layout Restored & Bottom Sheet Hidden",
+      "pass": true,
+      "details": {
+        "asideDisplay": "flex",
+        "asideWidth": 429,
+        "sheetDisplay": "none"
+      }
+    }
+  ],
+  "allPassed": true
+}

@@ -1,0 +1,123 @@
+{
+  "timestamp": "2026-09-06T03:01:44.885Z",
+  "summary": {
+    "totalChecks": 66,
+    "passedChecks": 66,
+    "failedChecks": 0
+  },
+  "verdict": "APPROVE",
+  "details": {
+    "category1_viewports": [
+      {
+        "viewport": {
+          "name": "Galaxy S23 Ultra",
+          "width": 384,
+          "height": 824
+        },
+        "finalState": {
+          "exists": true,
+          "tier": "PEEK",
+          "rect": {
+            "top": 732.0106201171875,
+            "bottom": 1457.1199951171875,
+            "height": 725.109375,
+            "width": 384,
+            "left": 0,
+            "right": 384
+          },
+          "headerRect": {
+            "top": 733.0106201171875,
+            "bottom": 825.0106201171875,
+            "height": 92,
+            "width": 384
+          },
+          "visibleHeight": 91.9893798828125,
+          "windowHeight": 824,
+          "windowWidth": 384,
+          "inlineTransform": "translateY(calc(-92px + 88vh))",
+          "computedTransform": "matrix(1, 0, 0, 1, 0, 633.12)",
+          "transition": "transform 0.35s cubic-bezier(0.16, 1, 0.3, 1)",
+          "stationName": "잠실역.잠실대교남단(중)",
+          "directionBadge": "안양행",
+          "isStarred": false
+        }
+      },
+      {
+        "viewport": {
+          "name": "Standard Galaxy/Pixel",
+          "width": 412,
+          "height": 915
+        },
+        "finalState": {
+          "exists": true,
+          "tier": "PEEK",
+          "rect": {
+            "top": 823.0125122070312,
+            "bottom": 1628.199951171875,
+            "height": 805.1874389648438,
+            "width": 412,
+            "left": 0,
+            "right": 412
+          },
+          "headerRect": {
+            "top": 824.0125122070312,
+            "bottom": 916.0125122070312,
+            "height": 92,
+            "width": 412
+          },
+          "visibleHeight": 91.98748779296875,
+          "windowHeight": 915,
+          "windowWidth": 412,
+          "inlineTransform": "translateY(calc(-92px + 88vh))",
+          "computedTransform": "matrix(1, 0, 0, 1, 0, 713.2)",
+          "transition": "transform 0.35s cubic-bezier(0.16, 1, 0.3, 1)",
+          "stationName": "잠실역.잠실대교남단(중)",
+          "directionBadge": "안양행",
+          "isStarred": false
+        }
+      },
+      {
+        "viewport": {
+          "name": "Small Android Viewport",
+          "width": 360,
+          "height": 740
+        },
+        "finalState": {
+          "exists": true,
+          "tier": "PEEK",
+          "rect": {
+            "top": 648.0125122070312,
+            "bottom": 1299.199951171875,
+            "height": 651.1874389648438,
+            "width": 360,
+            "left": 0,
+            "right": 360
+          },
+          "headerRect": {
+            "top": 649.0125122070312,
+            "bottom": 741.0125122070312,
+            "height": 92,
+            "width": 360
+          },
+          "visibleHeight": 91.98748779296875,
+          "windowHeight": 740,
+          "windowWidth": 360,
+          "inlineTransform": "translateY(calc(-92px + 88vh))",
+          "computedTransform": "matrix(1, 0, 0, 1, 0, 559.2)",
+          "transition": "transform 0.35s cubic-bezier(0.16, 1, 0.3, 1)",
+          "stationName": "잠실역.잠실대교남단(중)",
+          "directionBadge": "안양행",
+          "isStarred": false
+        }
+      }
+    ],
+    "category2_stress": {},
+    "category3_station_select": {},
+    "category4_slider": {},
+    "summary": {
+      "totalChecks": 66,
+      "passedChecks": 66,
+      "failedChecks": 0
+    }
+  }
+}

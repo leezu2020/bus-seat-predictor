@@ -1,0 +1,631 @@
+{
+  "timestamp": "2026-09-06T03:02:05.578Z",
+  "viewportResults": [
+    {
+      "viewport": {
+        "name": "Mobile S23 Ultra portrait",
+        "width": 384,
+        "height": 824,
+        "isMobile": true
+      },
+      "data": {
+        "windowWidth": 384,
+        "windowHeight": 824,
+        "scrollWidth": 384,
+        "clientWidth": 384,
+        "hasHorizontalOverflow": false,
+        "headerHasOverflow": false,
+        "aside": {
+          "exists": true,
+          "display": "none",
+          "width": 0,
+          "height": 0,
+          "left": 0,
+          "top": 0,
+          "zIndex": "10"
+        },
+        "main": {
+          "exists": true,
+          "position": "absolute",
+          "width": 384,
+          "height": 768,
+          "left": 0,
+          "top": 56,
+          "zIndex": "0"
+        },
+        "canvas": {
+          "exists": true,
+          "width": 384,
+          "height": 768,
+          "left": 0,
+          "top": 56,
+          "witnessRetained": true
+        },
+        "header": {
+          "exists": true,
+          "width": 384,
+          "height": 56,
+          "right": 384,
+          "zIndex": "30"
+        },
+        "legend": {
+          "exists": true,
+          "left": 12,
+          "bottom": 96,
+          "top": 699,
+          "width": 245.90625,
+          "height": 29,
+          "zIndex": "10",
+          "isClipped": false
+        },
+        "controls": {
+          "exists": true,
+          "right": 12,
+          "top": 68,
+          "zIndex": "10",
+          "isClipped": false
+        }
+      },
+      "assertions": {
+        "horizontalOverflow": true,
+        "asideVisibilityMatchesBreakpoint": true,
+        "mainCoversExpectedSpace": true,
+        "canvasPresentAndSized": true,
+        "mapRetainedWithoutRemount": true,
+        "legendNotClipped": true,
+        "controlsNotClipped": true,
+        "mobileLegendElevated": true,
+        "zIndexCorrect": true
+      },
+      "pass": true
+    },
+    {
+      "viewport": {
+        "name": "Mobile 412px (Galaxy/Pixel)",
+        "width": 412,
+        "height": 915,
+        "isMobile": true
+      },
+      "data": {
+        "windowWidth": 412,
+        "windowHeight": 915,
+        "scrollWidth": 412,
+        "clientWidth": 412,
+        "hasHorizontalOverflow": false,
+        "headerHasOverflow": false,
+        "aside": {
+          "exists": true,
+          "display": "none",
+          "width": 0,
+          "height": 0,
+          "left": 0,
+          "top": 0,
+          "zIndex": "10"
+        },
+        "main": {
+          "exists": true,
+          "position": "absolute",
+          "width": 412,
+          "height": 859,
+          "left": 0,
+          "top": 56,
+          "zIndex": "0"
+        },
+        "canvas": {
+          "exists": true,
+          "width": 412,
+          "height": 859,
+          "left": 0,
+          "top": 56,
+          "witnessRetained": true
+        },
+        "header": {
+          "exists": true,
+          "width": 412,
+          "height": 56,
+          "right": 412,
+          "zIndex": "30"
+        },
+        "legend": {
+          "exists": true,
+          "left": 12,
+          "bottom": 96,
+          "top": 790,
+          "width": 245.90625,
+          "height": 29,
+          "zIndex": "10",
+          "isClipped": false
+        },
+        "controls": {
+          "exists": true,
+          "right": 12,
+          "top": 68,
+          "zIndex": "10",
+          "isClipped": false
+        }
+      },
+      "assertions": {
+        "horizontalOverflow": true,
+        "asideVisibilityMatchesBreakpoint": true,
+        "mainCoversExpectedSpace": true,
+        "canvasPresentAndSized": true,
+        "mapRetainedWithoutRemount": true,
+        "legendNotClipped": true,
+        "controlsNotClipped": true,
+        "mobileLegendElevated": true,
+        "zIndexCorrect": true
+      },
+      "pass": true
+    },
+    {
+      "viewport": {
+        "name": "Mobile 360px (Small Android)",
+        "width": 360,
+        "height": 740,
+        "isMobile": true
+      },
+      "data": {
+        "windowWidth": 360,
+        "windowHeight": 740,
+        "scrollWidth": 360,
+        "clientWidth": 360,
+        "hasHorizontalOverflow": false,
+        "headerHasOverflow": false,
+        "aside": {
+          "exists": true,
+          "display": "none",
+          "width": 0,
+          "height": 0,
+          "left": 0,
+          "top": 0,
+          "zIndex": "10"
+        },
+        "main": {
+          "exists": true,
+          "position": "absolute",
+          "width": 360,
+          "height": 684,
+          "left": 0,
+          "top": 56,
+          "zIndex": "0"
+        },
+        "canvas": {
+          "exists": true,
+          "width": 360,
+          "height": 684,
+          "left": 0,
+          "top": 56,
+          "witnessRetained": true
+        },
+        "header": {
+          "exists": true,
+          "width": 360,
+          "height": 56,
+          "right": 360,
+          "zIndex": "30"
+        },
+        "legend": {
+          "exists": true,
+          "left": 12,
+          "bottom": 96,
+          "top": 615,
+          "width": 245.90625,
+          "height": 29,
+          "zIndex": "10",
+          "isClipped": false
+        },
+        "controls": {
+          "exists": true,
+          "right": 12,
+          "top": 68,
+          "zIndex": "10",
+          "isClipped": false
+        }
+      },
+      "assertions": {
+        "horizontalOverflow": true,
+        "asideVisibilityMatchesBreakpoint": true,
+        "mainCoversExpectedSpace": true,
+        "canvasPresentAndSized": true,
+        "mapRetainedWithoutRemount": true,
+        "legendNotClipped": true,
+        "controlsNotClipped": true,
+        "mobileLegendElevated": true,
+        "zIndexCorrect": true
+      },
+      "pass": true
+    },
+    {
+      "viewport": {
+        "name": "Mobile 430px (iPhone 14 Pro Max)",
+        "width": 430,
+        "height": 932,
+        "isMobile": true
+      },
+      "data": {
+        "windowWidth": 430,
+        "windowHeight": 932,
+        "scrollWidth": 430,
+        "clientWidth": 430,
+        "hasHorizontalOverflow": false,
+        "headerHasOverflow": false,
+        "aside": {
+          "exists": true,
+          "display": "none",
+          "width": 0,
+          "height": 0,
+          "left": 0,
+          "top": 0,
+          "zIndex": "10"
+        },
+        "main": {
+          "exists": true,
+          "position": "absolute",
+          "width": 430,
+          "height": 876,
+          "left": 0,
+          "top": 56,
+          "zIndex": "0"
+        },
+        "canvas": {
+          "exists": true,
+          "width": 430,
+          "height": 876,
+          "left": 0,
+          "top": 56,
+          "witnessRetained": true
+        },
+        "header": {
+          "exists": true,
+          "width": 430,
+          "height": 56,
+          "right": 430,
+          "zIndex": "30"
+        },
+        "legend": {
+          "exists": true,
+          "left": 12,
+          "bottom": 96,
+          "top": 807,
+          "width": 245.90625,
+          "height": 29,
+          "zIndex": "10",
+          "isClipped": false
+        },
+        "controls": {
+          "exists": true,
+          "right": 12,
+          "top": 68,
+          "zIndex": "10",
+          "isClipped": false
+        }
+      },
+      "assertions": {
+        "horizontalOverflow": true,
+        "asideVisibilityMatchesBreakpoint": true,
+        "mainCoversExpectedSpace": true,
+        "canvasPresentAndSized": true,
+        "mapRetainedWithoutRemount": true,
+        "legendNotClipped": true,
+        "controlsNotClipped": true,
+        "mobileLegendElevated": true,
+        "zIndexCorrect": true
+      },
+      "pass": true
+    },
+    {
+      "viewport": {
+        "name": "Landscape S23 Ultra",
+        "width": 824,
+        "height": 384,
+        "isMobile": true
+      },
+      "data": {
+        "windowWidth": 824,
+        "windowHeight": 384,
+        "scrollWidth": 824,
+        "clientWidth": 824,
+        "hasHorizontalOverflow": false,
+        "headerHasOverflow": false,
+        "aside": {
+          "exists": true,
+          "display": "flex",
+          "width": 410,
+          "height": 328,
+          "left": 0,
+          "top": 56,
+          "zIndex": "10"
+        },
+        "main": {
+          "exists": true,
+          "position": "relative",
+          "width": 414,
+          "height": 328,
+          "left": 410,
+          "top": 56,
+          "zIndex": "0"
+        },
+        "canvas": {
+          "exists": true,
+          "width": 414,
+          "height": 328,
+          "left": 410,
+          "top": 56,
+          "witnessRetained": true
+        },
+        "header": {
+          "exists": true,
+          "width": 824,
+          "height": 56,
+          "right": 824,
+          "zIndex": "30"
+        },
+        "legend": {
+          "exists": true,
+          "left": 426,
+          "bottom": 16,
+          "top": 333.5,
+          "width": 280.515625,
+          "height": 34.5,
+          "zIndex": "10",
+          "isClipped": false
+        },
+        "controls": {
+          "exists": true,
+          "right": 16,
+          "top": 72,
+          "zIndex": "10",
+          "isClipped": false
+        }
+      },
+      "assertions": {
+        "horizontalOverflow": true,
+        "asideVisibilityMatchesBreakpoint": true,
+        "mainCoversExpectedSpace": true,
+        "canvasPresentAndSized": true,
+        "mapRetainedWithoutRemount": true,
+        "legendNotClipped": true,
+        "controlsNotClipped": true,
+        "mobileLegendElevated": true,
+        "zIndexCorrect": true
+      },
+      "pass": true
+    },
+    {
+      "viewport": {
+        "name": "Desktop 1024px",
+        "width": 1024,
+        "height": 768,
+        "isMobile": false
+      },
+      "data": {
+        "windowWidth": 1024,
+        "windowHeight": 768,
+        "scrollWidth": 1024,
+        "clientWidth": 1024,
+        "hasHorizontalOverflow": false,
+        "headerHasOverflow": false,
+        "aside": {
+          "exists": true,
+          "display": "flex",
+          "width": 430,
+          "height": 712,
+          "left": 0,
+          "top": 56,
+          "zIndex": "10"
+        },
+        "main": {
+          "exists": true,
+          "position": "relative",
+          "width": 594,
+          "height": 712,
+          "left": 430,
+          "top": 56,
+          "zIndex": "0"
+        },
+        "canvas": {
+          "exists": true,
+          "width": 594,
+          "height": 712,
+          "left": 430,
+          "top": 56,
+          "witnessRetained": true
+        },
+        "header": {
+          "exists": true,
+          "width": 1024,
+          "height": 56,
+          "right": 1024,
+          "zIndex": "30"
+        },
+        "legend": {
+          "exists": true,
+          "left": 446,
+          "bottom": 16,
+          "top": 717.5,
+          "width": 280.515625,
+          "height": 34.5,
+          "zIndex": "10",
+          "isClipped": false
+        },
+        "controls": {
+          "exists": true,
+          "right": 16,
+          "top": 72,
+          "zIndex": "10",
+          "isClipped": false
+        }
+      },
+      "assertions": {
+        "horizontalOverflow": true,
+        "asideVisibilityMatchesBreakpoint": true,
+        "mainCoversExpectedSpace": true,
+        "canvasPresentAndSized": true,
+        "mapRetainedWithoutRemount": true,
+        "legendNotClipped": true,
+        "controlsNotClipped": true,
+        "mobileLegendElevated": true,
+        "zIndexCorrect": true
+      },
+      "pass": true
+    },
+    {
+      "viewport": {
+        "name": "Desktop 1280px",
+        "width": 1280,
+        "height": 800,
+        "isMobile": false
+      },
+      "data": {
+        "windowWidth": 1280,
+        "windowHeight": 800,
+        "scrollWidth": 1280,
+        "clientWidth": 1280,
+        "hasHorizontalOverflow": false,
+        "headerHasOverflow": false,
+        "aside": {
+          "exists": true,
+          "display": "flex",
+          "width": 430,
+          "height": 744,
+          "left": 0,
+          "top": 56,
+          "zIndex": "10"
+        },
+        "main": {
+          "exists": true,
+          "position": "relative",
+          "width": 850,
+          "height": 744,
+          "left": 430,
+          "top": 56,
+          "zIndex": "0"
+        },
+        "canvas": {
+          "exists": true,
+          "width": 850,
+          "height": 744,
+          "left": 430,
+          "top": 56,
+          "witnessRetained": true
+        },
+        "header": {
+          "exists": true,
+          "width": 1280,
+          "height": 56,
+          "right": 1280,
+          "zIndex": "30"
+        },
+        "legend": {
+          "exists": true,
+          "left": 446,
+          "bottom": 16,
+          "top": 749.5,
+          "width": 280.515625,
+          "height": 34.5,
+          "zIndex": "10",
+          "isClipped": false
+        },
+        "controls": {
+          "exists": true,
+          "right": 16,
+          "top": 72,
+          "zIndex": "10",
+          "isClipped": false
+        }
+      },
+      "assertions": {
+        "horizontalOverflow": true,
+        "asideVisibilityMatchesBreakpoint": true,
+        "mainCoversExpectedSpace": true,
+        "canvasPresentAndSized": true,
+        "mapRetainedWithoutRemount": true,
+        "legendNotClipped": true,
+        "controlsNotClipped": true,
+        "mobileLegendElevated": true,
+        "zIndexCorrect": true
+      },
+      "pass": true
+    },
+    {
+      "viewport": {
+        "name": "Desktop 1920px (FHD)",
+        "width": 1920,
+        "height": 1080,
+        "isMobile": false
+      },
+      "data": {
+        "windowWidth": 1920,
+        "windowHeight": 1080,
+        "scrollWidth": 1920,
+        "clientWidth": 1920,
+        "hasHorizontalOverflow": false,
+        "headerHasOverflow": false,
+        "aside": {
+          "exists": true,
+          "display": "flex",
+          "width": 430,
+          "height": 1024,
+          "left": 0,
+          "top": 56,
+          "zIndex": "10"
+        },
+        "main": {
+          "exists": true,
+          "position": "relative",
+          "width": 1490,
+          "height": 1024,
+          "left": 430,
+          "top": 56,
+          "zIndex": "0"
+        },
+        "canvas": {
+          "exists": true,
+          "width": 1490,
+          "height": 1024,
+          "left": 430,
+          "top": 56,
+          "witnessRetained": true
+        },
+        "header": {
+          "exists": true,
+          "width": 1920,
+          "height": 56,
+          "right": 1920,
+          "zIndex": "30"
+        },
+        "legend": {
+          "exists": true,
+          "left": 446,
+          "bottom": 16,
+          "top": 1029.5,
+          "width": 280.515625,
+          "height": 34.5,
+          "zIndex": "10",
+          "isClipped": false
+        },
+        "controls": {
+          "exists": true,
+          "right": 16,
+          "top": 72,
+          "zIndex": "10",
+          "isClipped": false
+        }
+      },
+      "assertions": {
+        "horizontalOverflow": true,
+        "asideVisibilityMatchesBreakpoint": true,
+        "mainCoversExpectedSpace": true,
+        "canvasPresentAndSized": true,
+        "mapRetainedWithoutRemount": true,
+        "legendNotClipped": true,
+        "controlsNotClipped": true,
+        "mobileLegendElevated": true,
+        "zIndexCorrect": true
+      },
+      "pass": true
+    }
+  ],
+  "retentionFailures": 0,
+  "overallPass": true
+}

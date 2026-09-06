@@ -45,8 +45,8 @@ export const ByokModal: React.FC<ByokModalProps> = ({ isOpen, onClose, onSaved }
   };
 
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/70 backdrop-blur-sm animate-in fade-in">
-      <div className="bg-slate-900 border border-slate-700/80 rounded-2xl max-w-lg w-full p-6 shadow-2xl relative flex flex-col gap-4">
+    <div className="fixed inset-0 z-50 flex items-center justify-center p-3 sm:p-4 bg-black/70 backdrop-blur-sm animate-in fade-in">
+      <div className="bg-slate-900 border border-slate-700/80 rounded-2xl max-w-md w-full p-4 sm:p-6 shadow-2xl relative flex flex-col gap-4 max-h-[85vh] overflow-y-auto">
         {/* Close Button */}
         <button
           onClick={onClose}
@@ -57,17 +57,17 @@ export const ByokModal: React.FC<ByokModalProps> = ({ isOpen, onClose, onSaved }
 
         {/* Title */}
         <div className="flex items-center gap-3">
-          <div className="p-2.5 rounded-xl bg-sky-500/10 text-sky-400 border border-sky-500/20">
-            <Key className="w-6 h-6" />
+          <div className="p-2 rounded-xl bg-sky-500/10 text-sky-400 border border-sky-500/20 shrink-0">
+            <Key className="w-5 h-5 sm:w-6 sm:h-6" />
           </div>
           <div>
-            <h3 className="text-lg font-bold text-white">Bring Your Own Key (BYOK) 설정</h3>
+            <h3 className="text-base sm:text-lg font-bold text-white">Bring Your Own Key (BYOK) 설정</h3>
             <p className="text-xs text-slate-400">공공데이터포털 개인 API 인증키 관리</p>
           </div>
         </div>
 
         {/* Security Assurance Notice */}
-        <div className="bg-slate-950/70 rounded-xl p-3.5 border border-slate-800 text-xs text-slate-300 leading-relaxed flex items-start gap-2.5">
+        <div className="bg-slate-950/70 rounded-xl p-3 sm:p-3.5 border border-slate-800 text-xs text-slate-300 leading-relaxed flex items-start gap-2.5">
           <Shield className="w-5 h-5 text-emerald-400 flex-shrink-0 mt-0.5" />
           <div>
             <strong className="text-emerald-400 block mb-0.5">무상태(Stateless) 프록시 보안 원칙</strong>
@@ -86,7 +86,7 @@ export const ByokModal: React.FC<ByokModalProps> = ({ isOpen, onClose, onSaved }
             value={apiKey}
             onChange={(e) => setApiKey(e.target.value)}
             placeholder="공공데이터포털에서 발급받은 serviceKey를 입력하세요"
-            className="w-full bg-slate-950 border border-slate-700 rounded-xl px-3.5 py-2.5 text-sm text-slate-100 placeholder-slate-500 focus:outline-none focus:ring-2 focus:ring-sky-500 transition font-mono"
+            className="w-full bg-slate-950 border border-slate-700 rounded-xl px-3.5 py-2.5 text-base sm:text-sm text-slate-100 placeholder-slate-500 focus:outline-none focus:ring-2 focus:ring-sky-500 transition font-mono"
           />
         </div>
 
@@ -108,12 +108,12 @@ export const ByokModal: React.FC<ByokModalProps> = ({ isOpen, onClose, onSaved }
         </div>
 
         {/* Action Buttons */}
-        <div className="flex items-center justify-between pt-2 border-t border-slate-800">
-          <div className="flex items-center gap-2">
+        <div className="flex flex-col-reverse sm:flex-row items-stretch sm:items-center justify-between gap-3 pt-3 border-t border-slate-800">
+          <div className="flex items-center justify-between sm:justify-start gap-2">
             <button
               type="button"
               onClick={handleUseDemo}
-              className="text-xs text-sky-400 hover:text-sky-300 underline underline-offset-2"
+              className="text-xs text-sky-400 hover:text-sky-300 underline underline-offset-2 py-1"
             >
               모의 키(DEMO_KEY) 주입
             </button>
@@ -121,7 +121,7 @@ export const ByokModal: React.FC<ByokModalProps> = ({ isOpen, onClose, onSaved }
               <button
                 type="button"
                 onClick={handleClear}
-                className="text-xs text-rose-400 hover:text-rose-300 flex items-center gap-1 ml-2"
+                className="text-xs text-rose-400 hover:text-rose-300 flex items-center gap-1 ml-2 py-1"
               >
                 <Trash2 className="w-3 h-3" /> 삭제
               </button>
@@ -132,14 +132,14 @@ export const ByokModal: React.FC<ByokModalProps> = ({ isOpen, onClose, onSaved }
             <button
               type="button"
               onClick={onClose}
-              className="px-4 py-2 rounded-xl text-xs font-semibold text-slate-300 hover:bg-slate-800 transition"
+              className="flex-1 sm:flex-none px-4 py-2 rounded-xl text-xs font-semibold text-slate-300 hover:bg-slate-800 border border-slate-700 sm:border-transparent transition text-center"
             >
               취소
             </button>
             <button
               type="button"
               onClick={handleSave}
-              className="px-4 py-2 rounded-xl text-xs font-semibold bg-sky-500 hover:bg-sky-400 text-white shadow-lg shadow-sky-500/20 transition flex items-center gap-1.5"
+              className="flex-1 sm:flex-none px-4 py-2 rounded-xl text-xs font-semibold bg-sky-500 hover:bg-sky-400 text-white shadow-lg shadow-sky-500/20 transition flex items-center justify-center gap-1.5"
             >
               {isSaved ? (
                 <>

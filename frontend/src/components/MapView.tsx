@@ -1,14 +1,16 @@
 import React, { useEffect, useRef } from 'react';
 import maplibregl from 'maplibre-gl';
 import { Station, LiveBus } from '../types';
-import { LocateFixed, Bus, Layers } from 'lucide-react';
+import { LocateFixed, Bus, Layers, ArrowUpDown, MapPin } from 'lucide-react';
 
 interface MapViewProps {
   stations: Station[];
   busPath?: [number, number][]; // [[lng, lat], ...]
   liveBuses: LiveBus[];
-  selectedStationSeq: number;
+  selectedStationSeq: number | null;
   onSelectStation: (seq: number) => void;
+  activeDirection?: 'UP' | 'DOWN';
+  onToggleDirection?: () => void;
 }
 
 export const MapView: React.FC<MapViewProps> = ({
@@ -17,12 +19,48 @@ export const MapView: React.FC<MapViewProps> = ({
   liveBuses,
   selectedStationSeq,
   onSelectStation,
+  activeDirection,
+  onToggleDirection,
 }) => {
   const mapContainer = useRef<HTMLDivElement>(null);
   const mapInstance = useRef<maplibregl.Map | null>(null);
   const busMarkersRef = useRef<maplibregl.Marker[]>([]);
   const stationMarkersRef = useRef<maplibregl.Marker[]>([]);
   const hasFittedBoundsRef = useRef<boolean>(false);
+
+  // 1. Container ResizeObserver for dynamic layout shifts & sheet transitions
+  useEffect(() => {
+    if (!mapContainer.current) return;
+
+    const resizeObserver = new ResizeObserver((entries) => {
+      for (const entry of entries) {
+        if (entry.contentRect.width > 0 && entry.contentRect.height > 0) {
+          mapInstance.current?.resize();
+        }
+      }
+    });
+
+    resizeObserver.observe(mapContainer.current);
+
+    return () => {
+      resizeObserver.disconnect();
+    };
+  }, []);
+
+  // 2. Window & Orientation Change Listeners
+  useEffect(() => {
+    const handleResize = () => {
+      mapInstance.current?.resize();
+    };
+
+    window.addEventListener('resize', handleResize, { passive: true });
+    window.addEventListener('orientationchange', handleResize, { passive: true });
+
+    return () => {
+      window.removeEventListener('resize', handleResize);
+      window.removeEventListener('orientationchange', handleResize);
+    };
+  }, []);
 
   // Initialize MapLibre
   useEffect(() => {
@@ -39,6 +77,7 @@ export const MapView: React.FC<MapViewProps> = ({
     map.addControl(new maplibregl.NavigationControl({ showCompass: false }), 'bottom-right');
 
     map.on('load', () => {
+      map.resize();
       // Draw road-following polyline
       const lineCoords = (busPath && busPath.length > 0)
         ? busPath
@@ -216,10 +255,12 @@ export const MapView: React.FC<MapViewProps> = ({
 
       el.addEventListener('click', () => {
         onSelectStation(bus.stationSeq);
+        const isMobile = typeof window !== 'undefined' && window.innerWidth < 640;
         map.flyTo({
           center: [bus.longitude, bus.latitude],
           zoom: 14,
           speed: 1.2,
+          offset: isMobile ? [0, -100] : [0, 0],
         });
       });
 
@@ -231,16 +272,18 @@ export const MapView: React.FC<MapViewProps> = ({
     });
   }, [liveBuses, onSelectStation]);
 
-  // Smooth pan to selected station
+  // Smooth pan to selected station with mobile offset
   useEffect(() => {
     const map = mapInstance.current;
-    if (!map) return;
+    if (!map || selectedStationSeq == null) return;
     const st = stations.find((s) => s.stationSeq === selectedStationSeq);
     if (st) {
+      const isMobile = typeof window !== 'undefined' && window.innerWidth < 640;
       map.flyTo({
         center: [st.longitude, st.latitude],
         zoom: Math.max(map.getZoom(), 13),
         speed: 1.2,
+        offset: isMobile ? [0, -100] : [0, 0],
       });
     }
   }, [selectedStationSeq, stations]);
@@ -259,33 +302,75 @@ export const MapView: React.FC<MapViewProps> = ({
     }
   };
 
+  const handleRecenterStation = () => {
+    const map = mapInstance.current;
+    if (!map) return;
+    const targetSeq = selectedStationSeq ?? (activeDirection === 'UP' ? 16 : 76);
+    const st = stations.find((s) => s.stationSeq === targetSeq) || stations[0];
+    if (st) {
+      const isMobile = typeof window !== 'undefined' && window.innerWidth < 640;
+      map.flyTo({
+        center: [st.longitude, st.latitude],
+        zoom: 14,
+        speed: 1.2,
+        offset: isMobile ? [0, -100] : [0, 0],
+      });
+    }
+  };
+
   return (
     <div className="w-full h-full relative">
       <div ref={mapContainer} className="w-full h-full bg-slate-100" />
       
-      {/* Floating Map Controls */}
-      <div className="absolute top-4 right-4 z-10 flex flex-col gap-2">
+      {/* Floating Quick Direction Toggle (Mobile only: sm:hidden) */}
+      {onToggleDirection && (
+        <div className="absolute top-3 left-3 z-10 sm:hidden">
+          <button
+            onClick={onToggleDirection}
+            className="bg-white/95 backdrop-blur-md border border-slate-300 shadow-md rounded-full px-3 py-1.5 flex items-center gap-1.5 text-xs font-bold text-slate-800 active:scale-95 transition-all"
+          >
+            <ArrowUpDown className="w-3.5 h-3.5 text-rose-600" />
+            <span>{activeDirection === 'UP' ? '안양역 방면' : '구리수택 방면'}</span>
+            <span className="text-[10px] bg-rose-50 text-rose-600 font-semibold px-1.5 py-0.2 rounded-full border border-rose-200">
+              전환
+            </span>
+          </button>
+        </div>
+      )}
+
+      {/* Floating Action Stack (top-3 right-3) */}
+      <div className="absolute top-3 right-3 sm:top-4 sm:right-4 z-10 flex flex-col gap-2">
+        {/* Reset Bounds button */}
         <button
           onClick={handleResetBounds}
           title="전체 노선 보기"
-          className="p-2 bg-white/95 backdrop-blur-md rounded-lg shadow-md border border-slate-200 text-slate-700 hover:bg-slate-50 transition"
+          className="p-2 sm:p-2.5 bg-white/95 backdrop-blur-md rounded-xl shadow-md border border-slate-200 text-rose-600 hover:bg-slate-50 active:scale-95 transition flex items-center justify-center"
         >
-          <LocateFixed className="w-4 h-4 text-rose-600" />
+          <LocateFixed className="w-4 h-4" />
+        </button>
+
+        {/* Re-center button */}
+        <button
+          onClick={handleRecenterStation}
+          title="선택 정류소로 이동"
+          className="p-2 sm:p-2.5 bg-white/95 backdrop-blur-md rounded-xl shadow-md border border-slate-200 text-blue-600 hover:bg-slate-50 active:scale-95 transition flex items-center justify-center"
+        >
+          <MapPin className="w-4 h-4" />
         </button>
       </div>
 
-      {/* Naver Map Style Legend at Bottom-Left */}
-      <div className="absolute bottom-4 left-4 z-10 bg-white/95 backdrop-blur-md px-3 py-2 rounded-lg shadow-md border border-slate-200 text-[11px] text-slate-600 flex items-center gap-3">
+      {/* Naver Map Style Legend at Bottom-Left (elevated on mobile to clear bottom sheet) */}
+      <div className="absolute bottom-24 sm:bottom-4 left-3 sm:left-4 z-10 bg-white/95 backdrop-blur-md px-2.5 sm:px-3 py-1.5 sm:py-2 rounded-lg shadow-md border border-slate-200 text-[10px] sm:text-[11px] text-slate-600 flex items-center gap-2 sm:gap-3">
         <div className="flex items-center gap-1.5">
-          <span className="w-2.5 h-2.5 rounded-full bg-emerald-500" />
+          <span className="w-2 sm:w-2.5 h-2 sm:h-2.5 rounded-full bg-emerald-500" />
           <span>여유 (16석+)</span>
         </div>
         <div className="flex items-center gap-1.5">
-          <span className="w-2.5 h-2.5 rounded-full bg-amber-500" />
+          <span className="w-2 sm:w-2.5 h-2 sm:h-2.5 rounded-full bg-amber-500" />
           <span>보통 (1~15석)</span>
         </div>
         <div className="flex items-center gap-1.5">
-          <span className="w-2.5 h-2.5 rounded-full bg-rose-600" />
+          <span className="w-2 sm:w-2.5 h-2 sm:h-2.5 rounded-full bg-rose-600" />
           <span>만차 (0석)</span>
         </div>
       </div>

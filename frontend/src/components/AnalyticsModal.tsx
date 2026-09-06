@@ -180,6 +180,7 @@ export const AnalyticsModal: React.FC<AnalyticsModalProps> = ({
     return {
       tooltip: {
         trigger: 'axis',
+        confine: true,
         backgroundColor: '#ffffff',
         borderColor: '#e2e8f0',
         textStyle: { color: '#1e293b', fontSize: 12 },
@@ -207,8 +208,8 @@ export const AnalyticsModal: React.FC<AnalyticsModalProps> = ({
       },
       grid: {
         top: 25,
-        left: 45,
-        right: 20,
+        left: 38,
+        right: 15,
         bottom: 40,
       },
       xAxis: {
@@ -262,32 +263,32 @@ export const AnalyticsModal: React.FC<AnalyticsModalProps> = ({
   if (!isOpen) return null;
 
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center bg-slate-900/40 backdrop-blur-xs p-4 animate-in fade-in duration-200">
-      <div className="bg-white rounded-2xl shadow-2xl border border-slate-200 w-full max-w-4xl max-h-[92vh] flex flex-col overflow-hidden">
+    <div className="fixed inset-0 z-50 flex items-center justify-center bg-slate-900/50 backdrop-blur-sm p-0 sm:p-4 animate-in fade-in duration-200">
+      <div className="bg-white sm:rounded-2xl rounded-none shadow-2xl border sm:border-slate-200 border-none w-full h-full sm:h-auto sm:max-h-[92vh] sm:max-w-4xl flex flex-col overflow-hidden">
         {/* Modal Header */}
-        <div className="p-4 border-b border-slate-200 bg-white flex items-center justify-between">
-          <div className="flex items-center gap-2.5">
-            <div className="w-8 h-8 rounded-xl bg-rose-50 text-rose-600 flex items-center justify-center font-extrabold text-sm shadow-2xs border border-rose-100">
+        <div className="p-3 sm:p-4 border-b border-slate-200 bg-white flex items-center justify-between shrink-0">
+          <div className="flex items-center gap-2 sm:gap-2.5 min-w-0">
+            <div className="w-8 h-8 rounded-xl bg-rose-50 text-rose-600 flex items-center justify-center font-extrabold text-sm shadow-2xs border border-rose-100 shrink-0">
               <Bus className="w-4 h-4" />
             </div>
-            <div>
-              <div className="flex items-center gap-2">
-                <span className="text-[11px] font-black px-1.5 py-0.5 rounded bg-rose-600 text-white">
+            <div className="min-w-0">
+              <div className="flex items-center gap-1.5 sm:gap-2 flex-wrap">
+                <span className="text-[11px] font-black px-1.5 py-0.5 rounded bg-rose-600 text-white shrink-0">
                   1650번
                 </span>
-                <h2 className="text-base font-black text-slate-900">
+                <h2 className="text-sm sm:text-base font-black text-slate-900 truncate">
                   맞춤 통행 & 잔여좌석 분석실
                 </h2>
                 <span className="text-xs text-slate-400 font-medium hidden sm:inline">
-                  (최근 3개월 시계열 빅데이터)
+                  (최근 3개월 시계열)
                 </span>
               </div>
-              <p className="text-xs text-slate-500 mt-0.5">
-                정류소별 3개월 도착주기·잔여좌석 및 출퇴근 두 정류소 간 요일별 실제 과거 소요시간
+              <p className="text-[11px] sm:text-xs text-slate-500 mt-0.5 truncate">
+                정류소별 도착주기·잔여석 및 출퇴근 구간별 과거 소요시간
               </p>
             </div>
           </div>
-          <div className="flex items-center gap-2">
+          <div className="flex items-center gap-1.5 sm:gap-2 shrink-0 ml-2">
             <div className="hidden md:flex items-center gap-1.5 px-2.5 py-1 rounded-lg bg-slate-100 border border-slate-200 text-[11px] text-slate-600">
               <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
               <span>
@@ -298,7 +299,7 @@ export const AnalyticsModal: React.FC<AnalyticsModalProps> = ({
               onClick={handleSyncRollingData}
               disabled={isSyncing}
               title="최근 실데이터 3개월치로 롤링 갱신"
-              className="flex items-center gap-1 px-2.5 py-1 rounded-lg border border-slate-300 bg-white hover:bg-slate-50 text-slate-700 text-xs font-bold transition shadow-2xs disabled:opacity-50"
+              className="flex items-center gap-1 px-2 sm:px-2.5 py-1 rounded-lg border border-slate-300 bg-white hover:bg-slate-50 text-slate-700 text-xs font-bold transition shadow-2xs disabled:opacity-50"
             >
               <RefreshCw className={`w-3.5 h-3.5 text-rose-600 ${isSyncing ? 'animate-spin' : ''}`} />
               <span className="hidden sm:inline">{isSyncing ? '갱신 중...' : '실데이터 갱신'}</span>
@@ -362,28 +363,30 @@ export const AnalyticsModal: React.FC<AnalyticsModalProps> = ({
         </div>
 
         {/* Main Tab Bar */}
-        <div className="border-b border-slate-200 bg-white px-4 flex items-center gap-6">
+        <div className="border-b border-slate-200 bg-white px-4 pt-2 flex items-center gap-2 overflow-x-auto whitespace-nowrap scrollbar-none shrink-0">
           <button
             onClick={() => setActiveTab('SCHEDULE')}
-            className={`py-3 text-sm font-bold border-b-2 flex items-center gap-1.5 transition-colors ${
+            className={`shrink-0 py-2.5 sm:py-3 text-xs sm:text-sm font-bold border-b-2 flex items-center gap-1.5 transition-colors ${
               activeTab === 'SCHEDULE'
                 ? 'border-rose-600 text-rose-600'
                 : 'border-transparent text-slate-500 hover:text-slate-800'
             }`}
           >
-            <Clock className="w-4 h-4" />
-            [1] 정류소별 도착 예정 & 잔여좌석 (최근 3개월)
+            <Clock className="w-4 h-4 shrink-0" />
+            <span className="hidden sm:inline">[1] 정류소별 도착 예정 & 잔여좌석 (최근 3개월)</span>
+            <span className="sm:hidden">정류소별 도착·잔여석</span>
           </button>
           <button
             onClick={() => setActiveTab('OD_TRAVEL')}
-            className={`py-3 text-sm font-bold border-b-2 flex items-center gap-1.5 transition-colors ${
+            className={`shrink-0 py-2.5 sm:py-3 text-xs sm:text-sm font-bold border-b-2 flex items-center gap-1.5 transition-colors ${
               activeTab === 'OD_TRAVEL'
                 ? 'border-rose-600 text-rose-600'
                 : 'border-transparent text-slate-500 hover:text-slate-800'
             }`}
           >
-            <TrendingUp className="w-4 h-4" />
-            [2] 두 정류장 구간 소요시간 분석 (출발 ↔ 도착)
+            <TrendingUp className="w-4 h-4 shrink-0" />
+            <span className="hidden sm:inline">[2] 두 정류장 구간 소요시간 분석 (출발 ↔ 도착)</span>
+            <span className="sm:hidden">구간 소요시간 분석</span>
           </button>
         </div>
 
@@ -430,13 +433,13 @@ export const AnalyticsModal: React.FC<AnalyticsModalProps> = ({
                 </div>
 
                 {/* Day of Week Selector */}
-                <div className="flex items-center gap-1">
+                <div className="flex items-center gap-1 overflow-x-auto scrollbar-none py-0.5">
                   <span className="text-xs font-bold text-slate-500 mr-1 shrink-0">요일:</span>
                   {DAYS_OF_WEEK.map((d) => (
                     <button
                       key={d.value}
                       onClick={() => setSelectedDay(d.value)}
-                      className={`w-7 h-7 rounded-lg text-xs font-bold transition-all ${
+                      className={`w-7 h-7 rounded-lg text-xs font-bold shrink-0 transition-all ${
                         selectedDay === d.value
                           ? 'bg-rose-600 text-white shadow-2xs'
                           : 'bg-slate-100 text-slate-600 hover:bg-slate-200'
@@ -654,13 +657,13 @@ export const AnalyticsModal: React.FC<AnalyticsModalProps> = ({
                 </div>
 
                 {/* Day of Week Selector */}
-                <div className="flex items-center gap-1 shrink-0">
+                <div className="flex items-center gap-1 shrink-0 overflow-x-auto scrollbar-none py-0.5">
                   <span className="text-xs font-bold text-slate-500 mr-1 shrink-0">요일:</span>
                   {DAYS_OF_WEEK.map((d) => (
                     <button
                       key={d.value}
                       onClick={() => setSelectedDay(d.value)}
-                      className={`w-7 h-7 rounded-lg text-xs font-bold transition-all ${
+                      className={`w-7 h-7 rounded-lg text-xs font-bold shrink-0 transition-all ${
                         selectedDay === d.value
                           ? 'bg-rose-600 text-white shadow-2xs'
                           : 'bg-slate-100 text-slate-600 hover:bg-slate-200'
@@ -782,7 +785,7 @@ export const AnalyticsModal: React.FC<AnalyticsModalProps> = ({
                     <span>최근 3개월간의 구간 소요시간 통계를 산출하고 있습니다...</span>
                   </div>
                 ) : (
-                  <div className="h-64 w-full">
+                  <div className="h-64 w-full overflow-hidden">
                     <ReactECharts
                       option={odChartOption}
                       style={{ height: '100%', width: '100%' }}

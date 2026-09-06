@@ -1,0 +1,285 @@
+{
+  "timestamp": "2026-09-06T04:30:42.142Z",
+  "tier1": [
+    {
+      "name": "T1.1 Mobile Fullscreen Map Rendering (<640px)",
+      "pass": true,
+      "details": {
+        "asideHidden": true,
+        "mainWidth": 384,
+        "mainHeight": 768,
+        "canvasMounted": true,
+        "sheetMounted": true,
+        "isFullscreenMap": true
+      }
+    },
+    {
+      "name": "T1.2 Desktop Split Layout Preservation (>=640px)",
+      "pass": true,
+      "details": {
+        "asideVisible": true,
+        "asideWidth": 429,
+        "sheetHidden": true,
+        "isSplitLayout": true
+      }
+    },
+    {
+      "name": "T1.3 MapLibre ResizeObserver & Event Listeners",
+      "pass": true,
+      "details": {
+        "canvasExists": true,
+        "initialW": 384,
+        "resizeDispatched": true
+      }
+    },
+    {
+      "name": "T1.4 3-Tier Mobile Bottom Sheet (Peek/Half/Full Transitions)",
+      "pass": true,
+      "details": {
+        "initialTransform": "translateY(calc(-92px + 88vh))",
+        "isInitialPeek": true,
+        "halfTransform": "translateY(calc(40vh))",
+        "isHalf": true,
+        "simCardInHalf": true,
+        "fullTransform": "translateY(0px)",
+        "isFull": true,
+        "timelineStops": 44,
+        "allTiersValid": true
+      }
+    },
+    {
+      "name": "T1.5 Station Tap panTo/flyTo & Snap to Half",
+      "pass": true,
+      "details": {
+        "targetStopName": "동명빌라",
+        "currentStation": "동명빌라",
+        "snappedTransform": "translateY(calc(40vh))",
+        "snappedToHalf": true,
+        "stationMatched": true
+      }
+    },
+    {
+      "name": "T1.6 Queue Slider ($q$) Simulation Reactivity",
+      "pass": true,
+      "details": {
+        "initialVal": "5",
+        "updatedVal": "7",
+        "queueLabel": "7명",
+        "isReactive": true
+      }
+    },
+    {
+      "name": "T1.7 Bookmark Persistence (LocalStorage)",
+      "pass": true,
+      "details": {
+        "initialStorage": "[]",
+        "afterAddStorage": "[{\"id\":\"station_5_1788669052865\",\"type\":\"STATION\",\"title\":\"동명빌라\",\"stationSeq\":5,\"stationName\":\"동명빌라\",\"direction\":\"UP\",\"isDefault\":true}]",
+        "afterRemoveStorage": "[]",
+        "hasAdded": true,
+        "persistsInLocalStorage": true
+      }
+    },
+    {
+      "name": "T1.8 Compact Mobile Header (Galaxy S23 Ultra 384px budget)",
+      "pass": true,
+      "details": {
+        "height": 56,
+        "docScrollWidth": 384,
+        "brandSubHidden": true,
+        "pillText": "실시간 11대",
+        "pillIsCompact": true,
+        "headerValid": true
+      }
+    },
+    {
+      "name": "T1.9 Floating Direction Quick Toggle (top-3 left-3)",
+      "pass": true,
+      "details": {
+        "isVisible": true,
+        "initialText": "안양역 방면 전환",
+        "flippedText": "구리수택 방면 전환",
+        "restoredText": "안양역 방면 전환",
+        "toggleWorks": true
+      }
+    },
+    {
+      "name": "T1.10 Floating Action Stack (Reset Bounds + Recenter)",
+      "pass": true,
+      "details": {
+        "isVisible": true,
+        "hasResetBtn": true,
+        "hasRecenterBtn": true,
+        "stackValid": true
+      }
+    },
+    {
+      "name": "T1.11 Responsive Modals (Analytics Fullscreen & BYOK Mobile Safe)",
+      "pass": true,
+      "details": {
+        "analyticsOpened": true,
+        "isFullscreen": true,
+        "echartsCanvasMounted": true,
+        "byokOpened": true,
+        "byokFitsWidth": true,
+        "inputPreventsZoom": true,
+        "modalsValid": true
+      }
+    }
+  ],
+  "tier2": [
+    {
+      "name": "T2.1 Galaxy S23 Ultra (384x824) Zero Horizontal Scroll",
+      "pass": true,
+      "details": {
+        "width": 384,
+        "scrollWidth": 384,
+        "noOverflow": true,
+        "headerH": 55,
+        "sheetMounted": true
+      }
+    },
+    {
+      "name": "T2.2 Large Android (412x915) Layout Adaptation",
+      "pass": true,
+      "details": {
+        "width": 412,
+        "scrollWidth": 412,
+        "noOverflow": true,
+        "headerH": 55
+      }
+    },
+    {
+      "name": "T2.3 Compact Android (360x780) Extreme Narrow Viewport",
+      "pass": true,
+      "details": {
+        "width": 360,
+        "scrollWidth": 360,
+        "noOverflow": true,
+        "headerH": 55
+      }
+    },
+    {
+      "name": "T2.4 Landscape Orientation (824x384) Dynamic Adaptation",
+      "pass": true,
+      "details": {
+        "width": 824,
+        "height": 384,
+        "scrollWidth": 824,
+        "noOverflow": true,
+        "headerH": 55,
+        "canvasW": 414
+      }
+    },
+    {
+      "name": "T2.5 Boundary Drag Resistance & Clamping (PEEK / FULL)",
+      "pass": true,
+      "details": {
+        "draggingTransform": "translateY(calc(-77px + 88vh))",
+        "hasDamping": true,
+        "settledTransform": "translateY(calc(-92px + 88vh))",
+        "settledToPeek": true,
+        "resistanceValid": true
+      }
+    },
+    {
+      "name": "T2.6 Rapid Gestures & High-Frequency Touch Stability",
+      "pass": true,
+      "details": {
+        "errorOccurred": false,
+        "finalTransform": "translateY(calc(-92px + 88vh))",
+        "isValidState": true
+      }
+    }
+  ],
+  "tier3": [
+    {
+      "name": "T3.1 Station Select in Full Sheet -> Map Offset flyTo + Snap to Half",
+      "pass": true,
+      "details": {
+        "isHalf": true,
+        "currentStation": "동명빌라",
+        "targetName": "동명빌라",
+        "crossCoordinationValid": true
+      }
+    },
+    {
+      "name": "T3.2 Direction Toggle -> Updates Timeline + Bottom Sheet + Map Line",
+      "pass": true,
+      "details": {
+        "beforeDir": "안양역 방면\n전환",
+        "afterDir": "구리수택 방면\n전환",
+        "sheetDirectionBadge": "구리행",
+        "timelineStopsCount": 45,
+        "crossDirectionSyncValid": true
+      }
+    },
+    {
+      "name": "T3.3 Queue Slider -> Real-time Boarding Probability Recalculation",
+      "pass": true,
+      "details": {
+        "initialProbText": "35석,32.2석,100%,100%",
+        "updatedProbText": "35석,32.2석,100%,100%",
+        "queueLabel": "8명",
+        "recalcTriggered": true
+      }
+    }
+  ],
+  "tier4": [
+    {
+      "name": "J1: Morning Rush Peak Commuter Journey (Jamsil Station #16)",
+      "pass": true,
+      "details": {
+        "title": "잠실역.잠실대교남단(중)",
+        "finalQueue": "8",
+        "isBookmarked": true,
+        "journey1Success": true
+      }
+    },
+    {
+      "name": "J2: Evening Commute Direction Flip & Reverse Route Navigation",
+      "pass": true,
+      "details": {
+        "selectedStopName": "벽산상가.2001아울렛",
+        "sheetStation": "벽산상가.2001아울렛",
+        "journey2Success": true
+      }
+    },
+    {
+      "name": "J3: Orientation Switch Commuter Experience (Portrait <-> Landscape)",
+      "pass": true,
+      "details": {
+        "j3_step1": {
+          "portraitH": 824,
+          "portraitW": 384
+        },
+        "j3_step2": {
+          "landscapeW": 824,
+          "canvasW": 414,
+          "headerH": 55,
+          "zeroOverflow": true
+        },
+        "j3_step3": {
+          "restoredW": 384,
+          "canvasW": 384,
+          "headerH": 55,
+          "zeroOverflow": true
+        }
+      }
+    },
+    {
+      "name": "J4: Deep Analytics & BYOK Key Commuter Workflow",
+      "pass": true,
+      "details": {
+        "chartMounted": true,
+        "demoLoaded": true,
+        "journey4Success": true
+      }
+    }
+  ],
+  "summary": {
+    "total": 24,
+    "passed": 24,
+    "failed": 0,
+    "passRate": "100%"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "mobile": {
+    "mobileHeader": {
+      "exists": true,
+      "height": 56,
+      "width": 384,
+      "zeroHorizontalScroll": true,
+      "brandSubtitleHidden": true,
+      "pillText": "실시간 12대",
+      "pillIsCompact": true,
+      "analyticsLabelHidden": true,
+      "byokLabelHidden": true
+    },
+    "mobileFloatingControls": {
+      "toggleDivVisible": true,
+      "initialDir": "안양역 방면 전환",
+      "flippedDir": "구리수택 방면 전환",
+      "toggleFlipped": true,
+      "actionStackVisible": true,
+      "resetBoundsBtnExists": true,
+      "recenterBtnExists": true
+    },
+    "mobileAnalyticsModal": {
+      "opened": true,
+      "fullscreen": true,
+      "tabCount": 2,
+      "dayButtonsCount": 7,
+      "echartsMounted": true,
+      "closedCleanly": true
+    },
+    "mobileByokModal": {
+      "opened": true,
+      "fitsViewport": true,
+      "inputPreventZoomFontSize": true,
+      "demoKeyWorked": true,
+      "closedCleanly": true
+    }
+  },
+  "desktop": {
+    "desktopHeader": {
+      "brandSubtitleVisible": true,
+      "pillText": "GBIS 실시간 (12대 운행)",
+      "pillHasFullText": true,
+      "analyticsLabelVisible": true,
+      "byokLabelVisible": true
+    },
+    "desktopFloatingControls": {
+      "toggleHiddenOnDesktop": true,
+      "actionStackVisible": true
+    },
+    "desktopAnalyticsModal": {
+      "opened": true,
+      "isContainedCard": true
+    }
+  }
+}
