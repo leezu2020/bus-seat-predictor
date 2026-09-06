@@ -8,7 +8,12 @@ import {
   OdTravelTimeResponse,
 } from '../types';
 
-const API_BASE = (import.meta.env.VITE_API_URL ? String(import.meta.env.VITE_API_URL).replace(/\/$/, '') : '') + '/api/v1';
+const RENDER_PROD_API = 'https://bus-seat-predictor-api.onrender.com';
+const API_BASE = (
+  import.meta.env.VITE_API_URL !== undefined && import.meta.env.VITE_API_URL !== ''
+    ? String(import.meta.env.VITE_API_URL).replace(/\/$/, '')
+    : (import.meta.env.PROD ? RENDER_PROD_API : '')
+) + '/api/v1';
 export const STORAGE_KEY_BYOK = 'bus_byok_api_key';
 
 export const DEFAULT_USER_KEY = 'CKyLU7WpUcNBXIUKMzYPM53tsCXlp1ybg7YxKmp1MHaItmBxnfGSKxXFKgkgWxRFcrRcgZ1vlySJ2LNc3OAYrg%3D%3D';
