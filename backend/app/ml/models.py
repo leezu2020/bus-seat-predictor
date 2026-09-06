@@ -1,4 +1,5 @@
 import os
+import logging
 from pathlib import Path
 from typing import Dict, Any, Tuple
 import joblib
@@ -7,6 +8,8 @@ from sklearn.ensemble import HistGradientBoostingRegressor, ExtraTreesRegressor,
 import lightgbm as lgb
 from app.core.config import settings
 from app.ml.convolution import restore_pmf_from_14_intervals
+
+logger = logging.getLogger(__name__)
 
 def seat_to_interval_class(seat: int) -> int:
     """Maps seat count (0..45) to 14 classes."""
@@ -117,10 +120,14 @@ class EnsembleSeatPredictor:
         if filepath is None:
             filepath = settings.MODEL_DIR / "ensemble_model.joblib"
         if filepath.exists():
-            data = joblib.load(filepath)
-            predictor.hist_gb = data.get("hist_gb")
-            predictor.extra_trees = data.get("extra_trees")
-            predictor.lgbm = data.get("lgbm")
-            predictor.classifier = data.get("classifier")
-            predictor.is_trained = data.get("is_trained", False)
+            try:
+                data = joblib.load(filepath)
+                predictor.hist_gb = data.get("hist_gb")
+                predictor.extra_trees = data.get("extra_trees")
+                predictor.lgbm = data.get("lgbm")
+                predictor.classifier = data.get("classifier")
+                predictor.is_trained = data.get("is_trained", False)
+            except Exception as e:
+                logger.warning(f"Could not load pre-trained model file ({e}). Falling back to heuristic seat predictor.")
+                predictor.is_trained = False
         return predictor
