@@ -27,7 +27,9 @@ class GBISClient:
         key_raw = service_key.strip()
         url = f"{self.base_url}/buslocationservice/v2/getBusLocationListv2?serviceKey={key_raw}&routeId={route_id}"
         
-        async with httpx.AsyncClient(timeout=10.0) as client:
+        # Call GBIS with retry for international cloud network stability
+        transport = httpx.AsyncHTTPTransport(retries=1)
+        async with httpx.AsyncClient(timeout=15.0, transport=transport) as client:
             try:
                 resp = await client.get(url)
             except Exception as e:

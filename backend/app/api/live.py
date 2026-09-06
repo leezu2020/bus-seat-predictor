@@ -1,3 +1,4 @@
+import time
 import logging
 from typing import Optional, List, Dict, Any
 from fastapi import APIRouter, Header, HTTPException, Path
@@ -7,6 +8,9 @@ from app.services.seed_service import get_route_seed_data
 from app.core.config import settings
 
 logger = logging.getLogger(__name__)
+
+# In-memory cache for live buses to prevent 502 Bad Gateway during temporary GBIS upstream drops
+_last_live_cache: Dict[str, Any] = {"data": None, "timestamp": 0.0}
 
 router = APIRouter(prefix="/routes", tags=["Live"])
 
@@ -58,16 +62,25 @@ async def get_live_buses(
                 })
                 
             if len(buses) > 0:
+                _last_live_cache["data"] = buses
+                _last_live_cache["timestamp"] = time.time()
                 return {
                     "routeId": route_id,
                     "routeName": "1650",
                     "mode": "LIVE_GBIS",
                     "buses": buses
                 }
-        except HTTPException:
-            raise
         except Exception as e:
-            logger.warning(f"GBIS call failed, falling back to mock stream: {e}")
+            logger.warning(f"GBIS call failed ({e}), checking cache or mock stream")
+
+    # If recent live cache exists (< 60s), serve cached live buses smoothly
+    if _last_live_cache["data"] and (time.time() - _last_live_cache["timestamp"] < 60):
+        return {
+            "routeId": route_id,
+            "routeName": "1650",
+            "mode": "LIVE_GBIS_CACHED",
+            "buses": _last_live_cache["data"]
+        }
 
     # Fallback to simulated live stream
     sim_buses = get_simulated_live_buses()
